@@ -1,0 +1,89 @@
+portraits = {
+                Labiata = {textureFile = "gfx/models/portraits/lo/Labiata.png" }
+                Constantia_S2 = {textureFile = "gfx/models/portraits/lo/Constantia_S2.png" }
+                CS_Perrault = {textureFile = "gfx/models/portraits/lo/CS_Perrault.png" }
+                Black_Lilith = {textureFile = "gfx/models/portraits/lo/Black_Lilith.png" }
+                Cardinal_Armand = {textureFile = "gfx/models/portraits/lo/Cardinal_Armand.png" }
+                Charlotte = {textureFile = "gfx/models/portraits/lo/Charlotte.png" }
+                Deconstructor_Azaz = {textureFile = "gfx/models/portraits/lo/Deconstructor_Azaz.png" }
+                #test   Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/Invincible_Dragon.png" }
+                Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/02.png" }
+                Doctor = {textureFile = "gfx/models/portraits/lo/Doctor.png" }
+}
+portrait_groups = {
+               lochar = {
+                                default = Labiata
+                                game_setup = {
+                                                add = {
+                                                                portraits = {
+                                                                               Labiata
+                                                                               Constantia_S2
+}
+}
+}
+species = {
+                add = {
+                              portraits = {
+                                              Labiata
+                                              Constantia_S2
+}
+}
+}
+leader = {
+                add = {
+                                 trigger = {
+                                                 leader_class = scientist
+}
+                              portraits = {
+                                              Deconstructor_Azaz
+                                              Doctor
+}
+}
+                add = {
+                                 trigger = {
+                                                 leader_class = general
+}
+                              portraits = {
+                                              Charlotte
+}
+}
+                add = {
+                                 trigger = {
+                                                 leader_class = admiral
+}
+                              portraits = {
+                                              Invincible_Dragon
+}
+}
+                add = {
+                                 trigger = {
+                                                 leader_class = governor
+}
+                              portraits = {
+                                              Cardinal_Armand
+}
+}
+}
+}
+}
+portrait_groups = {
+                lochar_1 = {
+                                    default = CS_Perrault
+                                    game_setup = {
+                                                add = {
+                                                                portraits = {
+                                                                               CS_Perrault
+                                                                               Black_Lilith
+}
+}
+}
+species = {
+                add = {
+                              portraits = {
+                                              CS_Perrault
+                                              Black_Lilith
+}
+}
+}
+}
+}
