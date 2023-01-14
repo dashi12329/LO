@@ -1,0 +1,5 @@
+planet_lo_Iron_Parasites_1_modifier = {   #母星铁虫事件1
+                   #icon = ""
+                     icon_frame = 1
+                     
+}

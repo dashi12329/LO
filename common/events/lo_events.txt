@@ -1,0 +1,21 @@
+namespace = lo
+country_event = {             #开局生成
+                id=lo.1
+                is_triggered_only = yes
+                #title = 
+                #desc = {}
+                hide_window = yes
+                trigger = {
+                        species = LO_char
+                }
+                immediate = {
+                              #give_technology = {} 新科技先挖个坑
+                              capital_scope = {
+                                              add_modifier = {   #给母星添加特征
+                                                              modifier = “planet_lo_earth_modifier”
+                                                            #days = -1 不知道干啥用的
+                                              }
+                                              
+}
+}
+}
