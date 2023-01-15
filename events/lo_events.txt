@@ -1,0 +1,23 @@
+namespace = lo_origin
+
+country_event = {             #开局生成
+                id=lo_origin.1
+                is_triggered_only = yes
+                title = lo_origin.1.name
+                desc = lo_origin.1.desc
+                hide_window = yes
+                trigger = {
+                        has_origin = origin_lo
+                }
+                immediate = {
+                              #give_technology = {} 新科技先挖个坑
+                              capital_scope = {
+                                change_pc = pc_gaia
+                                              add_modifier = {   #给母星添加特征
+                                                              modifier = "planet_lo_Iron_Parasites_1_modifier"
+                                                              days = -1 #不知道干啥用的
+                                              }
+                                              
+                                               }
+                            }
+                }

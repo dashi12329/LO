@@ -1,0 +1,5 @@
+is_LO_species = {		#种族锁
+	species = {
+		is_archetype = LO
+	}
+}

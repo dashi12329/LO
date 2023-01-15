@@ -1,4 +1,5 @@
 #基础特性
+
 trait_lo = {
        cost = 2
        icon = "gfx/interface/icons/traits/Bioroids.png"
@@ -141,5 +142,151 @@ trait_supporter = {
                 modifier = {
                                 army_morale = 0.4
 		planet_jobs_society_research_produces_mult = 0.10
+                }
+}
+
+#阵营特性
+
+#钢铁战线
+trait_steel_line = {
+                cost = 0
+                #icon = "gfx/interface/icons/traits/steel_line.png"
+                potential_crossbreeding_chance = 0
+                opposites = { "trait_sky_knights" "trait_horizon" "trait_companion_series"
+ "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
+	improves_leaders = yes
+	randomized = no
+	species_possible_remove = {
+		always = no
+	}
+	advanced_trait = no
+	allowed_archetypes = {
+		LO
+	}
+                modifier = {
+                                starbase_building_build_speed_mult = 0.2
+                }
+}
+
+#天空骑士
+trait_sky_knights = {
+       cost = 0
+       #icon = "gfx/interface/icons/traits/sky_knight.png"
+       potential_crossbreeding_chance = 0
+       opposites = { "trait_steel_line" "trait_horizon" "trait_companion_series"
+ "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
+	randomized = no
+	species_possible_remove = {
+		always = no
+	}
+	advanced_trait = no
+	allowed_archetypes = {
+		LO
+	}
+                modifier = {
+		starbase_shipyard_build_speed_mult = 0.2
+                                #没想好，暂定为特殊建筑（群星舞台？）
+                }
+}
+
+#地平线
+trait_horizon = {
+       cost = 0
+       #icon = "gfx/interface/icons/traits/horizon.png"
+       potential_crossbreeding_chance = 0
+       opposites = { "trait_steel_line" "trait_sky_knights" "trait_companion_series" 
+"trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
+	randomized = no
+	species_possible_remove = {
+		always = no
+	}
+	advanced_trait = no
+	allowed_archetypes = {
+		LO
+	}
+                modifier = {
+		starbase_shipyard_build_cost_mult = -0.2
+                                #没想好，暂定为特殊建筑（地平线咖啡厅？）
+                }
+}
+
+#伴侣系列
+trait_companion_series = {
+       cost = 0
+       #icon = "gfx/interface/icons/traits/companion_series.png"
+       potential_crossbreeding_chance = 0
+       opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon"
+ "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
+	randomized = no
+	species_possible_remove = {
+		always = no
+	}
+	advanced_trait = no
+	allowed_archetypes = {
+		LO
+	}
+                modifier = {
+                                planet_buildings_cost_mult=-0.1
+                }
+}
+
+#战斗女仆
+trait_project_battle_maid = {
+       cost = 0
+       #icon = "gfx/interface/icons/traits/project_battle_maid.png"
+       potential_crossbreeding_chance = 0
+       opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon" "trait_companion_series"
+ "trait_anger_of_the_horde" "trait_d_entertainment"}
+	randomized = no
+	species_possible_remove = {
+		always = no
+	}
+	advanced_trait = no
+	allowed_archetypes = {
+		LO
+	}
+                modifier = {
+                                #没想好，暂定为特殊建筑
+                }
+}
+
+#部落之怒
+trait_anger_of_the_horde = {
+       cost = 0
+       #icon = "gfx/interface/icons/traits/anger_of_the_horde.png"
+       potential_crossbreeding_chance = 0
+       opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon" "trait_companion_series"
+ "trait_project_battle_maid" "trait_d_entertainment"}
+	randomized = no
+	species_possible_remove = {
+		always = no
+	}
+	advanced_trait = no
+	allowed_archetypes = {
+		LO
+	}
+                modifier = {
+                             #没想好，暂定为特殊建筑
+                }
+}
+
+#传说科技
+trait_d_entertainment = {
+       cost = 0
+       #icon = "gfx/interface/icons/traits/d_entertainment.png"
+       potential_crossbreeding_chance = 0
+       opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon" "trait_companion_series" 
+"trait_project_battle_maid" "trait_anger_of_the_horde"}
+	randomized = no
+	species_possible_remove = {
+		always = no
+	}
+	advanced_trait = no
+	allowed_archetypes = {
+		LO
+	}
+                modifier = {
+                                pop_happiness = 0.15
+                                #没想好，暂定为特殊建筑
                 }
 }

@@ -20,3 +20,4 @@ LO_char = {
 	move_pop_sound_effect = "moving_pop_confirmation"
 
                 trait = "trait_lo"
+}
