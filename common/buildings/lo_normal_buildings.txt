@@ -1,0 +1,88 @@
+@lo_time_t1 = 180
+@lo_time_t2 = 360
+@lo_time_t3 = 600
+@lo_time_t4 = 1200
+################
+#地平线咖啡厅
+################
+lo_building_horizon_cafe = {
+	base_buildtime = @lo_time_t2
+	can_build = no
+	#icon = 
+	category = manufacturing
+	base_cap_amount = 1
+	#potential = {
+	#	exists = owner
+	#	owner_species = LO_char
+	#} 
+	#upgrades = {
+		#lo_building_cafe_2
+	#}
+	#allow = {
+	#}
+	resources = { #数值可以以后再调
+		category = planet_buildings
+		cost = {
+			minerals = 200
+		}
+		upkeep = {
+			energy = 2
+		}
+		produces = {
+			food = 50
+			alloys = 15
+			consumer_goods = 30
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+################
+#群星之夜的舞台
+################
+lo_building_sky_knights_stage = {
+	base_buildtime = @lo_time_t1
+	can_build = no
+	#icon = 
+	category = manufacturing
+	base_cap_amount = 1
+	#potential = {
+	#	exists = owner
+	#	owner_species = LO_char
+	#} 
+	#upgrades = {
+		#lo_building_cafe_2
+	#}
+	#allow = {
+	#	NOT = {
+	#		has_building = lo_building_cafe_1
+	#	}
+	#}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 200
+		}
+		upkeep = {
+			energy = 2
+		}
+		produces = {
+			food = 50
+			alloys = 15
+			consumer_goods = 30
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+################
+#
+################
+
+################
+#
+################

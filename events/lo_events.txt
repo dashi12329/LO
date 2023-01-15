@@ -1,23 +1,69 @@
 namespace = lo_origin
 
 country_event = {             #开局生成
-                id=lo_origin.1
-                is_triggered_only = yes
-                title = lo_origin.1.name
-                desc = lo_origin.1.desc
-                hide_window = yes
-                trigger = {
-                        has_origin = origin_lo
-                }
-                immediate = {
-                              #give_technology = {} 新科技先挖个坑
-                              capital_scope = {
-                                change_pc = pc_gaia
-                                              add_modifier = {   #给母星添加特征
-                                                              modifier = "planet_lo_Iron_Parasites_1_modifier"
-                                                              days = -1 #不知道干啥用的
-                                              }
+        id = lo_origin.1
+        is_triggered_only = yes
+        title = lo_origin.1.name
+        desc = lo_origin.1.desc
+        hide_window = yes
+        trigger = {
+                has_origin = origin_lo
+        }
+        immediate = {
+              #give_technology = {} 新科技先挖个坑
+                capital_scope = {
+                        change_pc = pc_gaia
+                        add_modifier = {   #给母星添加特征
+                                modifier = "planet_lo_Iron_Parasites_1_modifier"
+                                days = -1 #不知道干啥用的
+                                        }
                                               
-                                               }
-                            }
+                                }
+                        }
                 }
+
+country_event = {#地平线阵营特质的开局自带特殊建筑
+        id = lo_origin.2
+        title = lo_origin.2.name
+        desc = lo_origin.2.desc
+        is_triggered_only = yes
+        hide_window = yes
+        immediate = {
+                if = {
+                        limit = {
+                                species = {
+                                        has_trait = trait_horizon
+                                }
+                        }
+                        capital_scope = {
+                                add_building = lo_building_horizon_cafe
+                        }
+                }
+                else = {
+                #nothing
+                }
+        }
+}
+
+country_event = {#天空骑士阵营特质的开局自带特殊建筑
+        id = lo_origin.3
+        title = lo_origin.3.name
+        desc = lo_origin.3.desc
+        is_triggered_only = yes
+        hide_window = yes
+        immediate = {
+                if = {
+                        limit = {
+                                species = {
+                                        has_trait = trait_sky_knights
+                                }
+                        }
+                        capital_scope = {
+                                add_building = lo_building_sky_knights_stage
+                        }
+                }
+                else = {
+                #nothing
+                }
+        }
+}

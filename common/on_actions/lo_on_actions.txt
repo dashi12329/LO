@@ -1,5 +1,7 @@
 on_game_start_country = {
                events = {
-                             lo_origin.1              
+                             lo_origin.1     
+                             lo_origin.2
+                             lo_origin.3         
                }
 }

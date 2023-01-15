@@ -1,2 +1,182 @@
-#S级
-leader_trait_lo_
+#S级#######################################
+leader_trait_lo_S_ruler = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		country_edict_fund_add = 10
+		empire_size_penalty_mult = -0.1
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_SS_ruler}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+}
+
+leader_trait_lo_S_governor = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		planet_army_build_speed_mult = 0.1
+		planet_building_build_speed_mult = 0.1
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_SS_governor}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+
+leader_trait_lo_S_scientist = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		all_technology_research_speed = 0.1
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_SS_scientist}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+
+leader_trait_lo_S_admiral = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		ship_weapon_range_mult = 0.1
+		ship_evasion_mult = 0.1
+	}
+	randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_SS_admiral}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}	
+
+leader_trait_lo_S_general = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		army_disengage_chance_mult = 0.5
+		army_damage_mult = 0.1
+	}
+	randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_SS_general}
+	leader_trait = { general }
+	leader_class = { general }
+}	
+
+#SS级#######################################
+leader_trait_lo_SS_ruler = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		country_edict_fund_add = 20
+		empire_size_penalty_mult = -0.2
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_S_ruler}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+}
+
+leader_trait_lo_SS_governor = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		planet_army_build_speed_mult = 0.2
+		planet_building_build_speed_mult = 0.2
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_S_governor}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+
+leader_trait_lo_SS_scientist = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		all_technology_research_speed = 0.2
+		science_ship_survey_speed = 0.2
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_S_scientist}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}	
+
+leader_trait_lo_SS_admiral = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		ship_weapon_range_mult = 0.2
+		ship_evasion_mult = 0.2
+		ship_disengage_chance_mult = 0.50
+	}
+	randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_S_admiral}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}	
+
+leader_trait_lo_SS_general = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		army_disengage_chance_mult = 0.75
+		army_damage_mult = 0.2
+		army_morale = 0.2
+	}
+	randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { leader_trait_lo_S_general}
+	leader_trait = { general }
+	leader_class = { general }
+}	
