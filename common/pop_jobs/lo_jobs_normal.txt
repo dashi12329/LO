@@ -1,0 +1,75 @@
+################
+#地平线女仆
+################
+horizon_maid = {
+	category = specialist
+	#condition_string = SPECIALIST_JOB_TRIGGER
+    possible = {
+		has_trait = trait_horizon
+	}
+	resources = {
+		category = planet_artisans
+		produces = {
+			consumer_goods = 12
+			unity = 10
+		}
+		upkeep = {
+			food = 5
+		}
+	}
+	weight = {
+		weight = 20
+	}
+}
+
+################
+#天空骑士偶像
+################
+sky_knights_idol = {
+	category = specialist
+	#condition_string = SPECIALIST_JOB_TRIGGER
+    possible = {
+		has_trait = trait_sky_knights
+	}
+	resources = {
+		category = planet_artisans
+		produces = {
+			unity = 15
+		}
+		upkeep = {
+			consumer_goods = 3
+		}
+	}
+	planet_modifier = {
+		planet_amenities_add = 3
+	}
+	weight = {
+		weight = 20
+	}
+}
+
+################
+#战斗女仆女仆
+################
+maid = {
+	category = specialist
+	#condition_string = SPECIALIST_JOB_TRIGGER
+    possible = {
+		has_trait = trait_project_battle_maid
+	}
+	resources = {
+		category = planet_artisans
+		produces = {
+			consumer_goods = 12
+		}
+		upkeep = {
+			food = 5
+		}
+	}
+	planet_modifier = {
+		planet_amenities_add = 2
+	}
+	weight = {
+		weight = 20
+	}
+}

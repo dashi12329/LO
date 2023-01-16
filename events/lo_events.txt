@@ -17,7 +17,7 @@ country_event = {             #开局生成
                                 modifier = "planet_lo_Iron_Parasites_1_modifier"
                                 days = -1 #不知道干啥用的
                                         }
-                                              
+                        add_building = lo_building_Ocra_base #添加建筑虎鲸号基地
                                 }
                         }
                 }
@@ -60,6 +60,29 @@ country_event = {#天空骑士阵营特质的开局自带特殊建筑
                         }
                         capital_scope = {
                                 add_building = lo_building_sky_knights_stage
+                        }
+                }
+                else = {
+                #nothing
+                }
+        }
+}
+
+country_event = {#战斗女仆阵营特质的开局自带特殊建筑
+        id = lo_origin.4
+        title = lo_origin.4.name
+        desc = lo_origin.4.desc
+        is_triggered_only = yes
+        hide_window = yes
+        immediate = {
+                if = {
+                        limit = {
+                                species = {
+                                        has_trait = trait_project_battle_maid
+                                }
+                        }
+                        capital_scope = {
+                                add_building = lo_building_maid_cafe
                         }
                 }
                 else = {

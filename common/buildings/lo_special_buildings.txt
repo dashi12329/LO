@@ -1,0 +1,167 @@
+@lo_time_t1 = 180
+@lo_time_t2 = 360
+@lo_time_t3 = 600
+@lo_time_t4 = 1200
+
+#不可建造的特殊建筑############################
+
+################
+#虎鲸号基地
+################
+lo_building_Ocra_base = {
+	can_build = no
+	can_demolish = no
+	can_be_ruined = no
+	can_be_disabled = no
+	#icon = 
+	category = government
+	resources = {
+		category = planet_buildings
+		produces = {
+			food = 50
+			minerals = 50
+			energy = 50
+            physics_research = 30
+			society_research = 30
+			engineering_research = 30
+			alloys = 20
+			consumer_goods = 30
+			unity = 20
+		    #can = 1
+		}
+	}
+		planet_modifier = {
+            planet_housing_add = 15
+			planet_amenities_add = 25
+			job_politician_add = 3
+			job_enforcer_add = 1
+		    job_bureaucrat_add = 1
+			planet_max_districts_add = 3
+			planet_max_buildings_add = 3
+		}
+		country_modifier = {
+			country_resource_max_add = 50000
+			#country_base_
+		}
+	
+}
+
+################
+#地平线咖啡厅
+################
+lo_building_horizon_cafe = {
+	base_buildtime = @lo_time_t2
+	can_build = no
+	#icon = 
+	category = manufacturing
+	base_cap_amount = 1
+	#potential = {
+	#	exists = owner
+	#	owner_species = LO_char
+	#} 
+	#upgrades = {
+		#lo_building_cafe_2
+	#}
+	#allow = {
+	#}
+	resources = { #数值可以以后再调
+		category = planet_buildings
+		upkeep = {
+			energy = 2
+		}
+		produces = {
+			food = 10
+		}
+	}
+	planet_modifier = {
+		job_horizon_maid_add = 2
+		LO_pop_happiness = 0.1
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+################
+#群星之夜的舞台
+################
+lo_building_sky_knights_stage = {
+	base_buildtime = @lo_time_t1
+	can_build = no
+	#icon = 
+	category = manufacturing
+	base_cap_amount = 1
+	#potential = {
+	#	exists = owner
+	#	owner_species = LO_char
+	#} 
+	#upgrades = {
+		#lo_building_cafe_2
+	#}
+	#allow = {
+	#	NOT = {
+	#		has_building = lo_building_cafe_1
+	#	}
+	#}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 200
+		}
+		upkeep = {
+			energy = 2
+		}
+		produces = {
+
+		}
+	}
+	planet_modifier = {
+		job_sky_knights_idol_add = 2
+		LO_pop_happiness = 0.1
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+################
+#战斗女仆咖啡厅
+################
+lo_building_maid_cafe = {
+	base_buildtime = @lo_time_t2
+	can_build = no
+	#icon = 
+	category = manufacturing
+	base_cap_amount = 1
+	#potential = {
+	#	exists = owner
+	#	owner_species = LO_char
+	#} 
+	#upgrades = {
+		#lo_building_cafe_2
+	#}
+	#allow = {
+	#}
+	resources = { #数值可以以后再调
+		category = planet_buildings
+		upkeep = {
+			energy = 2
+		}
+		produces = {
+			food = 10
+		}
+	}
+	planet_modifier = {
+		job_maid_add = 2
+		LO_pop_happiness = 0.1
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+################
+#
+################
+
+#可建造的特殊建筑############################
