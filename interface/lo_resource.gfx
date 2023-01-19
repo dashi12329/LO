@@ -1,0 +1,63 @@
+spriteTypes = {
+
+	### origin dust
+	spriteType = {
+		name = "GFX_origin_dust"
+		textureFile = "gfx/interface/icons/resources/origin_dust.dds"
+	}
+
+	spriteType = {
+		name = "GFX_origin_dust_large"
+		textureFile = "gfx/interface/icons/resources/origin_dust_large.dds"
+	}
+
+	spriteType = {
+		name = "GFX_origin_dust_grey"
+		textureFile = "gfx/interface/icons/resources/origin_dust_grey.dds"
+	}
+	### special module
+	spriteType = {
+		name = "GFX_special_module"
+		textureFile = "gfx/interface/icons/resources/special_module.dds"
+	}
+
+	spriteType = {
+		name = "GFX_special_module_grey"
+		textureFile = "gfx/interface/icons/resources/special_module_grey.dds"
+	}
+
+	spriteType = {
+		name = "GFX_special_module_large"
+		textureFile = "gfx/interface/icons/resources/special_module_large.dds"
+	}
+	### alterium
+	spriteType = {
+		name = "GFX_alterium"
+		textureFile = "gfx/interface/icons/resources/alterium.dds"
+	}
+
+	spriteType = {
+		name = "GFX_alterium_grey"
+		textureFile = "gfx/interface/icons/resources/alterium_grey.dds"
+	}
+
+	spriteType = {
+		name = "GFX_alterium_large"
+		textureFile = "gfx/interface/icons/resources/alterium_large.dds"
+	}
+	### tuna can
+	spriteType = {
+		name = "GFX_tuna_can"
+		textureFile = "gfx/interface/icons/resources/tuna_can.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tuna_can_grey"
+		textureFile = "gfx/interface/icons/resources/tuna_can_grey.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tuna_can_large"
+		textureFile = "gfx/interface/icons/resources/tuna_can_large.dds"
+	}
+}

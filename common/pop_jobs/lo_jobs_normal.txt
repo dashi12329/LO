@@ -73,3 +73,34 @@ maid = {
 		weight = 20
 	}
 }
+
+################
+#31EX炼金工人
+################
+alchemist = {
+	category = worker
+	#condition_string = WORKER_JOB_TRIGGER
+    #possible = {
+	#	has_trait = 
+	#}
+	possible_precalc = can_fill_worker_job
+	resources = {
+		category = planet_alchemist
+		produces = {
+			energy = 15
+			minerals = 15
+			food = 15
+            special_module = 10
+		}
+		upkeep = {
+			consumer_goods = 4
+			origin_dust = 1
+		}
+	}
+	planet_modifier = {
+		
+	}
+	weight = {
+		weight = 60
+	}
+}

@@ -9,62 +9,485 @@ portraits = {
                 #test   Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/Invincible_Dragon.png" }
                 Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/02.png" }
                 Doctor = {textureFile = "gfx/models/portraits/lo/Doctor.png" }
+#########################Q版头像####################
+                Q_Ajax = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Ullr_NS1.png"}
+                Q_Alexandra_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Ajax_N.png"}
+                Q_Alexandra_NS1 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Alexandra_NS1.png"}
+                Q_Alexandra_NS2 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Alexandra_NS2.png"}
+                Q_Alice_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Alice_N.png"}
+                Q_Alice_NS1 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Alice_NS1.png"}
+                Q_Alice_NS2 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Alice_NS2.png"}
+                Q_Amphitrite_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Amphitrite_N.png"}
+                Q_Annie_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Annie_N.png"}
+                Q_Aqua_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Aqua_N.png"}
+                Q_Aurora_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Aurora_N.png"}
+                Q_Aurora_NS1 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Aurora_NS1.png"}
+                Q_Aurora_NS2 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Aurora_NS2.png"}
+                Q_BlackLilith_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_BlackLilith_N.png"}
+                Q_BlackLilith_NS1 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_BlackLilith_NS1.png"}
+                Q_BlackLilith_NS2 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_BlackLilith_NS2.png"}
+                Q_BlackWyrm_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_BlackWyrm_N.png"}
+                Q_BlackWyrm_NS1 = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_BlackWyrm_NS1.png"}
+                Q_BlackWyrm_NS2= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_BlackWyrm_NS2.png"}
+                Q_ConstantiaS2_N= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_ConstantiaS2_N.png"}
+                Q_ConstantiaS2_NS0= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_ConstantiaS2_NS0.png"}
+                Q_ConstantiaS2_NS1= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_ConstantiaS2_NS1.png"}
+                Q_ConstantiaS2_NS2= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_ConstantiaS2_NS2.png"}
+                Q_ConstantiaS2_SS1= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_ConstantiaS2_SS1.png"}
+                Q_CSPerrault_N= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_CSPerrault_N.png"}
+                Q_CSPerrault_NS1= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_CSPerrault_NS1.png"}
+                Q_CSPerrault_NS2= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_CSPerrault_NS2.png"}
+                Q_CSPerrault_NS3= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_CSPerrault_NS3.png"}
+                Q_CSPerrault_PS1= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_CSPerrault_PS1.png"}
+                Q_Daphne_N= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Daphne_N.png"}
+                Q_Daphne_NS1= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Daphne_NS1.png"}
+                Q_Daphne_NS2= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Daphne_NS2.png"}
+                Q_Dryad_N= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Dryad_N.png"}
+                Q_Dryad_NS1= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Dryad_NS1.png"}
+                Q_Eternity_N= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Eternity_N.png"}
+                Q_Eternity_NS1= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Eternity_NS1.png"}
+                Q_Eternity_NS2= {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Eternity_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Fenrir_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Fenrir_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Fotia_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Fotia_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Frigga_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Frigga_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Hachiko_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Hachiko_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Hachiko_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Hachiko_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Hirume_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Hirume_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Labiata_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Labiata_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Labiata_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Labiata_NS4.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Labiata_SS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Maria_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Maria_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Melite_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Poi_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Poi_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Poi_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Ran_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Ran_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Rhea_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Rhea_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Rhea_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Salacia_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_ScissorsLise_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_ScissorsLise_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_ScissorsLise_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/ TbarIcon_3P_SnowFeather_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_SnowFeather_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Sowan_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Sowan_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Sowan_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Sowan_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Titania_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Titania_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Titania_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Vanilla_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Vanilla_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Alvis_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Alvis_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Alvis_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_ALWraith_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_ALWraith_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Amy_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Amy_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Amy_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Andvari_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Andvari_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Andvari_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_AS12TurtleDragon_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_AS12TurtleDragon_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Banshee_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Banshee_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_BeastHunter_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_BeastHunter_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Bheur_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Bheur_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Blackhound_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Blackhound_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Blackhound_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_BloodyPanther_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_BloodyPanther_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Brownie_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Brownie_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Brunhild_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Bulgasari_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Bulgasari_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Calista_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Calista_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Cheona_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Cheona_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Daika_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Daika_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Djinnia_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_DrM_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_DrM_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_DrM_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Echidna_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Echidna_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Echidna_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Efreeti_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Efreeti_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Ellie_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Emily_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Emily_N_CH.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Emily_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Gnome_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Gnome_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Gnome_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Gremlin_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Gremlin_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Habetrot_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Habetrot_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Harpy_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Harpy_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Harpy_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_HongRyun_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_HongRyun_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_HongRyun_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Hraesvelgr_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Hraesvelgr_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Hyena_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Impet_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Impet_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_InvDragon_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_InvDragon_N_CH.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_InvDragon_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_InvDragon_NS1_CH.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_InvDragon_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Io_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Io_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_JangHwa_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_JangHwa_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Khan_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Khan_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Khan_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Khan_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Kheshig_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Leona_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Leona_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Leona_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Leona_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Leprechaun_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Leprechaun_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Lindwurm_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Lindwurm_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Lindwurm_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Marie_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Marie_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Marie_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_May_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_May_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_May_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_May_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_May_NS4.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Miho_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Miho_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Miho_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Miho_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Neodym_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Neodym_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Neodym_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Nereid_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Nereid_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Nereid_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_NickyTracy_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_NickyTracy_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_NightAngel_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_NightAngel_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_NightAngel_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Nymph_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Nymph_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PA00EL_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PA00EL_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PA00EL_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PA00EL_SS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Pani_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Pani_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Phantom_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Phantom_PS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Phoenix_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Phoenix_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PoniesAnger_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PoniesAnger_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PoniesAnger_PS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PXSilky_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_PXSilky_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_QuickCamel_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_QuickCamel_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Raven_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_RedHood_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_RedHood_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_RoyalArsenal_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_RoyalArsenal_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_RoyalArsenal_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Salamander_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_SandMan_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_SandMan_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Scarabya_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Scarabya_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Scathy_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Scathy_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Shirayuri_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Shirayuri_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Shirayuri_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Sirene_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Sirene_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Sirene_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Sleipnir_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Sleipnir_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Sleipnir_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Sleipnir_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Spriggan_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Spriggan_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_StratoAngel_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_StratoAngel_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Sylphid_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_TalonFeather_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_TalonFeather_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_TalonFeather_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Thetis_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Thetis_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Thetis_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Tomoe_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Tomoe_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Tomoe_SS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Undine_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Undine_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Undine_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Valkyrie_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Valkyrie_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Valkyrie_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Valkyrie_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Vargr_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_WarWolf_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_WarWolf_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_WarWolf_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Wraithy_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_BR_Wraithy_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Angel_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Angel_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Arman_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Arman_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Atalanta_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Atalanta_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Azazel_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Azazel_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Azazel_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Baekto_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Baekto_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_BunnySlayer_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_BunnySlayer_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Charlotte_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Charlotte_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Charlotte_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Faucre_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Faucre_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Faucre_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Johanna_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_KunoichiKaen_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_KunoichiKaen_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_KunoichiZero_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_KunoichiZero_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_MoMo_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_MoMo_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_MoMo_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Ramiel_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Ramiel_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Saraqael_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_DS_Saraqael_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Audrey_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Audrey_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Audrey_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Azaz_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Azaz_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Azaz_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Babariana_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Babariana_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Babariana_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Boryeon_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Boryeon_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_BS_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_BS_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Carolina_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Carolina_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Cerberus_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Cerberus_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Cerberus_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Cerberus_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Circe_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Circe_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_CoCoWhiteShell_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_CyclopsePrincess_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_DarkElf_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_DarkElf_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_DarkElf_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Draculina_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Draculina_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_DutchGirl_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_DutchGirl_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Ella_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Ella_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_ElvenForestmaker_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_ElvenForestmaker_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_ElvenForestmaker_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Empress_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Erato_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Express76_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Express76_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Fortune_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Fortune_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Fortune_NS99.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_HighElven_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_HighElven_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Hussar_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Hussar_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Ignis_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Ignis_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Leanne_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Leanne_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Leanne_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_LemonadeAlpha_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_LemonadeAlpha_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_LRL_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_LRL_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_LRL_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_LRL_NS3.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Lumberjane_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Lumberjane_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Machina_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Machina_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Mery_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_MightyR_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_MightyR_PS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_MissSafety_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_MissSafety_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Mnemosyne_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Mnemosyne_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Muse_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Muse_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Orangeade_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Orangeade_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_QueenMane_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_QueenMane_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Rena_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Sadius_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Sadius_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Saetti_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Saetti_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Safety_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Sekhmet_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Serpent_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Serpent_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Sonia_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Spartoia_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Spartoia_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Sunny_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Sunny_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Tiequan_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Tiequan_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Triaina_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Triaina_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Triton_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Veronica_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Veronica_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Veronica_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_SJ_Orellia_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_SJ_Tachi_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Lancer_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Lancer_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Mercury_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Mercury_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Tiamat_N.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Tiamat_NS1.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Tiamat_NS2.png"}
+                = {textureFile = "gfx/models/portraits/Q/TbarIcon_ST_Ullr_N.png"}
 }
 portrait_groups = {
-               lochar = {
-                                default = Labiata
-                                game_setup = {
-                                                add = {
-                                                                portraits = {
-                                                                               Labiata
-                                                                               Constantia_S2
-}
-}
-}
-species = {
-                add = {
-                              portraits = {
-                                              Labiata
-                                              Constantia_S2
-}
-}
-}
-leader = {
-                add = {
-                                 trigger = {
-                                                 leader_class = scientist
-}
-                              portraits = {
-                                              Deconstructor_Azaz
-                                              Doctor
-}
-}
-                add = {
-                                 trigger = {
-                                                 leader_class = general
-}
-                              portraits = {
-                                              Charlotte
-}
-}
-                add = {
-                                 trigger = {
-                                                 leader_class = admiral
-}
-                              portraits = {
-                                              Invincible_Dragon
-}
-}
-                add = {
-                                 trigger = {
-                                                 leader_class = governor
-}
-                              portraits = {
-                                              Cardinal_Armand
-}
-}
-}
-}
+    lochar = {
+        default = Labiata
+        game_setup = {
+            add = {
+                portraits = {
+                    Labiata
+                    Constantia_S2
+                            }
+                  }
+                     }
+    species = {
+        add = {
+            portraits = {
+                Labiata
+                Constantia_S2
+                        }
+              }
+              }
+    leader = {
+        add = {
+            trigger = {
+                leader_class = scientist
+                      }
+            portraits = {
+                Deconstructor_Azaz
+                Doctor
+                        }
+              }
+        add = {
+            trigger = {
+                leader_class = general
+                      }
+            portraits = {
+                Charlotte
+                        }
+              }
+        add = {
+            trigger = {
+                leader_class = admiral
+                      }
+            portraits = {
+                Invincible_Dragon
+                        }
+              }
+        add = {
+            trigger = {
+                leader_class = governor
+                      }
+            portraits = {
+                Cardinal_Armand
+                        }
+              }
+             }
+    pop = {
+        add = {
+            portraits = {
+                Q_Ajax
+                Q_Alexandra_N
+                Q_Alexandra_NS1
+                Q_Alexandra_NS2
+                Q_Alice_N
+                Q_Alice_NS1
+                Q_Alice_NS2
+                Q_Amphitrite_N
+                Q_Annie_N
+                Q_Aqua_N
+                Q_Aurora_N
+                Q_Aurora_NS1
+                Q_Aurora_NS2
+                Q_BlackLilith_N
+                Q_BlackLilith_NS1
+                Q_BlackLilith_NS2
+                Q_BlackWyrm_N
+                Q_BlackWyrm_NS1
+                Q_BlackWyrm_NS2
+              }
+          }
+        }
 }
 portrait_groups = {
                 lochar_1 = {

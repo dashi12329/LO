@@ -22,7 +22,7 @@ trait_lo = {
                 }
 }
 
-#模块化特性
+#机体特性
 
 trait_light = {
        cost = 0
@@ -150,11 +150,11 @@ trait_supporter = {
 #钢铁战线
 trait_steel_line = {
                 cost = 0
-                #icon = "gfx/interface/icons/traits/steel_line.png"
+                icon = "gfx/interface/icons/traits/steel_line.png"
                 potential_crossbreeding_chance = 0
                 opposites = { "trait_sky_knights" "trait_horizon" "trait_companion_series"
  "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
-	improves_leaders = yes
+	#improves_leaders = yes
 	randomized = no
 	species_possible_remove = {
 		always = no
@@ -171,7 +171,7 @@ trait_steel_line = {
 #天空骑士
 trait_sky_knights = {
        cost = 0
-       #icon = "gfx/interface/icons/traits/sky_knight.png"
+       icon = "gfx/interface/icons/traits/sky_knights.png"
        potential_crossbreeding_chance = 0
        opposites = { "trait_steel_line" "trait_horizon" "trait_companion_series"
  "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
@@ -192,7 +192,7 @@ trait_sky_knights = {
 #地平线
 trait_horizon = {
        cost = 0
-       #icon = "gfx/interface/icons/traits/horizon.png"
+       icon = "gfx/interface/icons/traits/horizon.png"
        potential_crossbreeding_chance = 0
        opposites = { "trait_steel_line" "trait_sky_knights" "trait_companion_series" 
 "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
@@ -213,7 +213,7 @@ trait_horizon = {
 #伴侣系列
 trait_companion_series = {
        cost = 0
-       #icon = "gfx/interface/icons/traits/companion_series.png"
+       icon = "gfx/interface/icons/traits/companion_series.png"
        potential_crossbreeding_chance = 0
        opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon"
  "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
@@ -234,7 +234,7 @@ trait_companion_series = {
 #战斗女仆
 trait_project_battle_maid = {
        cost = 0
-       #icon = "gfx/interface/icons/traits/project_battle_maid.png"
+       icon = "gfx/interface/icons/traits/project_battle_maid.png"
        potential_crossbreeding_chance = 0
        opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon" "trait_companion_series"
  "trait_anger_of_the_horde" "trait_d_entertainment"}
@@ -247,7 +247,7 @@ trait_project_battle_maid = {
 		LO
 	}
                 modifier = {
-                        #没想好，暂定为特殊建筑
+                        #特殊建筑（女仆咖啡厅）
                 }
 }
 

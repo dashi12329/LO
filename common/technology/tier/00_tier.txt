@@ -1,0 +1,81 @@
+####
+#	Technology tiers
+#
+#	weight_modifier = {
+#		factor = 1
+#		modifier = {
+#			add = 10
+#			OR = {
+#				has_government = "military_dictatorship"
+#				has_government = "martial_empire"
+#			}
+#		}
+#	}
+####
+
+# The previously_unlocked-value decides how many techs in the previous tier has to be researched before the tier is unlocked
+
+0 = { # Tier 0
+}
+
+1 = { # Tier 1
+	previously_unlocked = 0
+	weight_modifier = {
+		base = 1
+		complex_trigger_modifier = {
+			trigger = num_researched_techs_of_tier
+			parameters = {
+				tier = 3
+			}
+			mode = add
+			mult = 0.2
+		}
+	}
+}
+
+2 = { # Tier 2
+	previously_unlocked = 6
+	weight_modifier = {
+		base = 1
+		complex_trigger_modifier = {
+			trigger = num_researched_techs_of_tier
+			parameters = {
+				tier = 4
+			}
+			mode = add
+			mult = 0.2
+		}
+	}
+}
+
+3 = { # Tier 3
+	previously_unlocked = 6
+	weight_modifier = {
+		base = 1
+		complex_trigger_modifier = {
+			trigger = num_researched_techs_of_tier
+			parameters = {
+				tier = 5
+			}
+			mode = add
+			mult = 0.2
+		}
+	}
+}
+
+4 = { # Tier 4
+	previously_unlocked = 6
+	weight_modifier = {
+		base = 1
+		complex_trigger_modifier = {
+			trigger = num_repeatable_techs
+			mode = add
+			mult = 0.2
+		}
+	}
+}
+
+5 = { # Tier 5
+	previously_unlocked = 6
+	#weight multiplier is always 1
+}

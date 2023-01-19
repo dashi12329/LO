@@ -1,0 +1,56 @@
+@lo_time_t1 = 180
+@lo_time_t2 = 360
+@lo_time_t3 = 600
+@lo_time_t4 = 1200
+
+#可建造建筑############################
+
+################
+#3-1EX
+################
+lo_building_31EX = {
+	base_buildtime = @lo_time_t2
+	#icon = 
+	category = resource
+	base_cap_amount = 1
+	potential = {
+		OR = {
+			has_modifier = planet_lo_Iron_Parasites_1_modifier
+			has_modifier = planet_lo_Iron_Parasites_2_modifier
+			has_modifier = planet_lo_Iron_Parasites_3_modifier
+		}
+	} 
+	#upgrades = {
+	#}
+	allow = {
+		OR = {
+			has_modifier = planet_lo_Iron_Parasites_1_modifier
+			has_modifier = planet_lo_Iron_Parasites_2_modifier
+			has_modifier = planet_lo_Iron_Parasites_3_modifier
+		}
+	}
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 3
+            #food = 5
+			#minerals = 5
+		}
+		produces = {
+			#food = 10
+		}
+	}
+	planet_modifier = {
+		job_alchemist_add = 1
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+################
+#万变圣域
+################
+lo_building_sanctum_of_alteration = {
+
+}

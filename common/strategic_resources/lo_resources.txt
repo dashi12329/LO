@@ -1,0 +1,56 @@
+#rare resources
+origin_dust = {
+	tradable = no
+	max = 10000
+	#prerequisites = { 一个起源尘相关科技 lo起源开局送
+    #
+	#}
+	visibility_prerequisite = {
+		always = yes
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+special_module = {
+	tradable = no
+	max = 10000
+	#prerequisites = { 一个巧克力相关科技
+    #
+	#}
+	visibility_prerequisite = {
+		always = yes
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+alterium= {
+	tradable = no
+	max = 10000
+	#prerequisites = { 
+	#		"tech" 一个关于万变圣域或粗矿的科技
+	#}
+	visibility_prerequisite = {
+		always = yes
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+tuna_can= {
+	tradable = no
+	max = 10000
+	#prerequisites = { 一个关于罐头的科技
+    #
+	#}
+	visibility_prerequisite = {
+		always = yes
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
