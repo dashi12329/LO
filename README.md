@@ -29,3 +29,5 @@ Last Origin mod for Stellaris\
 添加了四种新的资源\
 添加了四种新的科技种类\
 添加了一个新的工作（31E炼金工人）\
+2023.1.20\
+添加了charge全部 dust全部 alteration全部 AGS部分科技

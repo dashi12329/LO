@@ -1,0 +1,310 @@
+@lo_normal_weight1 = 95
+@lo_normal_weight2 = 85
+@lo_normal_weight3 = 75
+
+@lo_rare_weight1 = 56
+@lo_rare_weight2 = 48
+@lo_rare_weight3 = 40
+
+@lo_precious_weight1 = 30
+@lo_precious_weight2 = 24
+@lo_precious_weight3 = 18
+#############万变圣域相关科技###########
+tech_find_sanctum_of_alteration = {#寻找万变圣域
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = {
+		sanctum_of_alteration
+	}
+	weight = @lo_normal_weight1
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = 
+	modifier = {#解锁建筑万变圣域
+
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_sanctum_of_alteration_zone_1 = {#万变圣域一塔
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = {
+		sanctum_of_alteration
+	}
+    prerequisites = {
+		"tech_find_sanctum_of_alteration"
+	}
+	weight = @lo_normal_weight2
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = 
+	modifier = {#增加万变圣域job的矿产量
+	    planet_jobs_alterium_produces_mult = 1
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_sanctum_of_alteration_zone_2 = {#万变圣域二塔
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = {
+		sanctum_of_alteration
+	}
+    prerequisites = {
+		"tech_sanctum_of_alteration_zone_1"
+	}
+	weight = @lo_normal_weight3
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = 
+	modifier = {#建筑万变圣域升级的前置科技
+	    #planet_jobs_alterium_produces_mult = 1
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_sanctum_of_alteration_zone_3 = {#万变圣域三塔
+	cost = @tier4cost2
+	area = society
+	tier = 4
+	category = {
+		sanctum_of_alteration
+	}
+    prerequisites = {
+		"tech_find_sanctum_of_alteration_zone_2"
+	}
+	weight = @lo_rare_weight3
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = 
+	modifier = {#增加万变圣域job的矿产量
+	    planet_jobs_alterium_produces_mult = 0.5
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_alternium_refine = {#粗矿精炼
+	cost = @tier3cost1
+	area = engineering
+	tier = 3
+	category = {
+		sanctum_of_alteration
+	}
+    prerequisites = {
+		"tech_sanctum_of_alteration_zone_1"
+	}
+	weight = @lo_rare_weight1
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = 
+	modifier = {#增加万变圣域job的矿产量
+	    planet_jobs_alterium_produces_mult = 0.5
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_process_refined_alternium = {#细矿加工
+	cost = @tier3cost2
+	area = engineering
+	tier = 3
+	category = {
+		sanctum_of_alteration
+	}
+    prerequisites = {
+		"tech_alternium_refine"
+	}
+	weight = @lo_rare_weight1
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = 
+	modifier = {#增加万变圣域job的矿产量
+	    planet_jobs_alterium_produces_mult = 0.5
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_alternium_analyze_1 = {#矿解析1
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	category = {
+		sanctum_of_alteration
+	}
+	gateway = alternium_apply #矿应用之道
+    prerequisites = {
+		"tech_alternium_refine"
+		"tech_sanctum_of_alteration_zone_2"
+	}
+	weight = @lo_rare_weight2
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = 
+	modifier = {#解锁建筑矿物研究所
+	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_alternium_analyze_2 = {#矿解析2
+	cost = @tier4cost3
+	area = physics
+	tier = 4
+	category = {
+		sanctum_of_alteration
+	}
+	gateway = alternium_apply #矿应用之道
+    prerequisites = {
+		"tech_alternium_analyze_1"
+	}
+	weight = @lo_rare_weight3
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {#矿研究所工作加成
+	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_alternium_apply_1 = {#矿应用1
+	cost = @tier5cost1
+	area = physics
+	tier = 5
+	category = {
+		sanctum_of_alteration
+	}
+	gateway = alternium_apply #矿应用之道
+    prerequisites = {
+		"tech_alternium_analyze_2"
+		"tech_process_refined_alternium"
+	}
+	weight = @lo_precious_weight1
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {#许多科技的前置科技，解锁防御专用OS
+	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_alternium_apply_2 = {#矿应用2
+	cost = @tier5cost2
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = {
+		sanctum_of_alteration
+	}
+	gateway = alternium_apply #矿应用之道
+    prerequisites = {
+		"tech_alternium_apply_1"
+	}
+	weight = @lo_precious_weight2
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {#许多科技的前置科技，解锁攻击专用OS
+	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_alternium_apply_3 = {#矿应用3
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_rare = yes
+	category = {
+		sanctum_of_alteration
+	}
+	gateway = alternium_apply #矿应用之道
+    prerequisites = {
+		"tech_alternium_apply_1"
+	}
+	weight = @lo_precious_weight1
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {#许多科技的前置科技，解锁支援专用OS
+	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}

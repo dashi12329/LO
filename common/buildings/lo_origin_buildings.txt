@@ -22,7 +22,9 @@ lo_building_Ocra_base = {
 			alloys = 20
 			consumer_goods = 30
 			unity = 20
-		    #can = 1
+		    origin_dust = 4
+			special_module = 10
+			tuna_can = 5
 		}
 	}
 		planet_modifier = {
@@ -36,7 +38,9 @@ lo_building_Ocra_base = {
 		}
 		country_modifier = {
 			country_resource_max_add = 50000
-			#country_base_
+			#country_base_origin_dust_add = 4
+			#country_base_special_module_add = 10
+			#country_base_tuna_can_add = 5
 		}
 	
 }

@@ -1,0 +1,136 @@
+@lo_normal_weight1 = 95
+@lo_normal_weight2 = 85
+@lo_normal_weight3 = 75
+
+@lo_rare_weight1 = 56
+@lo_rare_weight2 = 48
+@lo_rare_weight3 = 40
+
+@lo_precious_weight1 = 30
+@lo_precious_weight2 = 24
+@lo_precious_weight3 = 18
+#############充值、罐头相关科技###########
+tech_charge_1 = {#小月卡
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = {
+		charge
+	}
+	weight = 1000
+	ai_weight = {
+		factor = 0
+	}
+	prereqfor_desc = {
+		ship = {
+			#title = 
+			#desc = 
+		}
+	}
+	is_reverse_engineerable = no
+	modifier = {
+		country_base_tuna_can_produces_add = 1
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与氪金相关的领袖特质（还未制作）
+	}
+}
+
+tech_charge_2 = {#大月卡
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = {
+		charge
+	}
+	prerequisites = {
+		"tech_charge_1"
+	}
+	prereqfor_desc = {
+		ship = {
+			title = 
+			desc = 
+		}
+	}
+	weight = @lo_normal_weight2
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {
+		country_base_tuna_can_produces_add = 3
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与氪金相关的领袖特质（还未制作）
+	}
+}
+
+tech_charge_3 = {#通行证
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = {
+		charge
+	}
+	prerequisites = {
+		"tech_charge_2"
+	}
+	prereqfor_desc = {
+		ship = {
+			title = 
+			desc = 
+		}
+	}
+	weight = @lo_normal_weight3
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {
+		country_base_tuna_can_produces_add = 5
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与氪金相关的领袖特质（还未制作）
+	}
+}
+
+tech_charge_4 = {#氪金
+	cost = @tier4cost1
+	area = society
+	tier = 4
+	category = {
+		charge
+	}
+	prerequisites = {
+		"tech_charge_3"
+	}
+	prereqfor_desc = {
+		ship = {
+			title = 
+			desc = 
+		}
+	}
+	weight = @lo_rare_weight1
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {
+		country_base_tuna_can_produces_add = 10
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与氪金相关的领袖特质（还未制作）
+	}
+}

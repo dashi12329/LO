@@ -1,0 +1,251 @@
+@lo_normal_weight1 = 95
+@lo_normal_weight2 = 85
+@lo_normal_weight3 = 75
+
+@lo_rare_weight1 = 56
+@lo_rare_weight2 = 48
+@lo_rare_weight3 = 40
+
+@lo_precious_weight1 = 30
+@lo_precious_weight2 = 24
+@lo_precious_weight3 = 18
+#############起源尘、Bioroids相关科技###########
+tech_origin_dust_synthesis_1 = {#合成起源尘1
+	cost = @tier1cost1
+	area = society
+	tier = 1
+	category = {
+		origin_dust
+	}
+	weight = @lo_normal_weight1
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	gateway = Bioroids #Bioroids之道
+	modifier = {#解锁建筑起源尘合成厂
+
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_origin_dust_synthesis_2 = {#合成起源尘2
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = {
+		origin_dust
+	}
+	prerequisites = {
+		"tech_origin_dust_synthesis_1"
+	}
+	weight = @lo_normal_weight3
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {#起源尘合成厂岗位产出+2
+
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_origin_dust_synthesis_3 = {#合成起源尘3
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = {
+		origin_dust
+	}
+	prerequisites = {
+		"tech_origin_dust_synthesis_2"
+	}
+	weight = @lo_rare_weight1
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	modifier = {#起源尘合成厂岗位产出+3
+
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_Bioroids_analyze_1 = {#Bioroids解析1
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = {
+		origin_dust
+	}
+	weight = @lo_normal_weight2
+	prerequisites = {
+		"tech_origin_dust_synthesis_1"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	gateway = Bioroids #Bioroids之道
+	modifier = {#解锁建筑Bioroids制造厂
+
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_Bioroids_analyze_2 = {#Bioroids解析2
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = {
+		origin_dust
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_Bioroids_analyze_1"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	gateway = Bioroids #Bioroids之道
+	modifier = {#升级建筑Bioroids制造厂
+
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_rank_up_1 = {#晋升1
+	cost = @tier3cost2
+	area = society
+	tier = 3
+	category = {
+		origin_dust
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_origin_dust_synthesis_1"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	gateway = Bioroids #Bioroids之道
+	modifier = {#解锁领袖特质S
+
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_rank_up_2 = {#晋升2
+	cost = @tier4cost1
+	area = society
+	tier = 4
+	category = {
+		origin_dust
+	}
+	weight = @lo_rare_weight3
+	prerequisites = {
+		"tech_rank_up_1"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	gateway = Bioroids #Bioroids之道
+	modifier = {#解锁领袖特质SS
+
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_emotion_system_1 = {#生化人情感系统1
+	cost = @tier5cost1
+	area = society
+	tier = 5
+	category = {
+		origin_dust
+	}
+	weight = @lo_rare_weight3
+	prerequisites = {
+		"tech_rank_up_2"
+		"tech_Bioroids_analyze_2"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	gateway = Bioroids #Bioroids之道
+	modifier = {#修正幸福度
+	    LO_pop_happiness = 0.1
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
+
+tech_emotion_system_2 = {#生化人情感系统2
+	cost = @tier5cost2
+	area = society
+	tier = 5
+	is_rare = yes
+	category = {
+		origin_dust
+	}
+	weight = @lo_precious_weight1
+	prerequisites = {
+		"tech_emotion_system_1"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	gateway = Bioroids #Bioroids之道
+	modifier = {#修正幸福度
+	    LO_pop_happiness = 0.1
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		#一个与Bioroids相关的领袖特质（还未制作）
+	}
+}
