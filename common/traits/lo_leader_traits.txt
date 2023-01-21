@@ -2,6 +2,10 @@
 leader_trait_lo_S_ruler = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_1"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -20,6 +24,10 @@ leader_trait_lo_S_ruler = {
 leader_trait_lo_S_governor = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_1"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -38,10 +46,15 @@ leader_trait_lo_S_governor = {
 leader_trait_lo_S_scientist = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_1"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
 		all_technology_research_speed = 0.1
+		science_ship_survey_speed = 0.1
 	}
     randomized = yes
 	requires_traits = {
@@ -55,6 +68,10 @@ leader_trait_lo_S_scientist = {
 leader_trait_lo_S_admiral = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_1"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -73,6 +90,10 @@ leader_trait_lo_S_admiral = {
 leader_trait_lo_S_general = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_1"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -92,6 +113,10 @@ leader_trait_lo_S_general = {
 leader_trait_lo_SS_ruler = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_2"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -110,6 +135,10 @@ leader_trait_lo_SS_ruler = {
 leader_trait_lo_SS_governor = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_2"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -128,6 +157,10 @@ leader_trait_lo_SS_governor = {
 leader_trait_lo_SS_scientist = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_2"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -146,6 +179,10 @@ leader_trait_lo_SS_scientist = {
 leader_trait_lo_SS_admiral = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_2"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -165,6 +202,10 @@ leader_trait_lo_SS_admiral = {
 leader_trait_lo_SS_general = {
 	cost = 1
 	modification= no
+	initial = yes
+	prerequisites = {
+		"tech_rank_up_2"
+	}
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
@@ -180,3 +221,60 @@ leader_trait_lo_SS_general = {
 	leader_trait = { general }
 	leader_class = { general }
 }	
+
+#科学家技术特质##############################
+@categorybonus = 0.15
+leader_trait_lo_expertise_Bioroids = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		category_origin_dust_research_speed_mult = @categorybonus
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { "leader_trait_lo_expertise_alteration" 
+    "leader_trait_lo_expertise_AGS"}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+
+leader_trait_lo_expertise_alteration = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		category_sanctum_of_alteration_research_speed_mult = @categorybonus
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { "leader_trait_lo_expertise_Bioroids" 
+    "leader_trait_lo_expertise_AGS"}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+
+leader_trait_lo_expertise_AGS = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+		category_AGS_research_speed_mult = @categorybonus
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	opposites = { "leader_trait_lo_expertise_Bioroids"
+	"leader_trait_lo_expertise_alteration"}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+

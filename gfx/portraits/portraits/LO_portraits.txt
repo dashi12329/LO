@@ -869,24 +869,4 @@ portrait_groups = {
           }
         }
 }
-portrait_groups = {
-                lochar_1 = {
-                                    default = CS_Perrault
-                                    game_setup = {
-                                                add = {
-                                                                portraits = {
-                                                                               CS_Perrault
-                                                                               Black_Lilith
-}
-}
-}
-species = {
-                add = {
-                              portraits = {
-                                              CS_Perrault
-                                              Black_Lilith
-}
-}
-}
-}
 }

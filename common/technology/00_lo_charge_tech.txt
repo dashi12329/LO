@@ -1,3 +1,7 @@
+@lo_start_weight1 = 150
+@lo_start_weight2 = 130
+@lo_start_weight3 = 110
+
 @lo_normal_weight1 = 95
 @lo_normal_weight2 = 85
 @lo_normal_weight3 = 75
@@ -17,7 +21,7 @@ tech_charge_1 = {#小月卡
 	category = {
 		charge
 	}
-	weight = 1000
+	weight = @lo_start_weight1
 	ai_weight = {
 		factor = 0
 	}
@@ -51,11 +55,11 @@ tech_charge_2 = {#大月卡
 	}
 	prereqfor_desc = {
 		ship = {
-			title = 
-			desc = 
+			#title = 
+			#desc = 
 		}
 	}
-	weight = @lo_normal_weight2
+	weight = @lo_normal_weight1
 	ai_weight = {
 		factor = 0
 	}
@@ -83,8 +87,8 @@ tech_charge_3 = {#通行证
 	}
 	prereqfor_desc = {
 		ship = {
-			title = 
-			desc = 
+			#title = 
+			#desc = 
 		}
 	}
 	weight = @lo_normal_weight3
@@ -115,8 +119,8 @@ tech_charge_4 = {#氪金
 	}
 	prereqfor_desc = {
 		ship = {
-			title = 
-			desc = 
+			#title = 
+			#desc = 
 		}
 	}
 	weight = @lo_rare_weight1

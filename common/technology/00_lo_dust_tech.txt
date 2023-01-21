@@ -1,3 +1,7 @@
+@lo_start_weight1 = 150
+@lo_start_weight2 = 130
+@lo_start_weight3 = 110
+
 @lo_normal_weight1 = 95
 @lo_normal_weight2 = 85
 @lo_normal_weight3 = 75
@@ -17,7 +21,7 @@ tech_origin_dust_synthesis_1 = {#合成起源尘1
 	category = {
 		origin_dust
 	}
-	weight = @lo_normal_weight1
+	weight = @lo_start_weight3
 	ai_weight = {
 		factor = 0
 	}
@@ -44,7 +48,7 @@ tech_origin_dust_synthesis_2 = {#合成起源尘2
 	prerequisites = {
 		"tech_origin_dust_synthesis_1"
 	}
-	weight = @lo_normal_weight3
+	weight = @lo_normal_weight2
 	ai_weight = {
 		factor = 0
 	}
@@ -64,6 +68,7 @@ tech_origin_dust_synthesis_3 = {#合成起源尘3
 	cost = @tier3cost1
 	area = society
 	tier = 3
+	is_rare = yes
 	category = {
 		origin_dust
 	}
@@ -120,7 +125,7 @@ tech_Bioroids_analyze_2 = {#Bioroids解析2
 	category = {
 		origin_dust
 	}
-	weight = @lo_rare_weight1
+	weight = @lo_normal_weight3
 	prerequisites = {
 		"tech_Bioroids_analyze_1"
 	}
@@ -147,7 +152,7 @@ tech_rank_up_1 = {#晋升1
 	category = {
 		origin_dust
 	}
-	weight = @lo_rare_weight1
+	weight = @lo_normal_weight3
 	prerequisites = {
 		"tech_origin_dust_synthesis_1"
 	}
@@ -171,10 +176,11 @@ tech_rank_up_2 = {#晋升2
 	cost = @tier4cost1
 	area = society
 	tier = 4
+	is_rare = yes
 	category = {
 		origin_dust
 	}
-	weight = @lo_rare_weight3
+	weight = @lo_rare_weight1
 	prerequisites = {
 		"tech_rank_up_1"
 	}
@@ -198,10 +204,11 @@ tech_emotion_system_1 = {#生化人情感系统1
 	cost = @tier5cost1
 	area = society
 	tier = 5
+	is_rare = yes
 	category = {
 		origin_dust
 	}
-	weight = @lo_rare_weight3
+	weight = @lo_rare_weight1
 	prerequisites = {
 		"tech_rank_up_2"
 		"tech_Bioroids_analyze_2"
@@ -226,11 +233,11 @@ tech_emotion_system_2 = {#生化人情感系统2
 	cost = @tier5cost2
 	area = society
 	tier = 5
-	is_rare = yes
+	is_dangerous = yes
 	category = {
 		origin_dust
 	}
-	weight = @lo_precious_weight1
+	weight = @lo_rare_weight3
 	prerequisites = {
 		"tech_emotion_system_1"
 	}
@@ -239,7 +246,7 @@ tech_emotion_system_2 = {#生化人情感系统2
 	}
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
-	modifier = {#修正幸福度
+	modifier = {#修正幸福度,解锁生物型AI（见equip）
 	    LO_pop_happiness = 0.1
 	}
 	potential = {

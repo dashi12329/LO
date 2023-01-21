@@ -22,9 +22,9 @@ lo_building_Ocra_base = {
 			alloys = 20
 			consumer_goods = 30
 			unity = 20
-		    origin_dust = 4
-			special_module = 10
-			tuna_can = 5
+		    #origin_dust = 4
+			#special_module = 10
+			#tuna_can = 5
 		}
 	}
 		planet_modifier = {
@@ -38,9 +38,9 @@ lo_building_Ocra_base = {
 		}
 		country_modifier = {
 			country_resource_max_add = 50000
-			#country_base_origin_dust_add = 4
-			#country_base_special_module_add = 10
-			#country_base_tuna_can_add = 5
+			country_base_origin_dust_produces_add = 4
+			country_base_special_module_produces_add = 10
+			country_base_tuna_can_produces_add = 5
 		}
 	
 }
@@ -49,7 +49,7 @@ lo_building_Ocra_base = {
 #地平线咖啡厅
 ################
 lo_building_horizon_cafe = {
-	base_buildtime = @lo_time_t2
+	#base_buildtime = @lo_time_t2
 	can_build = no
 	#icon = 
 	category = manufacturing
@@ -85,7 +85,7 @@ lo_building_horizon_cafe = {
 #群星之夜的舞台
 ################
 lo_building_sky_knights_stage = {
-	base_buildtime = @lo_time_t1
+	#base_buildtime = @lo_time_t1
 	can_build = no
 	#icon = 
 	category = manufacturing
@@ -127,7 +127,7 @@ lo_building_sky_knights_stage = {
 #战斗女仆咖啡厅
 ################
 lo_building_maid_cafe = {
-	base_buildtime = @lo_time_t2
+	#base_buildtime = @lo_time_t2
 	can_build = no
 	#icon = 
 	category = manufacturing

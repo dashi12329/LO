@@ -8,12 +8,10 @@ LO_char = {
 
 	portraits = {
 		"lochar"
-                                "lochar_1"
 	}
 	# These should not be used for randomly generated species
 	non_randomized_portraits = {
-		"lochar"#
-                                "lochar_1"
+		"lochar"
 	}
 
 	graphical_culture = mammalian_01

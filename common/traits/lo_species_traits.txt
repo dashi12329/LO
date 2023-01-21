@@ -12,13 +12,13 @@ trait_lo = {
 	allowed_archetypes = {
 		LO
 	}
-                modifier = {
-                                army_damage_mult = 0.30
-		army_health = 0.5
-                                planet_jobs_society_research_produces_mult = 0.10
-                                species_leader_exp_gain = 0.15
-		species_empire_size_mult = -0.10
-		pop_government_ethic_attraction = 0.25
+        modifier = {
+            army_damage_mult = 0.30
+		    army_health = 0.5
+            planet_jobs_society_research_produces_mult = 0.10
+            species_leader_exp_gain = 0.5
+		    species_empire_size_mult = -0.10
+		    pop_government_ethic_attraction = 0.25
                 }
 }
 
