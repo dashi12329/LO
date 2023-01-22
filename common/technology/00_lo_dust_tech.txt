@@ -64,7 +64,7 @@ tech_origin_dust_synthesis_2 = {#合成起源尘2
 	}
 	is_reverse_engineerable = no
 	modifier = {#起源尘合成厂岗位产出+2
-
+	    planet_jobs_origin_dust_produces_add = 2
 	}
 	potential = {
 		#is_ai = no
@@ -101,7 +101,7 @@ tech_origin_dust_synthesis_3 = {#合成起源尘3
 	}
 	is_reverse_engineerable = no
 	modifier = {#起源尘合成厂岗位产出+3
-
+	    planet_jobs_origin_dust_produces_add = 3
 	}
 	potential = {
 		#is_ai = no

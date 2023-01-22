@@ -54,3 +54,124 @@ lo_building_31EX = {
 lo_building_sanctum_of_alteration = {
 
 }
+
+################
+#起源尘合成厂
+################
+lo_building_origin_dust_factory = {
+	base_buildtime = @lo_time_t2
+	#icon = 
+	category = manufacturing
+	#potential = {
+	#	OR = {
+	#		
+	#	}
+	#} 
+	#upgrades = {
+	#}
+	prerequisites = {
+		"tech_origin_dust_synthesis_1"
+	}
+	allow = {
+		always = yes
+	}
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 5
+            #food = 5
+			#minerals = 5
+		}
+		produces = {
+			society_research = 10
+		}
+	}
+	planet_modifier = {
+		job_dust_worker_add = 2
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+################
+#特殊模块生产厂
+################
+lo_building_special_module_factory = {
+	base_buildtime = @lo_time_t2
+	#icon = 
+	category = manufacturing
+	#potential = {
+	#	OR = {			
+	#	}
+	#} 
+	#upgrades = {
+	#}
+	prerequisites = {
+		"tech_special_module_manufacture"
+	}
+	allow = {
+		always = yes
+	}
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 5
+            #food = 5
+			#minerals = 5
+		}
+		produces = {
+			physics_research = 10
+		}
+	}
+	planet_modifier = {
+		job_ee_add = 1
+		job_factory_girl_add = 4
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+################
+#细矿研究所
+################
+lo_building_alternium_institute = {
+	base_buildtime = @lo_time_t3
+	#icon = 
+	category = research
+	base_cap_amount = 1
+	#potential = {
+	#	OR = {
+	#		
+	#	}
+	#} 
+	#upgrades = {
+	#}
+	prerequisites = {
+		"tech_alternium_analyze_1"
+	}
+	allow = {
+		always = yes
+	}
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 5
+		}
+		produces = {
+			physics_research = 10
+			engineering_research = 10
+		}
+	}
+	planet_modifier = {
+		job_alternium_researcher_add = 1
+		job_alternium_tester_add = 4
+	}
+	country_modifier = {
+		country_base_alternium_produces_add = 5
+	}
+	ai_weight = {
+		weight = 0
+	}
+}

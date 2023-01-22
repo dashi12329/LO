@@ -94,7 +94,7 @@ alchemist = {
 		}
 		upkeep = {
 			consumer_goods = 4
-			origin_dust = 1
+			origin_dust = 4
 		}
 	}
 	planet_modifier = {
@@ -102,5 +102,139 @@ alchemist = {
 	}
 	weight = {
 		weight = 60
+	}
+}
+
+################
+#起源尘合成工
+################
+dust_worker = {
+	category = worker
+	possible_precalc = can_fill_worker_job
+	resources = {
+		#category = planet_workers
+		produces = {
+			origin_dust = 1
+		}
+		upkeep = {
+			food = 5
+			energy = 4
+			minerals = 3
+		}
+	}
+	planet_modifier = {
+		
+	}
+	weight = {
+		weight = 50
+	}
+}
+
+################
+#特殊模块生产厂电子工程师
+################
+ee = {
+	category = specialist
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		#category = planet_workers
+		produces = {
+			special_module = 4
+			physics_research = 10
+		}
+		upkeep = {
+			energy = 3
+			minerals = 5
+			origin_dust = 1
+		}
+	}
+	planet_modifier = {
+		
+	}
+	weight = {
+		weight = 50
+	}
+}
+
+################
+#特殊模块生产厂厂妹
+################
+factory_girl = {
+	category = worker
+	possible_precalc = can_fill_wroker_job
+	resources = {
+		#category = planet_workers
+		produces = {
+			special_module = 1
+		}
+		upkeep = {
+			energy = 2
+			minerals = 2
+		}
+	}
+	planet_modifier = {
+		
+	}
+	weight = {
+		weight = 50
+	}
+}
+
+################
+#细矿研究所研究员
+################
+alternium_researcher = {
+	category = specialist
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		#category = planet_workers
+		produces = {
+			special_module = 3
+			physics_research = 5
+		}
+		upkeep = {
+			energy = 2
+			minerals = 2
+			alternium = 1
+			origin_dust = 1
+		}
+	}
+	planet_modifier = {
+		
+	}
+	weight = {
+		weight = 50
+	}
+}
+
+################
+#细矿研究所实验员
+################
+alternium_tester = {
+	category = worker
+	possible_precalc = {
+		OR = {
+			can_fill_worker_job = yes
+			can_fill_specialist = yes
+		}
+	}
+	resources = {
+		#category = planet_workers
+		produces = {
+			energy = 5
+			physics_research = 5
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+		}
+	}
+	planet_modifier = {	
+	}
+	pop_modifier = {
+		happiness = -0.1
+	} 
+	weight = {
+		weight = 20
 	}
 }
