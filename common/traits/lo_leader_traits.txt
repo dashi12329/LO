@@ -223,14 +223,16 @@ leader_trait_lo_SS_general = {
 }	
 
 #科学家技术特质##############################
-@categorybonus = 0.15
+@locategorybonus = 0.15
+@subcategorybonus = 0.1
 leader_trait_lo_expertise_Bioroids = {
 	cost = 1
 	modification= no
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
-		category_origin_dust_research_speed_mult = @categorybonus
+		category_origin_dust_research_speed_mult = @locategorybonus
+		category_biology_research_speed_mult = @subcategorybonus
 	}
     randomized = yes
 	requires_traits = {
@@ -248,7 +250,9 @@ leader_trait_lo_expertise_alteration = {
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
-		category_sanctum_of_alteration_research_speed_mult = @categorybonus
+		category_sanctum_of_alteration_research_speed_mult = @locategorybonus
+		category_materials_research_speed_mult = @subcategorybonus
+		category_industry_research_speed_mult = @subcategorybonus
 	}
     randomized = yes
 	requires_traits = {
@@ -266,7 +270,9 @@ leader_trait_lo_expertise_AGS = {
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
-		category_AGS_research_speed_mult = @categorybonus
+		category_AGS_research_speed_mult = @locategorybonus
+		category_voidcraft_research_speed_mult = @subcategorybonus
+		category_computing_research_speed_mult = @subcategorybonus
 	}
     randomized = yes
 	requires_traits = {
@@ -277,4 +283,3 @@ leader_trait_lo_expertise_AGS = {
 	leader_trait = { scientist }
 	leader_class = { scientist }
 }
-

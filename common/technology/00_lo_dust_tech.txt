@@ -34,7 +34,17 @@ tech_origin_dust_synthesis_1 = {#合成起源尘1
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 50
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
 	}
 }
 
@@ -60,7 +70,17 @@ tech_origin_dust_synthesis_2 = {#合成起源尘2
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 70
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
 	}
 }
 
@@ -87,14 +107,38 @@ tech_origin_dust_synthesis_3 = {#合成起源尘3
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 120
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_Bioroids_analyze_1 = {#Bioroids解析1
-	cost = @tier2cost1
+	cost = @tier1cost2
 	area = society
-	tier = 2
+	tier = 1
 	category = {
 		origin_dust
 	}
@@ -114,14 +158,38 @@ tech_Bioroids_analyze_1 = {#Bioroids解析1
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 75
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_Bioroids_analyze_2 = {#Bioroids解析2
-	cost = @tier3cost1
+	cost = @tier2cost2
 	area = society
-	tier = 3
+	tier = 2
 	category = {
 		origin_dust
 	}
@@ -141,20 +209,44 @@ tech_Bioroids_analyze_2 = {#Bioroids解析2
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 100
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_rank_up_1 = {#晋升1
-	cost = @tier3cost2
+	cost = @tier2cost1
 	area = society
-	tier = 3
+	tier = 2
 	category = {
 		origin_dust
 	}
 	weight = @lo_normal_weight3
 	prerequisites = {
-		"tech_origin_dust_synthesis_1"
+		"tech_Bioroids_analyze_1"
 	}
 	ai_weight = {
 		factor = 0
@@ -168,14 +260,38 @@ tech_rank_up_1 = {#晋升1
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 90
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_rank_up_2 = {#晋升2
-	cost = @tier4cost1
+	cost = @tier3cost1
 	area = society
-	tier = 4
+	tier = 3
 	is_rare = yes
 	category = {
 		origin_dust
@@ -196,14 +312,38 @@ tech_rank_up_2 = {#晋升2
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 120
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_emotion_system_1 = {#生化人情感系统1
-	cost = @tier5cost1
+	cost = @tier4cost1
 	area = society
-	tier = 5
+	tier = 4
 	is_rare = yes
 	category = {
 		origin_dust
@@ -225,19 +365,43 @@ tech_emotion_system_1 = {#生化人情感系统1
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_emotion_system_2 = {#生化人情感系统2
-	cost = @tier5cost2
+	cost = @tier5cost1
 	area = society
 	tier = 5
 	is_dangerous = yes
 	category = {
 		origin_dust
 	}
-	weight = @lo_rare_weight3
+	weight = @lo_rare_weight1
 	prerequisites = {
 		"tech_emotion_system_1"
 	}
@@ -253,6 +417,30 @@ tech_emotion_system_2 = {#生化人情感系统2
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 2
+			years_passed > 175
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_Bioroids"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }

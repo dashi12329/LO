@@ -21,7 +21,7 @@ tech_find_sanctum_of_alteration = {#寻找万变圣域
 	category = {
 		sanctum_of_alteration
 	}
-	weight = @lo_start_weight2
+	weight = @lo_start_weight1
 	ai_weight = {
 		factor = 0
 	}
@@ -34,21 +34,31 @@ tech_find_sanctum_of_alteration = {#寻找万变圣域
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 50
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
 	}
 }
 
 tech_sanctum_of_alteration_zone_1 = {#万变圣域一塔
-	cost = @tier2cost1
+	cost = @tier1cost2
 	area = society
-	tier = 2
+	tier = 1
 	category = {
 		sanctum_of_alteration
 	}
     prerequisites = {
 		"tech_find_sanctum_of_alteration"
 	}
-	weight = @lo_normal_weight1
+	weight = @lo_start_weight3
 	ai_weight = {
 		factor = 0
 	}
@@ -61,21 +71,35 @@ tech_sanctum_of_alteration_zone_1 = {#万变圣域一塔
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 75
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			#factor = 2
+			#has_trait = "aiyou" 还没设计
+		}
 	}
 }
 
 tech_sanctum_of_alteration_zone_2 = {#万变圣域二塔
-	cost = @tier3cost1
+	cost = @tier2cost2
 	area = society
-	tier = 3
+	tier = 2
 	category = {
 		sanctum_of_alteration
 	}
     prerequisites = {
 		"tech_sanctum_of_alteration_zone_1"
 	}
-	weight = @lo_normal_weight2
+	weight = @lo_normal_weight1
 	ai_weight = {
 		factor = 0
 	}
@@ -88,14 +112,38 @@ tech_sanctum_of_alteration_zone_2 = {#万变圣域二塔
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 100
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_sanctum_of_alteration_zone_3 = {#万变圣域三塔
-	cost = @tier4cost2
+	cost = @tier3cost2
 	area = society
-	tier = 4
+	tier = 3
 	is_rare = yes
 	category = {
 		sanctum_of_alteration
@@ -116,26 +164,50 @@ tech_sanctum_of_alteration_zone_3 = {#万变圣域三塔
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			#factor = 1.5
+			#years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_alternium_refine = {#粗矿精炼
-	cost = @tier3cost1
+	cost = @tier1cost2
 	area = engineering
-	tier = 3
+	tier = 1
 	category = {
 		sanctum_of_alteration
 	}
     prerequisites = {
 		"tech_sanctum_of_alteration_zone_1"
 	}
-	weight = @lo_rare_weight1
+	weight = @lo_normal_weight2
 	ai_weight = {
 		factor = 0
 	}
 	is_reverse_engineerable = no
-	#gateway = 
+	gateway = alternium_apply #矿应用之道
 	modifier = {#增加万变圣域job的矿产量
 	    planet_jobs_alterium_produces_mult = 0.5
 	}
@@ -143,27 +215,65 @@ tech_alternium_refine = {#粗矿精炼
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 90
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+                has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_process_refined_alternium = {#细矿加工
-	cost = @tier3cost2
+	cost = @tier2cost2
 	area = engineering
-	tier = 3
+	tier = 2
 	is_rare = yes
+	gateway = alternium_apply #矿应用之道
 	category = {
 		sanctum_of_alteration
 	}
     prerequisites = {
 		"tech_alternium_refine"
 	}
-	weight = @lo_rare_weight1
+	weight = @lo_normal_weight3
 	ai_weight = {
 		factor = 0
 	}
 	is_reverse_engineerable = no
-	#gateway = 
 	modifier = {#增加万变圣域job的矿产量
 	    planet_jobs_alterium_produces_mult = 0.5
 	}
@@ -171,14 +281,52 @@ tech_process_refined_alternium = {#细矿加工
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 110
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+                has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_alternium_analyze_1 = {#矿解析1
-	cost = @tier4cost2
+	cost = @tier2cost3
 	area = physics
-	tier = 4
+	tier = 2
 	category = {
 		sanctum_of_alteration
 	}
@@ -187,12 +335,11 @@ tech_alternium_analyze_1 = {#矿解析1
 		"tech_alternium_refine"
 		"tech_sanctum_of_alteration_zone_2"
 	}
-	weight = @lo_rare_weight2
+	weight = @lo_normal_weight3
 	ai_weight = {
 		factor = 0
 	}
 	is_reverse_engineerable = no
-	#gateway = 
 	modifier = {#解锁建筑矿物研究所
 	    
 	}
@@ -200,14 +347,45 @@ tech_alternium_analyze_1 = {#矿解析1
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 120
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_alternium_analyze_2 = {#矿解析2
-	cost = @tier4cost3
+	cost = @tier3cost3
 	area = physics
-	tier = 4
+	tier = 3
 	is_rare = yes
 	category = {
 		sanctum_of_alteration
@@ -216,7 +394,7 @@ tech_alternium_analyze_2 = {#矿解析2
     prerequisites = {
 		"tech_alternium_analyze_1"
 	}
-	weight = @lo_rare_weight3
+	weight = @lo_rare_weight1
 	ai_weight = {
 		factor = 0
 	}
@@ -228,14 +406,45 @@ tech_alternium_analyze_2 = {#矿解析2
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_alternium_apply_1 = {#矿应用1
-	cost = @tier4cost1
+	cost = @tier3cost2
 	area = physics
-	tier = 4
+	tier = 3
 	is_dangerous = yes
 	category = {
 		sanctum_of_alteration
@@ -245,7 +454,7 @@ tech_alternium_apply_1 = {#矿应用1
 		"tech_alternium_analyze_2"
 		"tech_process_refined_alternium"
 	}
-	weight = @lo_precious_weight1
+	weight = @lo_rare_weight1
 	ai_weight = {
 		factor = 0
 	}
@@ -257,14 +466,45 @@ tech_alternium_apply_1 = {#矿应用1
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_alternium_apply_2 = {#矿应用2
-	cost = @tier5cost1
+	cost = @tier3cost3
 	area = physics
-	tier = 5
+	tier = 3
 	is_dangerous = yes
 	category = {
 		sanctum_of_alteration
@@ -273,7 +513,7 @@ tech_alternium_apply_2 = {#矿应用2
     prerequisites = {
 		"tech_alternium_apply_1"
 	}
-	weight = @lo_precious_weight1
+	weight = @lo_rare_weight2
 	ai_weight = {
 		factor = 0
 	}
@@ -285,14 +525,59 @@ tech_alternium_apply_2 = {#矿应用2
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 175
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
 
 tech_alternium_apply_3 = {#矿应用3
-	cost = @tier5cost2
+	cost = @tier4cost2
 	area = physics
-	tier = 5
+	tier = 4
 	is_dangerous = yes
 	category = {
 		sanctum_of_alteration
@@ -301,7 +586,7 @@ tech_alternium_apply_3 = {#矿应用3
     prerequisites = {
 		"tech_alternium_apply_2"
 	}
-	weight = @lo_precious_weight1
+	weight = @lo_rare_weight3
 	ai_weight = {
 		factor = 0
 	}
@@ -313,6 +598,51 @@ tech_alternium_apply_3 = {#矿应用3
 		#is_ai = no
 	}
 	weight_modifier = {
-		#一个与Bioroids相关的领袖特质（还未制作）
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_alteration"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
 	}
 }
