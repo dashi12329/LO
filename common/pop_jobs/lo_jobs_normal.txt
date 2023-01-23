@@ -223,6 +223,7 @@ alternium_tester = {
 		produces = {
 			energy = 5
 			physics_research = 5
+			unity = 5
 		}
 		upkeep = {
 			consumer_goods = 2
@@ -232,7 +233,7 @@ alternium_tester = {
 	planet_modifier = {	
 	}
 	pop_modifier = {
-		happiness = -0.1
+		lo_pop_happiness = -0.1
 	} 
 	weight = {
 		weight = 20

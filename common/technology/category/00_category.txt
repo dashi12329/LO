@@ -19,7 +19,7 @@ charge = {#获取罐头的相关科技
 	icon = "gfx/interface/icons/technologies/charge.png"
 }
 
-origin_dust = {#起源尘、解析Bioroids相关科技
+Bioroids = {#起源尘、解析Bioroids相关科技
 	#icon = 
 }
 

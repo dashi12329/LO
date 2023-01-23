@@ -225,13 +225,14 @@ leader_trait_lo_SS_general = {
 #科学家技术特质##############################
 @locategorybonus = 0.15
 @subcategorybonus = 0.1
+
 leader_trait_lo_expertise_Bioroids = {
 	cost = 1
 	modification= no
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
-		category_origin_dust_research_speed_mult = @locategorybonus
+		category_Bioroids_research_speed_mult = @locategorybonus
 		category_biology_research_speed_mult = @subcategorybonus
 	}
     randomized = yes

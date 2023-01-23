@@ -1,0 +1,13 @@
+请将整个文件夹命名为LO
+有两种方法加载这个mod：
+
+1.P社默认的mod文件夹在C盘/Users（用户）/（你的用户名）/Documents（文档）/Paradox Interactive/Stellaris/mod
+把这个mod的文件夹命名为LO后放到上述mod文件夹里，
+然后右键这个mod的descriptor.mod用记事本打开检查path是否一致，不一致的话请按照你的电脑进行修改
+主要修改内容为用户名
+
+2.打开群星启动器、左侧所有已安装mod、右上点上传mod，然后选择创建mod，名称版本随便起，目录写LO，
+创建后把这个mod的所有东西复制过来（目录跟上面一样），复制到descriptor.mod的时候选择跳过
+
+
+注意是mod文件夹里点开LO文件夹就应该是common events等文件夹，不是mod/LO/LO!!!!!

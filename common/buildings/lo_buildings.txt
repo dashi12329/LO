@@ -149,7 +149,7 @@ lo_building_alternium_institute = {
 	#upgrades = {
 	#}
 	prerequisites = {
-		"tech_alternium_analyze_1"
+		"tech_alternium_analyze_2"
 	}
 	allow = {
 		always = yes
