@@ -3,6 +3,6 @@ on_game_start_country = {
                              lo_origin.1     
                              lo_origin.2
                              lo_origin.3
-                             lo_origin.4         
+                             lo_origin.4       
                }
 }

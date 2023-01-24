@@ -161,7 +161,7 @@ ee = {
 ################
 factory_girl = {
 	category = worker
-	possible_precalc = can_fill_wroker_job
+	possible_precalc = can_fill_worker_job
 	resources = {
 		#category = planet_workers
 		produces = {

@@ -1,0 +1,148 @@
+civic_lo_horizon = { #地平线
+	#icon = ""
+	description = "civic_tooltip_lo_horizon_effects"
+	modification = no
+	potential = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+	}
+	possible = {
+		authority = {
+			value = auth_lo_1
+		}
+		#ethics = {
+		#	NOR = {
+		#		text = civic_tooltip_not_authoritarian
+		#		value = ethic_authoritarian
+		#		value = ethic_fanatic_authoritarian
+		#	}
+		#}
+		civics = {
+			NOR = {
+				value = civic_lo_project_battle_maid
+				value = civic_lo_sky_knights
+			}
+		}
+	}
+	random_weight = {
+		base = 0
+	}
+	modifier = {
+		#starbase_shipyard_build_cost_mult = -0.2
+	}
+}
+
+civic_lo_sky_knights = { #天空骑士
+	#icon = ""
+	description = "civic_tooltip_lo_sky_knights_effects"
+	modification = no
+	potential = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+	}
+	possible = {
+		authority = {
+			value = auth_lo_1
+		}
+		#ethics = {
+		#	NOR = {
+		#		text = civic_tooltip_not_authoritarian
+		#		value = ethic_authoritarian
+		#		value = ethic_fanatic_authoritarian
+		#	}
+		#}
+		civics = {
+			NOR = {
+				value = civic_lo_horizon
+				value = civic_lo_project_battle_maid
+			}
+		}
+	}
+	random_weight = {
+		base = 0
+	}
+	modifier = {
+		#starbase_building_build_speed_mult = 0.2
+	}
+}
+
+civic_lo_project_battle_maid = { #战斗女仆
+	#icon = ""
+	description = "civic_tooltip_lo_project_battle_maid_effects"
+	modification = no
+	potential = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+	}
+	possible = {
+		authority = {
+			value = auth_lo_1
+		}
+		#ethics = {
+		#	NOR = {
+		#		text = civic_tooltip_not_authoritarian
+		#		value = ethic_authoritarian
+		#		value = ethic_fanatic_authoritarian
+		#	}
+		#}
+		civics = {
+			NOR = {
+				value = civic_lo_horizon
+				value = civic_lo_sky_knights
+			}
+		}
+	}
+	random_weight = {
+		base = 0
+	}
+	modifier = {
+		#
+	}
+}
+
+#####未启用###############
+
+#civic_lo_steel_line = { #钢铁战线
+#	#icon = ""
+#	modification = no
+#	potential = {
+#		ethics = {
+#			NOT = {
+#				value = ethic_gestalt_consciousness
+#			}
+#		}
+#	}
+#	possible = {
+#		authority = {
+#			value = auth_lo_1
+#		}
+#		#ethics = {
+#		#	NOR = {
+#		#		text = civic_tooltip_not_authoritarian
+#		#		value = ethic_authoritarian
+#		#		value = ethic_fanatic_authoritarian
+#		#	}
+#		#}
+#		civics = {
+#			NOR = {
+#				value = civic_lo_horizon
+#				value = civic_lo_horizon
+#			}
+#		}
+#	}
+#	random_weight = {
+#		base = 0
+#	}
+#	modifier = {
+#		starbase_building_build_speed_mult = 0.2
+#	}
+#}

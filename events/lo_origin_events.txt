@@ -20,73 +20,75 @@ country_event = {             #开局生成
                         add_building = lo_building_Ocra_base #添加建筑虎鲸号基地
                                 }
                         }
-                }
+}
 
-country_event = {#地平线阵营特质的开局自带特殊建筑
+#country_event = {#模板，开局检测某个特质
+#        id = lo_origin.2
+#        title = lo_origin.2.name
+#        desc = lo_origin.2.desc
+#        is_triggered_only = yes
+#        hide_window = yes
+#        immediate = {
+#                if = {
+#                        limit = {
+#                                species = {
+#                                        has_trait = trait_horizon
+#                                }
+#                        }
+#                        capital_scope = {
+#                                add_building = lo_building_horizon_cafe
+#                        }
+#                }
+#                else = {
+#                #nothing
+#                }
+#        }
+#}
+
+country_event = {#地平线理念的开局送建筑
         id = lo_origin.2
-        title = lo_origin.2.name
-        desc = lo_origin.2.desc
+        #title = lo_origin.2.name
+        #desc = lo_origin.2.desc
         is_triggered_only = yes
         hide_window = yes
-        immediate = {
-                if = {
-                        limit = {
-                                species = {
-                                        has_trait = trait_horizon
-                                }
-                        }
-                        capital_scope = {
-                                add_building = lo_building_horizon_cafe
-                        }
-                }
-                else = {
-                #nothing
-                }
+        trigger = {
+                has_civic = civic_lo_horizon
         }
+        immediate = {
+                capital_scope = {
+                        add_building = lo_building_horizon_cafe
+                        }
+                }
 }
 
-country_event = {#天空骑士阵营特质的开局自带特殊建筑
+country_event = {#天空骑士理念的开局测试
         id = lo_origin.3
-        title = lo_origin.3.name
-        desc = lo_origin.3.desc
+        #title = lo_origin.3.name
+        #desc = lo_origin.3.desc
         is_triggered_only = yes
         hide_window = yes
-        immediate = {
-                if = {
-                        limit = {
-                                species = {
-                                        has_trait = trait_sky_knights
-                                }
-                        }
-                        capital_scope = {
-                                add_building = lo_building_sky_knights_stage
-                        }
-                }
-                else = {
-                #nothing
-                }
+        trigger = {
+                has_civic = civic_lo_sky_knights
         }
+        immediate = {
+                capital_scope = {
+                        add_building = lo_building_sky_knights_stage
+                        }
+                }
 }
 
-country_event = {#战斗女仆阵营特质的开局自带特殊建筑
+country_event = {#战斗女仆理念的开局测试
         id = lo_origin.4
-        title = lo_origin.4.name
-        desc = lo_origin.4.desc
+        #title = lo_origin.4.name
+        #desc = lo_origin.4.desc
         is_triggered_only = yes
         hide_window = yes
-        immediate = {
-                if = {
-                        limit = {
-                                species = {
-                                        has_trait = trait_project_battle_maid
-                                }
-                        }
-                        capital_scope = {
-                                add_building = lo_building_maid_cafe
-                        }
-                }
-                else = {
-                #nothing
-                }
+        trigger = {
+                has_civic = civic_lo_project_battle_maid
         }
+        immediate = {
+                capital_scope = {
+                        add_building = lo_building_maid_cafe
+                        }
+                }
 }

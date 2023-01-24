@@ -1,0 +1,32 @@
+auth_lo_1 = {
+	election_term_years = 50
+	election_type = oligarchic
+	can_have_emergency_elections = yes
+	emergency_election_cost = 100
+	max_election_candidates = 10
+	can_reform = no
+	has_agendas = yes
+	random_weight = {
+		base = 0
+	}
+	country_modifier = {
+		empire_size_penalty_mult = -0.10
+		pop_demotion_time_mult = -1.0
+		leaders_upkeep_mult = -0.5
+	}
+	possible = {
+		species_archetype = {
+			value = LO
+		}
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_slaver_guilds
+			}
+		}
+	}
+}

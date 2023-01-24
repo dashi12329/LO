@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ civic_lo_horizon:0 "地平线部队"
+ civic_lo_horizon_desc:0 ""
+ civic_tooltip_lo_horizon_effects:1 "在游戏开始时首都星球会拥有一个独特建筑£building£ §Y地平线咖啡厅§!（无法通过其他方式获得）\n拥有§Y独特的事件§!（还在制作中）"
+ civic_lo_sky_knights:0 "天空骑士部队"
+ civic_lo_sky_knights_desc:0 ""
+ civic_tooltip_lo_sky_knights_effects:1 "在游戏开始时首都星球会拥有一个独特建筑£building£ §Y群星之夜的舞台§!（无法通过其他方式获得）\n拥有§Y独特的事件§!（还在制作中）"
+ civic_lo_project_battle_maid:0 "战斗女仆部队"
+ civic_lo_project_battle_maid_desc:0 ""
+ civic_tooltip_lo_project_battle_maid_effects:1 "在游戏开始时首都星球会拥有一个独特建筑£building£ §Y女仆咖啡厅§!（无法通过其他方式获得）\n拥有§Y独特的事件§!（还在制作中）"

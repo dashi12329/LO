@@ -145,111 +145,112 @@ trait_supporter = {
                 }
 }
 
-#阵营特性
+#额外模块特性
 
+#原阵营特性移到理念
 #钢铁战线
-trait_steel_line = {
-                cost = 0
-                icon = "gfx/interface/icons/traits/steel_line.png"
-                potential_crossbreeding_chance = 0
-                opposites = { "trait_sky_knights" "trait_horizon" "trait_companion_series"
- "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
-	#improves_leaders = yes
-	randomized = no
-	species_possible_remove = {
-		always = no
-	}
-	advanced_trait = no
-	allowed_archetypes = {
-		LO
-	}
-                modifier = {
-                                starbase_building_build_speed_mult = 0.2
-                }
-}
+#trait_steel_line = {
+#                cost = 0
+#                icon = "gfx/interface/icons/traits/steel_line.png"
+#                potential_crossbreeding_chance = 0
+#                opposites = { "trait_sky_knights" "trait_horizon" "trait_companion_series"
+# "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
+#	#improves_leaders = yes
+#	randomized = no
+#	species_possible_remove = {
+#		always = no
+#	}
+#	advanced_trait = no
+#	allowed_archetypes = {
+#		LO
+#	}
+#                modifier = {
+#                                starbase_building_build_speed_mult = 0.2
+#                }
+#}
 
 #天空骑士
-trait_sky_knights = {
-       cost = 0
-       icon = "gfx/interface/icons/traits/sky_knights.png"
-       potential_crossbreeding_chance = 0
-       opposites = { "trait_steel_line" "trait_horizon" "trait_companion_series"
- "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
-	randomized = no
-	species_possible_remove = {
-		always = no
-	}
-	advanced_trait = no
-	allowed_archetypes = {
-		LO
-	}
-                modifier = {
-		starbase_shipyard_build_speed_mult = 0.2
-                                #特殊建筑（群星舞台）
-                }
-}
+#trait_sky_knights = {
+#       cost = 0
+#       icon = "gfx/interface/icons/traits/sky_knights.png"
+#       potential_crossbreeding_chance = 0
+#       opposites = { "trait_steel_line" "trait_horizon" "trait_companion_series"
+# "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
+#	randomized = no
+#	species_possible_remove = {
+#		always = no
+#	}
+#	advanced_trait = no
+#	allowed_archetypes = {
+#		LO
+#	}
+#                modifier = {
+#		starbase_shipyard_build_speed_mult = 0.2
+#                                #特殊建筑（群星舞台）
+#                }
+#}
 
 #地平线
-trait_horizon = {
-       cost = 0
-       icon = "gfx/interface/icons/traits/horizon.png"
-       potential_crossbreeding_chance = 0
-       opposites = { "trait_steel_line" "trait_sky_knights" "trait_companion_series" 
-"trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
-	randomized = no
-	species_possible_remove = {
-		always = no
-	}
-	advanced_trait = no
-	allowed_archetypes = {
-		LO
-	}
-                modifier = {
-		starbase_shipyard_build_cost_mult = -0.2
-                                #特殊建筑（地平线咖啡厅）
-                }
-}
+#trait_horizon = {
+#       cost = 0
+#       icon = "gfx/interface/icons/traits/horizon.png"
+#       potential_crossbreeding_chance = 0
+#       opposites = { "trait_steel_line" "trait_sky_knights" "trait_companion_series" 
+#"trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
+#	randomized = no
+#	species_possible_remove = {
+#		always = no
+#	}
+#	advanced_trait = no
+#	allowed_archetypes = {
+#		LO
+#	}
+#               modifier = {
+#		starbase_shipyard_build_cost_mult = -0.2
+#                                #特殊建筑（地平线咖啡厅）
+#                }
+#}
 
 #伴侣系列
-trait_companion_series = {
-       cost = 0
-       icon = "gfx/interface/icons/traits/companion_series.png"
-       potential_crossbreeding_chance = 0
-       opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon"
- "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
-	randomized = no
-	species_possible_remove = {
-		always = no
-	}
-	advanced_trait = no
-	allowed_archetypes = {
-		LO
-	}
-                modifier = {
-					pop_happiness = 0.15
-					#加个特殊建筑？
-                }
-}
+#trait_companion_series = {
+#       cost = 0
+#       icon = "gfx/interface/icons/traits/companion_series.png"
+#       potential_crossbreeding_chance = 0
+#       opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon"
+# "trait_project_battle_maid" "trait_anger_of_the_horde" "trait_d_entertainment"}
+#	randomized = no
+#	species_possible_remove = {
+#		always = no
+#	}
+#	advanced_trait = no
+#	allowed_archetypes = {
+#		LO
+#	}
+#                modifier = {
+#					pop_happiness = 0.15
+#					#加个特殊建筑？
+#                }
+#}
 
 #战斗女仆
-trait_project_battle_maid = {
-       cost = 0
-       icon = "gfx/interface/icons/traits/project_battle_maid.png"
-       potential_crossbreeding_chance = 0
-       opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon" "trait_companion_series"
- "trait_anger_of_the_horde" "trait_d_entertainment"}
-	randomized = no
-	species_possible_remove = {
-		always = no
-	}
-	advanced_trait = no
-	allowed_archetypes = {
-		LO
-	}
-                modifier = {
-                        #特殊建筑（女仆咖啡厅）
-                }
-}
+#trait_project_battle_maid = {
+#       cost = 0
+#       icon = "gfx/interface/icons/traits/project_battle_maid.png"
+#       potential_crossbreeding_chance = 0
+#       opposites = { "trait_steel_line" "trait_sky_knights" "trait_horizon" "trait_companion_series"
+# "trait_anger_of_the_horde" "trait_d_entertainment"}
+#	randomized = no
+#	species_possible_remove = {
+#		always = no
+#	}
+#	advanced_trait = no
+#	allowed_archetypes = {
+#		LO
+#	}
+#                modifier = {
+#                        #特殊建筑（女仆咖啡厅）
+#                }
+#}
 
 #部落之怒（暂时废除）
 #trait_anger_of_the_horde = {
