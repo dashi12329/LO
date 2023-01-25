@@ -87,7 +87,7 @@ lo_building_origin_dust_factory = {
 		}
 	}
 	planet_modifier = {
-		job_dust_worker_add = 2
+		job_dust_worker_add = 4
 	}
 	ai_weight = {
 		weight = 0

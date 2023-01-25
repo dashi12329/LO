@@ -18,7 +18,7 @@ horizon_maid = {
 		}
 	}
 	weight = {
-		weight = 20
+		weight = 100
 	}
 }
 
@@ -44,7 +44,7 @@ sky_knights_idol = {
 		planet_amenities_add = 3
 	}
 	weight = {
-		weight = 20
+		weight = 100
 	}
 }
 
@@ -70,7 +70,7 @@ maid = {
 		planet_amenities_add = 2
 	}
 	weight = {
-		weight = 20
+		weight = 100
 	}
 }
 
@@ -126,7 +126,7 @@ dust_worker = {
 		
 	}
 	weight = {
-		weight = 50
+		weight = 60
 	}
 }
 
@@ -152,7 +152,7 @@ ee = {
 		
 	}
 	weight = {
-		weight = 50
+		weight = 100
 	}
 }
 
@@ -176,7 +176,7 @@ factory_girl = {
 		
 	}
 	weight = {
-		weight = 50
+		weight = 60
 	}
 }
 
@@ -203,7 +203,7 @@ alternium_researcher = {
 		
 	}
 	weight = {
-		weight = 50
+		weight = 100
 	}
 }
 
@@ -215,11 +215,11 @@ alternium_tester = {
 	possible_precalc = {
 		OR = {
 			can_fill_worker_job = yes
-			can_fill_specialist = yes
+			#can_fill_specialist = yes
 		}
 	}
 	resources = {
-		#category = planet_workers
+		category = planet_workers
 		produces = {
 			energy = 5
 			physics_research = 5
@@ -231,11 +231,12 @@ alternium_tester = {
 		}
 	}
 	planet_modifier = {	
+
 	}
 	pop_modifier = {
-		lo_pop_happiness = -0.1
+		#lo_pop_happiness = -0.1
 	} 
 	weight = {
-		weight = 20
+		weight = 50
 	}
 }

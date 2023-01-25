@@ -1,5 +1,5 @@
 civic_lo_horizon = { #地平线
-	#icon = ""
+	icon = "gfx/interface/icons/governments/civics/civic_lo_horizon.png"
 	description = "civic_tooltip_lo_horizon_effects"
 	modification = no
 	potential = {
@@ -36,7 +36,7 @@ civic_lo_horizon = { #地平线
 }
 
 civic_lo_sky_knights = { #天空骑士
-	#icon = ""
+	icon = "gfx/interface/icons/governments/civics/civic_lo_sky_knights.png"
 	description = "civic_tooltip_lo_sky_knights_effects"
 	modification = no
 	potential = {
@@ -73,7 +73,7 @@ civic_lo_sky_knights = { #天空骑士
 }
 
 civic_lo_project_battle_maid = { #战斗女仆
-	#icon = ""
+	icon = "gfx/interface/icons/governments/civics/civic_lo_project_battle_maid.png"
 	description = "civic_tooltip_lo_project_battle_maid_effects"
 	modification = no
 	potential = {

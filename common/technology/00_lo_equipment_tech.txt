@@ -35,7 +35,9 @@ tech_defense_optimization_OS = {#防御OS
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#解锁舰船装备防御OS，AGS指挥系统的前置科技
-	    
+	    ship_evasion_mult = 0.2
+		ship_shield_mult = 0.1
+		#ship_armor_mult = 0.1
 	}
 	potential = {
 		#is_ai = no
@@ -94,7 +96,8 @@ tech_attack_optimization_OS = {#攻击OS
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#解锁舰船装备攻击OS，最优化火控系统的前置科技
-	    
+	    ship_fire_rate_mult = 0.1
+		ship_weapon_range_mult = 0.1
 	}
 	potential = {
 		#is_ai = no
@@ -154,7 +157,13 @@ tech_support_optimization_OS = {#辅助OS
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#解锁舰船装备辅助OS，AGS艾达的前置科技
-	    
+	    ship_winddown_mult = -0.2
+		ship_windup_mult = -0.2
+		ship_emergency_ftl_mult = -0.2
+		ship_shield_damage_mult = 0.1
+		ship_armor_damage_mult = 0.1
+		ship_hull_damage_mult = 0.1
+		ship_speed_mult = 0.1
 	}
 	potential = {
 		#is_ai = no
@@ -223,7 +232,9 @@ tech_AGS_command_system = {#AGS指挥系统
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，辅助OS、AGS艾达的前置科技
-	    
+	    ship_accuracy_mult = 0.1
+	    ship_shield_penetration_mult = 0.1
+		ship_armor_penetration_mult = 0.1
 	}
 	potential = {
 		#is_ai = no
@@ -283,7 +294,9 @@ tech_large_capacity_generator = {#大型能量产生器
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，粒子加速器、AGS信天翁冰龙闪电鸡的前置科技
-	    
+	    weapon_type_energy_weapon_speed_mult = 0.05
+		weapon_type_energy_weapon_damage_mult = 0.05
+		weapon_type_energy_weapon_fire_rate_mult = 0.05
 	}
 	potential = {
 		#is_ai = no
@@ -343,7 +356,7 @@ tech_heavy_armor_framework = {#复合型装甲
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，AGS要塞特里同暴君的前置科技
-	    
+	    ship_armor_mult = 0.2
 	}
 	potential = {
 		#is_ai = no
@@ -403,7 +416,7 @@ tech_high_power_booster = {#高出力推进器
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，能量转换器、AGS要塞的前置科技
-	    
+	    ship_speed_mult = 0.1
 	}
 	potential = {
 		#is_ai = no
@@ -464,7 +477,9 @@ tech_particle_accelerator = {#粒子加速器
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，复合型能量产生器、引擎超载系统、AGS艾达游隼的前置科技
-	    
+	    weapon_type_energy_weapon_speed_mult = 0.1
+	    weapon_type_energy_weapon_damage_mult = 0.1
+	    weapon_type_energy_weapon_fire_rate_mult = 0.1
 	}
 	potential = {
 		#is_ai = no
@@ -524,7 +539,8 @@ tech_energy_converter = {#能量转换器
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，急速冷却炉、AGS特里同闪电鸡阿福的前置科技
-	    
+	    ship_speed_mult = 0.1
+	    ship_shield_mult = 0.05
 	}
 	potential = {
 		#is_ai = no
@@ -584,7 +600,10 @@ tech_hybrid_strucuture_generator = {#复合型能量产生器
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，AGS暴君的前置科技
-	    
+	    weapon_type_energy_weapon_speed_mult = 0.1
+	    weapon_type_energy_weapon_damage_mult = 0.1
+	    weapon_type_energy_weapon_fire_rate_mult = 0.1
+		ship_shield_mult = 0.1
 	}
 	potential = {
 		#is_ai = no
@@ -644,7 +663,10 @@ tech_gene_aplication_design_ai = {#生物型AI
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，AGS阿福的前置科技
-	    
+	    all_technology_research_speed = 0.05
+		ship_fire_rate_mult = 0.1
+		ship_shield_penetration_mult = 0.2
+		ship_armor_penetration_mult = 0.2
 	}
 	potential = {
 		#is_ai = no
@@ -719,7 +741,11 @@ tech_over_technology_powerpack = {#引擎超载系统
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，AGS特里同要塞冰龙的前置科技
-	    
+	    ship_shield_mult = 0.1
+	    ship_speed_mult = 0.1
+		ship_evasion_mult = 0.1
+		ship_winddown_mult = -0.1
+		ship_windup_mult = -0.1
 	}
 	potential = {
 		#is_ai = no
@@ -779,7 +805,12 @@ tech_multi_tier_rapid_cooler = {#多层急速冷却炉
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#工业修正，AGS冰龙游隼的前置科技
-	    
+	    ship_fire_rate_mult = 0.05
+	    station_gatherers_energy_produces_mult = 0.05
+	    station_gatherers_minerals_produces_mult = 0.05
+		station_gatherers_exotic_gases_produces_mult = 0.05
+		station_gatherers_rare_crystals_produces_mult = 0.05
+		station_gatherers_violatile_produces_mult = 0.05
 	}
 	potential = {
 		#is_ai = no
@@ -840,7 +871,11 @@ tech_multi_weapon_control_system = {#最优化火控系统
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，AGS特里同的前置科技
-	    
+	    ship_accuracy_mult = 0.2
+		ship_fire_rate_mult = 0.1
+		ship_weapon_range_mult = 0.1
+		ship_shield_penetration_mult = 0.2
+		ship_armor_penetration_mult = 0.2
 	}
 	potential = {
 		#is_ai = no

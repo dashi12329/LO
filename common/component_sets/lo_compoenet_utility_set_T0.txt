@@ -1,0 +1,15 @@
+component_set = {
+	key = "LO_SHIPPART_S_SHIELD_T0"
+	icon = GFX_lo_shippart_shield_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_M_SHIELD_T0"
+	icon = GFX_lo_shippart_shield_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_L_SHIELD_T0"
+	icon = GFX_lo_shippart_shield_T0
+	icon_frame = 1
+}

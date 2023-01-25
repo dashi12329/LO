@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_lo_shippart_shield_T0"
+		textureFile = "gfx/interface/icons/ship_parts/lo_shield.dds"
+	}
+}

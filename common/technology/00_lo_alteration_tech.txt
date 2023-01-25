@@ -400,7 +400,7 @@ tech_alternium_analyze_2 = {#矿解析2
 	}
 	is_reverse_engineerable = no
 	modifier = {#矿研究所工作加成
-	    
+	    all_technology_research_speed = 0.05
 	}
 	potential = {
 		#is_ai = no
@@ -460,7 +460,7 @@ tech_alternium_apply_1 = {#矿应用1
 	}
 	is_reverse_engineerable = no
 	modifier = {#许多科技的前置科技，解锁防御专用OS（见equip）
-	    
+	    all_technology_research_speed = 0.05
 	}
 	potential = {
 		#is_ai = no
@@ -519,7 +519,7 @@ tech_alternium_apply_2 = {#矿应用2
 	}
 	is_reverse_engineerable = no
 	modifier = {#许多科技的前置科技，解锁攻击专用OS（见equip）
-	    
+	    all_technology_research_speed = 0.05
 	}
 	potential = {
 		#is_ai = no
@@ -592,7 +592,7 @@ tech_alternium_apply_3 = {#矿应用3
 	}
 	is_reverse_engineerable = no
 	modifier = {#许多科技的前置科技，解锁支援专用OS（见equip）
-	    
+	    all_technology_research_speed = 0.1
 	}
 	potential = {
 		#is_ai = no

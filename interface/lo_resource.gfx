@@ -58,6 +58,6 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_tuna_can_large"
-		textureFile = "gfx/interface/icons/resources/tuna_can_large.dds"
+		textureFile = "gfx/interface/icons/resources/tuna_can_large.png"
 	}
 }

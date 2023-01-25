@@ -1,0 +1,102 @@
+##########
+#装甲和护盾
+##########
+utility_component_template = {
+	key = "lo_shippart_S_shield_T0"
+	size = small
+	icon = GFX_lo_shippart_shield_T0
+	icon_frame = 1
+	power = -55
+	modifier = {
+		ship_armor_add = 0
+		ship_shield_add = 300
+		ship_hull_add = 0
+		ship_hull_regen_add_static = 0		
+		ship_shield_regen_add_static = 2.4
+		ship_armor_regen_add_static = 0		
+		ship_hull_regen_add_perc = 0		
+		ship_armor_regen_add_perc = 0		
+		ship_shield_regen_add_perc = 0
+	}
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 5
+			alloys = 10
+			energy = 15
+		}	
+		upkeep = {							
+			energy = 0.15
+			special_module = 0.01
+		}
+	}
+	prerequisites = {"tech_Albatross"}
+	component_set = "LO_SHIPPART_S_SHIELD_T0"
+}
+
+utility_component_template = {
+	key = "lo_shippart_M_shield_T0"
+	size = medium
+	icon = GFX_lo_shippart_shield_T0
+	icon_frame = 1
+	power = -110
+	modifier = {
+		ship_armor_add = 0
+		ship_shield_add = 700
+		ship_hull_add = 0
+		ship_hull_regen_add_static = 0		
+		ship_shield_regen_add_static = 5.6
+		ship_armor_regen_add_static = 0		
+		ship_hull_regen_add_perc = 0		
+		ship_armor_regen_add_perc = 0		
+		ship_shield_regen_add_perc = 0
+	}
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 10
+			alloys = 20
+			energy = 30
+		}	
+		upkeep = {							
+			energy = 0.3
+			special_module = 0.02
+		}
+	}
+	prerequisites = {"tech_Albatross"}
+	component_set = "LO_SHIPPART_M_SHIELD_T0"
+}
+
+utility_component_template = {
+	key = "lo_shippart_L_shield_T0"
+	size = large
+	icon = GFX_lo_shippart_shield_T0
+	icon_frame = 1
+	power = -220
+	modifier = {
+		ship_armor_add = 0
+		ship_shield_add = 1750
+		ship_hull_add = 0
+		ship_hull_regen_add_static = 0		
+		ship_shield_regen_add_static = 14
+		ship_armor_regen_add_static = 0		
+		ship_hull_regen_add_perc = 0		
+		ship_armor_regen_add_perc = 0		
+		ship_shield_regen_add_perc = 0
+	}
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 20
+			alloys = 40
+			energy = 60
+		}	
+		upkeep = {							
+			energy = 0.6
+			special_module = 0.04
+		}
+	}
+	prerequisites = {"tech_Albatross"}
+	component_set = "LO_SHIPPART_L_SHIELD_T0"
+}
+

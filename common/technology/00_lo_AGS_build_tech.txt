@@ -1,0 +1,503 @@
+@lo_start_weight1 = 150
+@lo_start_weight2 = 130
+@lo_start_weight3 = 110
+
+@lo_normal_weight1 = 95
+@lo_normal_weight2 = 85
+@lo_normal_weight3 = 75
+
+@lo_rare_weight1 = 56
+@lo_rare_weight2 = 48
+@lo_rare_weight3 = 40
+
+@lo_precious_weight1 = 30
+@lo_precious_weight2 = 24
+@lo_precious_weight3 = 18
+######建造AGE#################
+tech_Albatross = {#信天翁
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_defense_optimization_OS"
+		"tech_large_capacity_generator"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Aeda = {#艾达
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_support_optimization_OS"
+		"tech_AGS_command_system"
+		"tech_particle_accelerator"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Roc = {#闪电鸡
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_attack_optimization_OS"
+		"tech_large_capacity_generator"
+		"tech_energy_converter"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Tyrant = {#暴君
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_attack_optimization_OS"
+		"tech_heavy_armor_framework"
+		"tech_hybrid_strucuture_generator"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Mr_Alfred = {#阿福
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_support_optimization_OS"
+		"tech_energy_converter"
+		"tech_gene_aplication_design_ai"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Stronghold = {#要塞
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_defense_optimization_OS"
+		"tech_high_power_booster"
+		"tech_heavy_armor_framework"
+		"tech_over_technology_powerpack"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Glacias = {#冰龙
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_attack_optimization_OS"
+		"tech_large_capacity_generator"
+		"tech_multi_tier_rapid_cooler"
+		"tech_over_technology_powerpack"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Triton = {#特里同
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_attack_optimization_OS"
+		"tech_energy_converter"
+		"tech_heavy_armor_framework"
+		"tech_over_technology_powerpack"
+		"tech_multi_weapon_control_system"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Peregrinus = {#游隼
+	cost = @tier4cost2
+	area = physics
+	tier = 4
+	#is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_rare_weight1
+	prerequisites = {
+		"tech_attack_optimization_OS"
+		"tech_particle_accelerator"
+		"tech_multi_tier_rapid_cooler"
+		"tech_alternium_fusion_thruster"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		#is_ai = no
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 200
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}

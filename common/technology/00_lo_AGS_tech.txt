@@ -210,7 +210,7 @@ tech_AGS_design_1 = {#AGS设计1
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#许多科技的前置科技，解锁AGS指挥系统、大型能量产生器、复合型装甲、高出力推进器（见equip）
-	    
+	    starbase_shipyard_build_cost_mult = -0.1
 	}
 	potential = {
 		#is_ai = no
@@ -269,7 +269,8 @@ tech_AGS_design_2 = {#AGS设计2
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#许多科技的前置科技，解锁粒子加速器、能量转换器、复合型能量产生器、生物型AI（见equip）
-	    
+	    starbase_shipyard_build_cost_mult = -0.1
+		starbase_shipyard_build_speed_mult = 0.1
 	}
 	potential = {
 		#is_ai = no
@@ -328,7 +329,8 @@ tech_AGS_design_3 = {#AGS设计3
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#许多科技的前置科技，解锁引擎超载系统、多层急速冷却炉、最优化火控装置、未知融合引擎（见equip）
-	    
+	    starbase_shipyard_build_cost_mult = -0.15
+		starbase_shipyard_build_speed_mult = 0.15
 	}
 	potential = {
 		#is_ai = no
