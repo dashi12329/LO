@@ -433,12 +433,23 @@ portrait_groups = {
         add = {
             trigger = {
                 leader_class = scientist
+                NOT = {
+                    has_trait = leader_trait_lo_02
+                }
                       }
             portraits = {
                 Deconstructor_Azaz
                 Doctor
                         }
               }
+        add = {
+            trigger = {
+                has_trait = leader_trait_lo_02
+            }
+            portraits = {
+                Labiata
+            }
+        }
         add = {
             trigger = {
                 leader_class = general

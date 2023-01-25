@@ -3,7 +3,6 @@ tags={
 	"Species"
 	"Technologies"
 }
-name="LO Character"
-supported_version="CURRENT GAME VERSION"
-picture = "thumbnail.png"
-path="C:/Users/Administrator/Documents/Paradox Interactive/Stellaris/mod/LO"
+name="Last Origin"
+picture="thumbnail.png"
+supported_version="3.6.1"

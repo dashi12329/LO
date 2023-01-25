@@ -284,3 +284,20 @@ leader_trait_lo_expertise_AGS = {
 	leader_trait = { scientist }
 	leader_class = { scientist }
 }
+########test
+
+leader_trait_lo_02 = {
+	cost = 1
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = yes
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
