@@ -100,3 +100,102 @@ utility_component_template = {
 	component_set = "LO_SHIPPART_L_SHIELD_T0"
 }
 
+utility_component_template = {
+	key = "lo_shippart_S_armor_T0"
+	size = small
+	icon = GFX_lo_shippart_armor_T0
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 350
+		ship_shield_add = 0
+		ship_hull_add = 120
+		ship_hull_regen_add_static = 0		
+		ship_shield_regen_add_static = 0
+		ship_armor_regen_add_static = 0		
+		ship_hull_regen_add_perc = 0		
+		ship_armor_regen_add_perc = 0		
+		ship_shield_regen_add_perc = 0
+	}
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 5
+			alloys = 25
+			energy = 5
+		}	
+		upkeep = {							
+			energy = 0.05
+			special_module = 0.01
+		}
+	}
+	prerequisites = {"tech_Stronghold"}
+	component_set = "LO_SHIPPART_S_ARMOR_T0"
+}
+
+utility_component_template = {
+	key = "lo_shippart_M_armor_T0"
+	size = medium
+	icon = GFX_lo_shippart_armor_T0
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 800
+		ship_shield_add = 0
+		ship_hull_add = 280
+		ship_hull_regen_add_static = 0		
+		ship_shield_regen_add_static = 0
+		ship_armor_regen_add_static = 0		
+		ship_hull_regen_add_perc = 0		
+		ship_armor_regen_add_perc = 0		
+		ship_shield_regen_add_perc = 0
+	}
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 10
+			alloys = 50
+			energy = 10
+		}	
+		upkeep = {							
+			energy = 0.1
+			special_module = 0.02
+		}
+	}
+	prerequisites = {"tech_Stronghold"}
+	component_set = "LO_SHIPPART_M_ARMOR_T0"
+}
+
+utility_component_template = {
+	key = "lo_shippart_L_armor_T0"
+	size = large
+	icon = GFX_lo_shippart_armor_T0
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = 1900
+		ship_shield_add = 0
+		ship_hull_add = 700
+		ship_hull_regen_add_static = 0		
+		ship_shield_regen_add_static = 0
+		ship_armor_regen_add_static = 0		
+		ship_hull_regen_add_perc = 0		
+		ship_armor_regen_add_perc = 0		
+		ship_shield_regen_add_perc = 0
+	}
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 20
+			alloys = 100
+			energy = 20
+		}	
+		upkeep = {							
+			energy = 0.2
+			special_module = 0.04
+		}
+	}
+	prerequisites = {"tech_Stronghold"}
+	component_set = "LO_SHIPPART_L_ARMOR_T0"
+}
+

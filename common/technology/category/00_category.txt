@@ -16,11 +16,11 @@
 
 ####新添加的##########################
 charge = {#获取罐头的相关科技
-	icon = "gfx/interface/icons/technologies/charge.png"
+	icon = "gfx/interface/icons/technologies/charge.dds"
 }
 
 Bioroids = {#起源尘、解析Bioroids相关科技
-	#icon = 
+	icon = "gfx/interface/icons/technologies/Bioroids.dds"
 }
 
 sanctum_of_alteration = {#万变圣域、精矿获取相关科技
@@ -28,7 +28,7 @@ sanctum_of_alteration = {#万变圣域、精矿获取相关科技
 }
 
 AGS = {#AGS、巧克力获取相关科技
-	#icon = 
+	icon = "gfx/interface/icons/technologies/AGS.dds"
 }
 
 ####原有的##########################

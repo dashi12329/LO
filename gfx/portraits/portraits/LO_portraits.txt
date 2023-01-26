@@ -394,7 +394,7 @@ portraits = {
                 Q_Tiequan_NS1 = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Tiequan_NS1.png"}
                 Q_Triaina_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Triaina_N.png"}
                 Q_Triaina_NS1 = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Triaina_NS1.png"}
-                Q_Triton_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Triton_N.png"}
+                #Q_Triton_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Triton_N.png"}
                 Q_Veronica_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Veronica_N.png"}
                 Q_Veronica_NS1 = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Veronica_NS1.png"}
                 Q_Veronica_NS2 = {textureFile = "gfx/models/portraits/Q/TbarIcon_PECS_Veronica_NS2.png"}
@@ -433,23 +433,23 @@ portrait_groups = {
         add = {
             trigger = {
                 leader_class = scientist
-                NOT = {
-                    has_trait = leader_trait_lo_02
-                }
+                #NOT = {
+                #    has_trait = leader_trait_lo_02
+                #}
                       }
             portraits = {
                 Deconstructor_Azaz
                 Doctor
                         }
               }
-        add = {
-            trigger = {
-                has_trait = leader_trait_lo_02
-            }
-            portraits = {
-                Labiata
-            }
-        }
+        #add = {   #测试根据特定特质锁定特定立绘
+        #    trigger = {
+        #        has_trait = leader_trait_lo_02
+        #    }
+        #    portraits = {
+        #        Labiata
+        #    }
+        #}
         add = {
             trigger = {
                 leader_class = general
@@ -861,7 +861,7 @@ portrait_groups = {
                 Q_Tiequan_NS1 
                 Q_Triaina_N 
                 Q_Triaina_NS1 
-                Q_Triton_N
+                #Q_Triton_N
                 Q_Veronica_N 
                 Q_Veronica_NS1 
                 Q_Veronica_NS2 

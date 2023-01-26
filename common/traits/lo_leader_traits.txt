@@ -287,13 +287,13 @@ leader_trait_lo_expertise_AGS = {
 ########test
 
 leader_trait_lo_02 = {
-	cost = 1
+	cost = 0
 	modification= no
 	#icon = ""
 	allowed_archetypes = { LO }
 	modifier = {
 	}
-    randomized = yes
+    randomized = no #测试专用，暂时不启用
 	requires_traits = {
 		trait_lo
 	}

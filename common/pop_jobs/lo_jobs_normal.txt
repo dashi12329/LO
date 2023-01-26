@@ -5,7 +5,7 @@ horizon_maid = {
 	category = specialist
 	#condition_string = SPECIALIST_JOB_TRIGGER
     possible = {
-		has_trait = trait_horizon
+		has_trait = trait_lo
 	}
 	resources = {
 		category = planet_artisans
@@ -29,7 +29,7 @@ sky_knights_idol = {
 	category = specialist
 	#condition_string = SPECIALIST_JOB_TRIGGER
     possible = {
-		has_trait = trait_sky_knights
+		has_trait = trait_lo
 	}
 	resources = {
 		category = planet_artisans
@@ -55,7 +55,7 @@ maid = {
 	category = specialist
 	#condition_string = SPECIALIST_JOB_TRIGGER
     possible = {
-		has_trait = trait_project_battle_maid
+		has_trait = trait_lo
 	}
 	resources = {
 		category = planet_artisans
