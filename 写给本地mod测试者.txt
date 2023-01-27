@@ -1,5 +1,5 @@
 请将整个文件夹命名为LO
-有两种方法加载这个mod：
+有两种方法加载这个本地mod：
 
 1.P社默认的mod文件夹在C盘/Users（用户）/（你的用户名）/Documents（文档）/Paradox Interactive/Stellaris/mod
 把这个mod的文件夹命名为LO后放到上述mod文件夹里，
