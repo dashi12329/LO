@@ -1,0 +1,40 @@
+component_set = {
+	key = "LO_SHIPPART_S_ROC_T0"
+	icon = GFX_lo_shippart_Roc_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_M_ROC_T0"
+	icon = GFX_lo_shippart_Roc_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_L_ROC_T0"
+	icon = GFX_lo_shippart_Roc_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_S_TYRANT_T0"
+	icon = GFX_lo_shippart_Tyrant_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_M_TYRANT_T0"
+	icon = GFX_lo_shippart_Tyrant_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_L_TYRANT_T0"
+	icon = GFX_lo_shippart_Tyrant_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_X_GLACIAS_T0"
+	icon = GFX_lo_shippart_Glacias_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_X_GLACIAS_SKIN"
+	icon = GFX_lo_shippart_Glacias_skin
+	icon_frame = 1
+}

@@ -199,3 +199,7 @@ utility_component_template = {
 	component_set = "LO_SHIPPART_L_ARMOR_T0"
 }
 
+##########
+#配件和能源
+##########
+

@@ -1,0 +1,11 @@
+gov_lo_00 = {
+	ruler_title = adjutant
+	ruler_title_female = adjutant
+	should_force_rename = yes
+	possible = {
+		has_authority = auth_lo_1
+	}
+	weight = {
+		base = 100
+	}
+}

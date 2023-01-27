@@ -12,7 +12,7 @@ origin_lo = {
 		}
 	}
 
-	#description = "origin_tooltip_azur_1_effects"
+	description = "origin_tooltip_lo_effects"
 
 	traits = {
 		trait = trait_lo

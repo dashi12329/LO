@@ -140,7 +140,7 @@ ee = {
 		#category = planet_workers
 		produces = {
 			special_module = 4
-			physics_research = 10
+			#physics_research = 10
 		}
 		upkeep = {
 			energy = 3
@@ -195,7 +195,7 @@ alternium_researcher = {
 		upkeep = {
 			energy = 2
 			minerals = 2
-			alternium = 1
+			#alternium = 1
 			origin_dust = 1
 		}
 	}
@@ -213,16 +213,12 @@ alternium_researcher = {
 alternium_tester = {
 	category = worker
 	possible_precalc = {
-		OR = {
-			can_fill_worker_job = yes
-			#can_fill_specialist = yes
-		}
+		can_fill_worker_job = yes
 	}
 	resources = {
-		category = planet_workers
+		#category = planet_workers
 		produces = {
-			energy = 5
-			physics_research = 5
+			energy = 3
 			unity = 5
 		}
 		upkeep = {

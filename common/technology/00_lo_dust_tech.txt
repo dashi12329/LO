@@ -31,7 +31,7 @@ tech_origin_dust_synthesis_1 = {#合成起源尘1
 
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -67,7 +67,7 @@ tech_origin_dust_synthesis_2 = {#合成起源尘2
 	    planet_jobs_origin_dust_produces_add = 2
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -104,7 +104,7 @@ tech_origin_dust_synthesis_3 = {#合成起源尘3
 	    planet_jobs_origin_dust_produces_add = 3
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -155,7 +155,7 @@ tech_Bioroids_analyze_1 = {#Bioroids解析1
 
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -206,7 +206,7 @@ tech_Bioroids_analyze_2 = {#Bioroids解析2
 
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -257,7 +257,7 @@ tech_rank_up_1 = {#晋升1
 
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -309,7 +309,7 @@ tech_rank_up_2 = {#晋升2
 
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -362,7 +362,7 @@ tech_emotion_system_1 = {#生化人情感系统1
 	    LO_pop_happiness = 0.1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -414,7 +414,7 @@ tech_emotion_system_2 = {#生化人情感系统2
 	    LO_pop_happiness = 0.1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {

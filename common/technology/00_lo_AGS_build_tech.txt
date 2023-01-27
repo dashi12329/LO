@@ -35,7 +35,7 @@ tech_Albatross = {#信天翁
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -88,7 +88,7 @@ tech_Aeda = {#艾达
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -148,7 +148,7 @@ tech_Roc = {#闪电鸡
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -201,7 +201,7 @@ tech_Tyrant = {#暴君
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -254,7 +254,7 @@ tech_Mr_Alfred = {#阿福
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -308,7 +308,7 @@ tech_Stronghold = {#要塞
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -362,7 +362,7 @@ tech_Glacias = {#冰龙
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -393,6 +393,52 @@ tech_Glacias = {#冰龙
 	}
 }
 
+tech_Glacias_skin = {#冰龙升级
+	cost = @tier5cost3
+	area = society
+	tier = 5
+
+	is_dangerous = yes
+	category = {
+		charge
+	}
+	weight = 0 #@lo_precious_weight1
+	prerequisites = {
+		"tech_Glacias"
+		"tech_charge_4"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		has_authority = auth_lo_1
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 250
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = spociety
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
 tech_Triton = {#特里同
 	cost = @tier4cost2
 	area = physics
@@ -417,7 +463,7 @@ tech_Triton = {#特里同
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -471,7 +517,7 @@ tech_Peregrinus = {#游隼
 	modifier = {	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -496,6 +542,57 @@ tech_Peregrinus = {#游隼
 			factor = 1.2
 			research_leader = {
 				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Peregrinus_transform = {#游隼升级
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_precious_weight1
+	prerequisites = {
+		"tech_Peregrinus"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		has_authority = auth_lo_1
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 250
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = engineering
 				has_trait = "leader_trait_lo_SS_scientist"
 			}
 		}

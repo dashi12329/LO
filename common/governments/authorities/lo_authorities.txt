@@ -23,10 +23,13 @@ auth_lo_1 = {
 				value = ethic_gestalt_consciousness
 			}
 		}
-		civics = {
-			NOT = {
-				value = civic_slaver_guilds
-			}
+		#civics = {
+		#	NOT = {
+		#		value = civic_slaver_guilds
+		#	}
+		#}
+		origin = {
+			value = origin_lo
 		}
 	}
 }

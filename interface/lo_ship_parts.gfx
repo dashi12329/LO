@@ -7,4 +7,20 @@ spriteTypes = {
 		name = "GFX_lo_shippart_armor_T0"
 		textureFile = "gfx/interface/icons/ship_parts/lo_armor.dds"
 	}
+	spriteType = {
+		name = "GFX_lo_shippart_Roc_T0"
+		textureFile = "gfx/interface/icons/ship_parts/lo_Roc.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_Tyrant_T0"
+		textureFile = "gfx/interface/icons/ship_parts/lo_Tyrant.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_Glacias_T0"
+		textureFile = "gfx/interface/icons/ship_parts/lo_Glacias.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_Glacias_skin"
+		textureFile = "gfx/interface/icons/ship_parts/lo_Glacias_skin.png"
+	}
 }

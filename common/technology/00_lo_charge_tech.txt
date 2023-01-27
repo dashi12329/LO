@@ -36,7 +36,7 @@ tech_charge_1 = {#小月卡
 		country_base_tuna_can_produces_add = 1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		#一个与氪金相关的领袖特质（还未制作）
@@ -68,7 +68,7 @@ tech_charge_2 = {#大月卡
 		country_base_tuna_can_produces_add = 3
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		#一个与氪金相关的领袖特质（还未制作）
@@ -100,7 +100,7 @@ tech_charge_3 = {#通行证
 		country_base_tuna_can_produces_add = 5
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		#一个与氪金相关的领袖特质（还未制作）
@@ -132,7 +132,7 @@ tech_charge_4 = {#氪金
 		country_base_tuna_can_produces_add = 10
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		#一个与氪金相关的领袖特质（还未制作）

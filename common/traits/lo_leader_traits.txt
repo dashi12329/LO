@@ -6,7 +6,7 @@ leader_trait_lo_S_ruler = {
 	prerequisites = {
 		"tech_rank_up_1"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/S.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		country_edict_fund_add = 10
@@ -28,7 +28,7 @@ leader_trait_lo_S_governor = {
 	prerequisites = {
 		"tech_rank_up_1"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/S.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		planet_army_build_speed_mult = 0.1
@@ -50,7 +50,7 @@ leader_trait_lo_S_scientist = {
 	prerequisites = {
 		"tech_rank_up_1"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/S.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		all_technology_research_speed = 0.1
@@ -72,7 +72,7 @@ leader_trait_lo_S_admiral = {
 	prerequisites = {
 		"tech_rank_up_1"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/S.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		ship_weapon_range_mult = 0.1
@@ -94,7 +94,7 @@ leader_trait_lo_S_general = {
 	prerequisites = {
 		"tech_rank_up_1"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/S.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		army_disengage_chance_mult = 0.5
@@ -117,7 +117,7 @@ leader_trait_lo_SS_ruler = {
 	prerequisites = {
 		"tech_rank_up_2"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/SS.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		country_edict_fund_add = 20
@@ -139,7 +139,7 @@ leader_trait_lo_SS_governor = {
 	prerequisites = {
 		"tech_rank_up_2"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/SS.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		planet_army_build_speed_mult = 0.2
@@ -161,7 +161,7 @@ leader_trait_lo_SS_scientist = {
 	prerequisites = {
 		"tech_rank_up_2"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/SS.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		all_technology_research_speed = 0.2
@@ -183,7 +183,7 @@ leader_trait_lo_SS_admiral = {
 	prerequisites = {
 		"tech_rank_up_2"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/SS.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		ship_weapon_range_mult = 0.2
@@ -206,7 +206,7 @@ leader_trait_lo_SS_general = {
 	prerequisites = {
 		"tech_rank_up_2"
 	}
-	#icon = ""
+	icon = "gfx/interface/icons/traits/SS.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		army_disengage_chance_mult = 0.75
@@ -229,7 +229,7 @@ leader_trait_lo_SS_general = {
 leader_trait_lo_expertise_Bioroids = {
 	cost = 1
 	modification= no
-	#icon = ""
+	icon = "gfx/interface/icons/traits/expertise_Bioroids.png"
 	allowed_archetypes = { LO }
 	modifier = {
 		category_Bioroids_research_speed_mult = @locategorybonus
@@ -248,12 +248,15 @@ leader_trait_lo_expertise_Bioroids = {
 leader_trait_lo_expertise_alteration = {
 	cost = 1
 	modification= no
-	#icon = ""
+	icon = "gfx/interface/icons/traits/expertise_alteration.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		category_sanctum_of_alteration_research_speed_mult = @locategorybonus
 		category_materials_research_speed_mult = @subcategorybonus
 		category_industry_research_speed_mult = @subcategorybonus
+	}
+	prerequisites = {
+		"tech_find_sanctum_of_alteration"
 	}
     randomized = yes
 	requires_traits = {
@@ -268,7 +271,7 @@ leader_trait_lo_expertise_alteration = {
 leader_trait_lo_expertise_AGS = {
 	cost = 1
 	modification= no
-	#icon = ""
+	icon = "gfx/interface/icons/traits/expertise_AGS.dds"
 	allowed_archetypes = { LO }
 	modifier = {
 		category_AGS_research_speed_mult = @locategorybonus

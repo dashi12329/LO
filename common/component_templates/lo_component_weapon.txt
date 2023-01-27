@@ -1,0 +1,299 @@
+#####闪电鸡（相位裂解炮）
+weapon_component_template = {#闪电鸡（相位裂解炮）
+	key = "lo_shippart_S_ROC_T0"
+	size = small
+	icon = GFX_lo_shippart_Roc_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 10
+			exotic_gases = 0.1
+			rare_crystals = 0.1
+			alloys = 25
+			energy = 15
+		}	
+		upkeep = {							
+			energy = 0.15
+			special_module = 0.2
+		}
+	}
+	power = -22							
+	damage = { min = 1 max = 25 }		
+	windup = { min = 1 max = 10 }	
+	total_fire_time = 20					
+	hull_damage = 1.0                      
+	shield_damage = 1.0                    
+	armor_damage = 1.0                 
+	shield_penetration = 1.0           
+	armor_penetration = 1.0                                  
+	tracking = 0.60                        
+	range = 30.00                         
+	accuracy = 1.0
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Roc"}
+	component_set = "LO_SHIPPART_S_ROC_T0"
+}
+weapon_component_template = {#闪电鸡（相位裂解炮）
+	key = "lo_shippart_M_ROC_T0"
+	size = medium
+	icon = GFX_lo_shippart_Roc_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 20
+			exotic_gases = 0.2
+			rare_crystals = 0.2
+			alloys = 50
+			energy = 30
+		}	
+		upkeep = {							
+			energy = 0.3
+			special_module = 0.4
+		}
+	}
+	power = -38					
+	damage = { min = 1 max = 80 }		
+	windup = { min = 2 max = 16 }	
+	total_fire_time = 40					
+	hull_damage = 1.0                      
+	shield_damage = 1.0                    
+	armor_damage = 1.0                 
+	shield_penetration = 1.0           
+	armor_penetration = 1.0                                  
+	tracking = 0.35                  
+	range = 50                        
+	accuracy = 1.0
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Roc"}
+	component_set = "LO_SHIPPART_M_ROC_T0"
+}
+weapon_component_template = {#闪电鸡（相位裂解炮）
+	key = "lo_shippart_L_ROC_T0"
+	size = large
+	icon = GFX_lo_shippart_Roc_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 40
+			exotic_gases = 0.4
+			rare_crystals = 0.4
+			alloys = 100
+			energy = 60
+		}	
+		upkeep = {							
+			energy = 0.6
+			special_module = 0.8
+		}
+	}
+	power = -82				
+	damage = { min = 1 max = 360 }		
+	windup = { min = 4 max = 32 }	
+	total_fire_time = 80				
+	hull_damage = 1.0                      
+	shield_damage = 1.0                    
+	armor_damage = 1.0                 
+	shield_penetration = 1.0           
+	armor_penetration = 1.0                                  
+	tracking = 0.1                
+	range = 80                      
+	accuracy = 1.0
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Roc"}
+	component_set = "LO_SHIPPART_L_ROC_T0"
+}
+
+#####暴君（激光）
+weapon_component_template = {
+	key = "lo_shippart_S_Tyrant_T0"
+	size = small
+	icon = GFX_lo_shippart_Tyrant_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 10
+			rare_crystals = 0.2
+			alloys = 25
+			energy = 15
+		}	
+		upkeep = {							
+			energy = 0.15
+			special_module = 0.2
+		}
+	}
+	power = -22							
+	damage = { min = 20 max = 50 }		
+	windup = { min = 1 max = 8 }	
+	total_fire_time = 14					
+	hull_damage = 1.25                     
+	shield_damage = 0.6                 
+	armor_damage = 1.5             
+	shield_penetration = 0         
+	armor_penetration = 0                                 
+	tracking = 0.5                       
+	range = 40.00                         
+	accuracy = 0.9
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Tyrant"}
+	component_set = "LO_SHIPPART_S_TYRANT_T0"
+}
+weapon_component_template = {
+	key = "lo_shippart_M_Tyrant_T0"
+	size = medium
+	icon = GFX_lo_shippart_Tyrant_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 20
+			rare_crystals = 0.4
+			alloys = 50
+			energy = 30
+		}	
+		upkeep = {							
+			energy = 0.3
+			special_module = 0.4
+		}
+	}
+	power = -38						
+	damage = { min = 72 max = 200 }		
+	windup = { min = 3 max = 28 }	
+	total_fire_time = 46					
+	hull_damage = 1.25                     
+	shield_damage = 0.6                 
+	armor_damage = 1.5             
+	shield_penetration = 0         
+	armor_penetration = 0                                 
+	tracking = 0.3                      
+	range = 60                       
+	accuracy = 0.9
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Tyrant"}
+	component_set = "LO_SHIPPART_M_TYRANT_T0"
+}
+weapon_component_template = {
+	key = "lo_shippart_L_Tyrant_T0"
+	size = large
+	icon = GFX_lo_shippart_Tyrant_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 40
+			rare_crystals = 0.8
+			alloys = 100
+			energy = 60
+		}	
+		upkeep = {							
+			energy = 0.6
+			special_module = 0.8
+		}
+	}
+	power = -82				
+	damage = { min = 150 max = 400 }		
+	windup = { min = 6 max = 56 }	
+	total_fire_time = 90					
+	hull_damage = 1.25                     
+	shield_damage = 0.6                 
+	armor_damage = 1.5             
+	shield_penetration = 0         
+	armor_penetration = 0                                 
+	tracking = 0.05                     
+	range = 90                     
+	accuracy = 0.9
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Tyrant"}
+	component_set = "LO_SHIPPART_L_TYRANT_T0"
+}
+
+#####冰龙（光矛）
+weapon_component_template = {
+	key = "lo_shippart_X_Glacias_T0"
+	size = extra_large
+	#entity = "turret_xl_entity"
+	icon = GFX_lo_shippart_Glacias_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 200
+			rare_crystals = 4
+			alloys = 250
+			#alterinum = 
+		}	
+		upkeep = {							
+			energy = 0.3
+			special_module = 4
+		}
+	}
+	firing_arc = 25.0     
+	min_range = 0       
+	static_rotation = no  
+	use_ship_kill_target = no
+	power = -300					
+	damage = { min = 900 max = 2500 }		
+	windup = { min = 2 max = 38 }	
+	total_fire_time = 100					
+	hull_damage = 1.5                   
+	shield_damage = 0.75              
+	armor_damage = 1.75            
+	shield_penetration = 0         
+	armor_penetration = 0                                 
+	tracking = 0                   
+	range = 150                      
+	accuracy = 0.85
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Glacias"}
+	component_set = "LO_SHIPPART_X_GLACIAS_T0"
+	upgrades_to = lo_shippart_X_Glacias_skin
+}
+weapon_component_template = {
+	key = "lo_shippart_X_Glacias_skin"
+	size = extra_large
+	entity = "turret_xl_entity"
+	icon = GFX_lo_shippart_Glacias_skin
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 250
+			rare_crystals = 5
+			alloys = 300
+			#alterinum = 
+		}	
+		upkeep = {							
+			energy = 0.35
+			special_module = 5
+		}
+	}
+	firing_arc = 25.0     
+	min_range = 0       
+	static_rotation = no  
+	use_ship_kill_target = no
+	power = -350					
+	damage = { min = 1200 max = 3000 }		
+	windup = { min = 2 max = 38 }	
+	total_fire_time = 100				
+	hull_damage = 1.5                   
+	shield_damage = 0.75              
+	armor_damage = 1.75            
+	shield_penetration = 0         
+	armor_penetration = 0                                 
+	tracking = 0                   
+	range = 170                      
+	accuracy = 0.85
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Glacias_skin"}
+	component_set = "LO_SHIPPART_X_GLACIAS_SKIN"
+}

@@ -1,4 +1,9 @@
 ﻿l_simp_chinese:
+ auth_lo_1:0 "铁虫抵抗军"
+ auth_lo_1_desc:0 "test"
+ gov_lo_00:0 "铁虫抵抗军"
+ gov_lo_00_desc:0 "test"
+ adjutant:0 "副官"
  civic_lo_horizon:0 "地平线部队"
  civic_lo_horizon_desc:0 ""
  civic_tooltip_lo_horizon_effects:1 "在游戏开始时首都星球会拥有一个独特建筑£building£ §Y地平线咖啡厅§!（无法通过其他方式获得）\n拥有§Y独特的事件§!（还在制作中）"
@@ -8,3 +13,6 @@
  civic_lo_project_battle_maid:0 "战斗女仆部队"
  civic_lo_project_battle_maid_desc:0 ""
  civic_tooltip_lo_project_battle_maid_effects:1 "在游戏开始时首都星球会拥有一个独特建筑£building£ §Y女仆咖啡厅§!（无法通过其他方式获得）\n拥有§Y独特的事件§!（还在制作中）"
+ origin_lo:0 "最后的起源"
+ origin_lo_desc:0 "铁虫入侵"
+ origin_tooltip_lo_effects:0"§R游玩本mod请选择此起源§! \n以一颗$pc_gaia$作为母星开局，行星会带有修正$planet_lo_Iron_Parasites_1_modifier$"

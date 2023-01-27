@@ -31,7 +31,7 @@ tech_find_sanctum_of_alteration = {#寻找万变圣域
 
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -68,7 +68,7 @@ tech_sanctum_of_alteration_zone_1 = {#万变圣域一塔
 	    planet_jobs_alterium_produces_mult = 1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -109,7 +109,7 @@ tech_sanctum_of_alteration_zone_2 = {#万变圣域二塔
 	    #planet_jobs_alterium_produces_mult = 1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -161,7 +161,7 @@ tech_sanctum_of_alteration_zone_3 = {#万变圣域三塔
 	    planet_jobs_alterium_produces_mult = 0.5
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -212,7 +212,7 @@ tech_alternium_refine = {#粗矿精炼
 	    planet_jobs_alterium_produces_mult = 0.5
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -278,7 +278,7 @@ tech_process_refined_alternium = {#细矿加工
 	    planet_jobs_alterium_produces_mult = 0.5
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -344,7 +344,7 @@ tech_alternium_analyze_1 = {#矿解析1
 	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -403,7 +403,7 @@ tech_alternium_analyze_2 = {#矿解析2
 	    all_technology_research_speed = 0.05
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -463,7 +463,7 @@ tech_alternium_apply_1 = {#矿应用1
 	    all_technology_research_speed = 0.05
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -522,7 +522,7 @@ tech_alternium_apply_2 = {#矿应用2
 	    all_technology_research_speed = 0.05
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -595,7 +595,7 @@ tech_alternium_apply_3 = {#矿应用3
 	    all_technology_research_speed = 0.1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {

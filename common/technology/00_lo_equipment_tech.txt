@@ -299,7 +299,7 @@ tech_large_capacity_generator = {#大型能量产生器
 		weapon_type_energy_weapon_fire_rate_mult = 0.05
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -359,7 +359,7 @@ tech_heavy_armor_framework = {#复合型装甲
 	    ship_armor_mult = 0.2
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -419,7 +419,7 @@ tech_high_power_booster = {#高出力推进器
 	    ship_speed_mult = 0.1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -482,7 +482,7 @@ tech_particle_accelerator = {#粒子加速器
 	    weapon_type_energy_weapon_fire_rate_mult = 0.1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -543,7 +543,7 @@ tech_energy_converter = {#能量转换器
 	    ship_shield_mult = 0.05
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -606,7 +606,7 @@ tech_hybrid_strucuture_generator = {#复合型能量产生器
 		ship_shield_mult = 0.1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -669,7 +669,7 @@ tech_gene_aplication_design_ai = {#生物型AI
 		ship_armor_penetration_mult = 0.2
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -748,7 +748,7 @@ tech_over_technology_powerpack = {#引擎超载系统
 		ship_windup_mult = -0.1
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -813,7 +813,7 @@ tech_multi_tier_rapid_cooler = {#多层急速冷却炉
 		station_gatherers_violatile_produces_mult = 0.05
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -878,7 +878,7 @@ tech_multi_weapon_control_system = {#最优化火控系统
 		ship_armor_penetration_mult = 0.2
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
@@ -939,7 +939,7 @@ tech_alternium_fusion_thruster = {#未知聚变引擎
 	    
 	}
 	potential = {
-		#is_ai = no
+		has_authority = auth_lo_1
 	}
 	weight_modifier = {
 		modifier = {
