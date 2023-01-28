@@ -297,3 +297,89 @@ weapon_component_template = {
 	prerequisites = {"tech_Glacias_skin"}
 	component_set = "LO_SHIPPART_X_GLACIAS_SKIN"
 }
+#####游隼（电弧）
+weapon_component_template = {
+	key = "lo_shippart_X_Peregrinus_T0"
+	size = extra_large
+	#entity = "turret_xl_entity"
+	icon = GFX_lo_shippart_Peregrinus_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 200
+			exotic_gases = 2
+			rare_crystals = 2
+			alloys = 250
+			#alterinum = 
+		}	
+		upkeep = {							
+			energy = 0.3
+			special_module = 4
+		}
+	}
+	firing_arc = 35.0     
+	min_range = 0       
+	static_rotation = no  
+	use_ship_kill_target = no
+	power = -300					
+	damage = { min = 1 max = 1900 }		
+	windup = { min = 1 max = 28 }	
+	total_fire_time = 100					
+	hull_damage = 1                  
+	shield_damage = 1             
+	armor_damage = 1         
+	shield_penetration = 1       
+	armor_penetration = 1                              
+	tracking = 0                   
+	range = 150                      
+	accuracy = 1
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Peregrinus"}
+	component_set = "LO_SHIPPART_X_PEREGRINUS_T0"
+	upgrades_to = lo_shippart_X_Peregrinus_transform
+}
+weapon_component_template = {
+	key = "lo_shippart_X_Peregrinus_transform"
+	size = extra_large
+	#entity = "turret_xl_entity"
+	icon = GFX_lo_shippart_Peregrinus_transform
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 250
+			exotic_gases = 2.5
+			rare_crystals = 2.5
+			alloys = 300
+			#alterinum = 
+		}	
+		upkeep = {							
+			energy = 0.35
+			special_module = 5
+		}
+	}
+	firing_arc = 35.0     
+	min_range = 0       
+	static_rotation = no  
+	use_ship_kill_target = no
+	power = -350				
+	damage = { min = 1 max = 2500 }		
+	windup = { min = 1 max = 28 }	
+	total_fire_time = 100				
+	hull_damage = 1                  
+	shield_damage = 1             
+	armor_damage = 1         
+	shield_penetration = 1       
+	armor_penetration = 1                              
+	tracking = 0                   
+	range = 170                     
+	accuracy = 1
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Peregrinus_transform"}
+	component_set = "LO_SHIPPART_X_PEREGRINUS_TRANSFORM"
+}
+
+#####特里同（导弹）

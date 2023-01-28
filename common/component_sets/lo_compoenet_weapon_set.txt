@@ -38,3 +38,13 @@ component_set = {
 	icon = GFX_lo_shippart_Glacias_skin
 	icon_frame = 1
 }
+component_set = {
+	key = "LO_SHIPPART_X_PEREGRINUS_T0"
+	icon = GFX_lo_shippart_Peregrinus_T0
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_SHIPPART_X_PEREGRINUS_TRANSFORM"
+	icon = GFX_lo_shippart_Peregrinus_transform
+	icon_frame = 1
+}
