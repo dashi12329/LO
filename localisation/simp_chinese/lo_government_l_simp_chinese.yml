@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
  auth_lo_1:0 "铁虫抵抗军"
- auth_lo_1_desc:0 "test"
+ auth_lo_1_desc:0 "§R游玩本mod请选择此政体§!"
  gov_lo_00:0 "铁虫抵抗军"
- gov_lo_00_desc:0 "test"
+ gov_lo_00_desc:0 "由指挥官领导的铁虫抵抗军"
  adjutant:0 "副官"
  civic_lo_horizon:0 "地平线部队"
  civic_lo_horizon_desc:0 ""

@@ -1,0 +1,81 @@
+namespace = lo_shop
+
+country_event = {
+	id = lo_shop.0
+	is_triggered_only = yes
+	title = lo_shop.0.name
+	desc = lo_shop.0.desc
+	diplomatic_title = LO_SHOP
+	diplomatic = yes
+	picture_event_data = {
+		portrait = Shop_saler
+		#room = 
+	}
+	immediate = {
+		set_country_flag = lo_shop_country
+	}
+	option = {
+		name = lo_shop.0.aa
+		country_event = {
+			id = lo_shop.1
+		}
+	}
+	option = {
+		name = lo_shop.0.bb
+		hidden_effect = {
+			country_event = {
+			}
+		}
+	}
+}
+
+country_event = {#开局创建商店国家
+	id = lo_shop.1000
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		is_ai = no
+		has_authority = auth_lo_1
+	}
+	immediate = {
+		create_country = {
+			name = "NAME_shop"
+			type = lo_shop_country
+			flag = {
+				icon = {
+					category = "lo_flags_other"
+					file = "shop_flag.png"
+				}
+				background = {
+
+				}
+				colors = {
+
+				}
+			}
+		}
+		last_created_country = {
+			establish_communications_no_message = root
+			save_global_events_target_as = lo_shop_country
+		}
+	}
+}
+
+country_event = {
+	id = lo_shop.1001
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		from = {
+			is_country_type = lo_shop_country
+		}
+		has_authority = auth_lo_1
+	}
+
+	immediate = {
+		country_event = {
+			id = lo_shop.0
+		}
+	}
+}

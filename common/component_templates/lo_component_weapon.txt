@@ -16,7 +16,7 @@ weapon_component_template = {#闪电鸡（相位裂解炮）
 		}	
 		upkeep = {							
 			energy = 0.15
-			special_module = 0.2
+			special_module = 0.02
 		}
 	}
 	power = -22							
@@ -52,7 +52,7 @@ weapon_component_template = {#闪电鸡（相位裂解炮）
 		}	
 		upkeep = {							
 			energy = 0.3
-			special_module = 0.4
+			special_module = 0.04
 		}
 	}
 	power = -38					
@@ -88,7 +88,7 @@ weapon_component_template = {#闪电鸡（相位裂解炮）
 		}	
 		upkeep = {							
 			energy = 0.6
-			special_module = 0.8
+			special_module = 0.08
 		}
 	}
 	power = -82				
@@ -125,7 +125,7 @@ weapon_component_template = {
 		}	
 		upkeep = {							
 			energy = 0.15
-			special_module = 0.2
+			special_module = 0.02
 		}
 	}
 	power = -22							
@@ -160,7 +160,7 @@ weapon_component_template = {
 		}	
 		upkeep = {							
 			energy = 0.3
-			special_module = 0.4
+			special_module = 0.04
 		}
 	}
 	power = -38						
@@ -195,7 +195,7 @@ weapon_component_template = {
 		}	
 		upkeep = {							
 			energy = 0.6
-			special_module = 0.8
+			special_module = 0.08
 		}
 	}
 	power = -82				
@@ -233,7 +233,7 @@ weapon_component_template = {
 		}	
 		upkeep = {							
 			energy = 0.3
-			special_module = 4
+			special_module = 0.4
 		}
 	}
 	firing_arc = 25.0     
@@ -274,7 +274,7 @@ weapon_component_template = {
 		}	
 		upkeep = {							
 			energy = 0.35
-			special_module = 5
+			special_module = 0.5
 		}
 	}
 	firing_arc = 25.0     
@@ -297,6 +297,7 @@ weapon_component_template = {
 	prerequisites = {"tech_Glacias_skin"}
 	component_set = "LO_SHIPPART_X_GLACIAS_SKIN"
 }
+
 #####游隼（电弧）
 weapon_component_template = {
 	key = "lo_shippart_X_Peregrinus_T0"
@@ -316,7 +317,7 @@ weapon_component_template = {
 		}	
 		upkeep = {							
 			energy = 0.3
-			special_module = 4
+			special_module = 0.4
 		}
 	}
 	firing_arc = 35.0     
@@ -358,7 +359,7 @@ weapon_component_template = {
 		}	
 		upkeep = {							
 			energy = 0.35
-			special_module = 5
+			special_module = 0.5
 		}
 	}
 	firing_arc = 35.0     

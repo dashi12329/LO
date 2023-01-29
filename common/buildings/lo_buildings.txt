@@ -52,8 +52,92 @@ lo_building_31EX = {
 #万变圣域
 ################
 lo_building_sanctum_of_alteration = {
-
+	base_buildtime = @lo_time_t2
+	#icon = 
+	base_cap_amount = 1
+	category = resource
+	potential = {
+		OR = {
+			has_modifier = planet_lo_Iron_Parasites_1_modifier
+			has_modifier = planet_lo_Iron_Parasites_2_modifier
+			has_modifier = planet_lo_Iron_Parasites_3_modifier
+		}
+	} 
+	prerequisites = {
+		"tech_find_sanctum_of_alteration"
+	}
+	allow = {
+		OR = {
+            has_modifier = planet_lo_Iron_Parasites_1_modifier
+			has_modifier = planet_lo_Iron_Parasites_2_modifier
+			has_modifier = planet_lo_Iron_Parasites_3_modifier
+		}
+	}
+	resources = {
+		category = planet_buildings
+		upkeep = {
+			energy = 3
+			minerals = 3
+		}
+		#produces = {
+		#}
+	}
+	planet_modifier = {
+		job_aiyou_add = 1
+		job_team_1_add = 5
+	}
+	ai_weight = {
+		weight = 0
+	}
+	upgrades = {
+		"lo_building_sanctum_of_alteration_up"
+	}
 }
+
+################
+#万变圣域升级
+################
+# lo_building_sanctum_of_alteration_up = {
+# 	base_buildtime = @lo_time_t3
+# 	can_build = no
+# 	#icon = 
+# 	base_cap_amount = 1
+# 	category = resource
+# 	#potential = {
+# 	#	OR = {
+# 	#		has_modifier = planet_lo_Iron_Parasites_1_modifier
+# 	#		has_modifier = planet_lo_Iron_Parasites_2_modifier
+# 	#		has_modifier = planet_lo_Iron_Parasites_3_modifier
+# 	#	}
+# 	#} 
+# 	#prerequisites = {
+#     #"tech_sanctum_of_alteration_zone_2"
+# 	}
+# 	#allow = {
+# 	#	OR = {
+# 	#		has_modifier = planet_lo_Iron_Parasites_1_modifier
+# 	#		has_modifier = planet_lo_Iron_Parasites_2_modifier
+# 	#		has_modifier = planet_lo_Iron_Parasites_3_modifier
+# 	#	}
+# 	#}
+# 	resources = {
+# 		category = planet_buildings
+# 		upkeep = {
+# 			energy = 3
+# 			minerals = 3
+# 		}
+# 		#produces = {
+# 		#	
+# 		#}
+# 	}
+# 	planet_modifier = {
+# 		job_aiyou_add = 1
+# 		job_team_1_add = 5
+# 	}
+# 	ai_weight = {
+# 		weight = 0
+# 	}
+# }
 
 ################
 #起源尘合成厂
@@ -83,7 +167,7 @@ lo_building_origin_dust_factory = {
 			#minerals = 5
 		}
 		produces = {
-			society_research = 10
+			#society_research = 10
 		}
 	}
 	planet_modifier = {
@@ -149,7 +233,7 @@ lo_building_alternium_institute = {
 	#upgrades = {
 	#}
 	prerequisites = {
-		"tech_alternium_analyze_2"
+		"tech_alternium_analyze_1"
 	}
 	allow = {
 		always = yes
@@ -161,17 +245,63 @@ lo_building_alternium_institute = {
 		}
 		produces = {
 			physics_research = 10
-			engineering_research = 10
 		}
 	}
 	planet_modifier = {
 		job_alternium_researcher_add = 1
-		job_alternium_tester_add = 4
+		job_alternium_tester_add = 2
 	}
 	country_modifier = {
-		country_base_alternium_produces_add = 5
+		#country_base_alternium_produces_add = 5
 	}
 	ai_weight = {
 		weight = 0
 	}
+	upgrades = {
+		"lo_building_alternium_institute_up"
+	}
 }
+
+################
+#细矿研究所升级
+################
+# lo_building_alternium_institute_up = {
+# 	base_buildtime = @lo_time_t3
+# 	#icon =  
+# 	can_build = no
+# 	category = research
+# 	base_cap_amount = 1
+# 	#potential = {
+# 	#	OR = {
+# 	#		
+# 	#	}
+# 	#} 
+# 	#upgrades = {
+# 	#}
+# 	prerequisites = {
+# 		"tech_alternium_analyze_2"
+# 	}
+# 	#allow = {
+# 	#	always = yes
+# 	#}
+# 	resources = {
+# 		category = planet_buildings
+# 		upkeep = {
+# 			energy = 5
+# 		}
+# 		produces = {
+# 			physics_research = 10
+# 			engineering_research = 10
+# 		}
+# 	}
+# 	planet_modifier = {
+# 		job_alternium_researcher_add = 1
+# 		job_alternium_tester_add = 2
+# 	}
+# 	country_modifier = {
+# 		#country_base_alternium_produces_add = 5
+# 	}
+# 	ai_weight = {
+# 		weight = 0
+# 	}
+# }

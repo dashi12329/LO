@@ -30,8 +30,8 @@ tech_basic_module_manufacture = {#初级模块制造
 	}
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
-	modifier = {#增加模块产量
-	    country_base_special_module_produces_add = 5
+	modifier = {#解锁建筑特殊模块制造厂
+	    
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -90,7 +90,7 @@ tech_advanced_module_manufacture = {#高级模块设计
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#增加模块产量
-	    country_base_special_module_produces_add = 5
+	    planet_jobs_special_module_produces_mult = 0.2
 		all_technology_research_speed = 0.05
 	}
 	potential = {
@@ -150,7 +150,8 @@ tech_special_module_manufacture = {#特殊模块试做
 	}
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
-	modifier = {#解锁建筑特殊模块制造厂
+	modifier = {#增加模块产量
+	    planet_jobs_special_module_produces_mult = 0.5
 	    all_technology_research_speed = 0.05
 	}
 	potential = {
@@ -331,6 +332,7 @@ tech_AGS_design_3 = {#AGS设计3
 	modifier = {#许多科技的前置科技，解锁引擎超载系统、多层急速冷却炉、最优化火控装置、未知融合引擎（见equip）
 	    starbase_shipyard_build_cost_mult = -0.15
 		starbase_shipyard_build_speed_mult = 0.15
+		ships_upkeep_mult = -0.1
 	}
 	potential = {
 		has_authority = auth_lo_1

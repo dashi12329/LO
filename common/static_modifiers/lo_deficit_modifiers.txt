@@ -1,0 +1,12 @@
+origin_dust_deficit = {
+	LO_pop_happiness  = -0.2
+	LO_pop_growth_speed_reducation = 0.75
+}
+alterium_deficit = {
+    planet_jobs_produces_mult = -0.2
+}
+special_module_deficit = {
+	ship_base_speed_mult = -0.5
+	ship_fire_rate_mult = -1.0
+	ship_weapon_damage = -1.0
+}

@@ -8,7 +8,7 @@ horizon_maid = {
 		has_trait = trait_lo
 	}
 	resources = {
-		category = planet_artisans
+		category = planet_lojobs
 		produces = {
 			consumer_goods = 12
 			unity = 10
@@ -32,7 +32,7 @@ sky_knights_idol = {
 		has_trait = trait_lo
 	}
 	resources = {
-		category = planet_artisans
+		category = planet_lojobs
 		produces = {
 			unity = 15
 		}
@@ -58,7 +58,7 @@ maid = {
 		has_trait = trait_lo
 	}
 	resources = {
-		category = planet_artisans
+		category = planet_lojobs
 		produces = {
 			consumer_goods = 12
 		}
@@ -80,12 +80,12 @@ maid = {
 alchemist = {
 	category = worker
 	#condition_string = WORKER_JOB_TRIGGER
-    #possible = {
-	#	has_trait = 
-	#}
+    possible = {
+		has_trait = trait_lo
+	}
 	possible_precalc = can_fill_worker_job
 	resources = {
-		category = planet_alchemist
+		category = planet_lojobs
 		produces = {
 			energy = 15
 			minerals = 15
@@ -101,7 +101,7 @@ alchemist = {
 		
 	}
 	weight = {
-		weight = 60
+		weight = 100
 	}
 }
 
@@ -110,23 +110,27 @@ alchemist = {
 ################
 dust_worker = {
 	category = worker
+	possible = {
+		has_trait = trait_lo
+	}
 	possible_precalc = can_fill_worker_job
 	resources = {
-		#category = planet_workers
+		category = planet_lojobs
 		produces = {
 			origin_dust = 1
+			society_research = 3
 		}
 		upkeep = {
-			food = 5
-			energy = 4
-			minerals = 3
+			food = 4
+			energy = 3
+			minerals = 2
 		}
 	}
 	planet_modifier = {
 		
 	}
 	weight = {
-		weight = 60
+		weight = 100
 	}
 }
 
@@ -135,17 +139,20 @@ dust_worker = {
 ################
 ee = {
 	category = specialist
+	possible = {
+		has_trait = trait_lo
+	}
 	possible_precalc = can_fill_specialist_job
 	resources = {
-		#category = planet_workers
+		category = planet_lojobs
 		produces = {
 			special_module = 4
-			#physics_research = 10
+			physics_research = 5
 		}
 		upkeep = {
-			energy = 3
-			minerals = 5
-			origin_dust = 1
+			energy = 5
+			minerals = 3
+			origin_dust = 2
 		}
 	}
 	planet_modifier = {
@@ -161,9 +168,12 @@ ee = {
 ################
 factory_girl = {
 	category = worker
+	possible = {
+		has_trait = trait_lo
+	}
 	possible_precalc = can_fill_worker_job
 	resources = {
-		#category = planet_workers
+		category = planet_lojobs
 		produces = {
 			special_module = 1
 		}
@@ -176,7 +186,7 @@ factory_girl = {
 		
 	}
 	weight = {
-		weight = 60
+		weight = 100
 	}
 }
 
@@ -185,18 +195,22 @@ factory_girl = {
 ################
 alternium_researcher = {
 	category = specialist
+	possible = {
+		has_trait = trait_lo
+	}
 	possible_precalc = can_fill_specialist_job
 	resources = {
-		#category = planet_workers
+		category = planet_lojobs
 		produces = {
-			special_module = 3
-			physics_research = 5
+			special_module = 5
+			physics_research = 10
+			energy_research = 10
+			society_research = 10
 		}
 		upkeep = {
 			energy = 2
-			minerals = 2
-			#alternium = 1
-			origin_dust = 1
+			alterium = 1
+			origin_dust = 2
 		}
 	}
 	planet_modifier = {
@@ -212,18 +226,21 @@ alternium_researcher = {
 ################
 alternium_tester = {
 	category = worker
-	possible_precalc = {
-		can_fill_worker_job = yes
+	possible = {
+		has_trait = trait_lo
 	}
+	possible_precalc = can_fill_worker_job
 	resources = {
-		#category = planet_workers
+		category = planet_lojobs
 		produces = {
-			energy = 3
-			unity = 5
+			volatile_motes = 1
+			exotic_gases = 1
+			rare_crystals = 1
 		}
 		upkeep = {
-			consumer_goods = 2
-			food = 2
+			consumer_goods = 1
+			origin_dust = 1
+			alterium = 1
 		}
 	}
 	planet_modifier = {	
@@ -233,6 +250,67 @@ alternium_tester = {
 		#lo_pop_happiness = -0.1
 	} 
 	weight = {
-		weight = 50
+		weight = 100
+	}
+}
+
+################
+#万变圣域冰龙队
+################
+team_1 = {
+	category = worker
+	possible = {
+		has_trait = trait_lo
+	}
+	possible_precalc = can_fill_worker_job
+	resources = {
+		category = planet_lojobs
+		produces = {
+			alterium = 2
+		}
+		upkeep = {
+			consumer_goods = 1
+			special_module = 2
+		}
+	}
+	planet_modifier = {	
+
+	}
+	pop_modifier = {
+		
+	} 
+	weight = {
+		weight = 100
+	}
+}
+
+################
+#万变圣域哎呦
+################
+aiyou = {
+	category = specialist
+	possible = {
+		has_trait = trait_lo
+	}
+	possible_precalc = can_fill_specialist_job
+	resources = {
+		category = planet_lojobs
+		produces = {
+			alterium = 4
+			unity = 10
+		}
+		upkeep = {
+			consumer_goods = 2
+			origin_dust = 4
+		}
+	}
+	planet_modifier = {	
+
+	}
+	pop_modifier = {
+		
+	} 
+	weight = {
+		weight = 100
 	}
 }

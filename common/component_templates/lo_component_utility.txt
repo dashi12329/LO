@@ -1,6 +1,7 @@
 ##########
 #装甲和护盾
 ##########
+#####信天翁（护盾）
 utility_component_template = {
 	key = "lo_shippart_S_shield_T0"
 	size = small
@@ -100,6 +101,7 @@ utility_component_template = {
 	component_set = "LO_SHIPPART_L_SHIELD_T0"
 }
 
+#####要塞（装甲）
 utility_component_template = {
 	key = "lo_shippart_S_armor_T0"
 	size = small

@@ -397,12 +397,11 @@ tech_Glacias_skin = {#冰龙升级
 	cost = @tier5cost3
 	area = society
 	tier = 5
-
 	is_dangerous = yes
 	category = {
 		charge
 	}
-	weight = 0 #@lo_precious_weight1
+	weight = @lo_precious_weight1
 	prerequisites = {
 		"tech_Glacias"
 		"tech_charge_4"
@@ -423,6 +422,13 @@ tech_Glacias_skin = {#冰龙升级
 			years_passed > 250
 		}
 		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
 			factor = 1.1
 			research_leader = {
 				area = society
@@ -432,7 +438,7 @@ tech_Glacias_skin = {#冰龙升级
 		modifier = {
 			factor = 1.2
 			research_leader = {
-				area = spociety
+				area = society
 				has_trait = "leader_trait_lo_SS_scientist"
 			}
 		}

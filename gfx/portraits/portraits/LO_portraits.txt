@@ -9,6 +9,7 @@ portraits = {
                 #test   Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/Invincible_Dragon.png" }
                 Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/02.png" }
                 Doctor = {textureFile = "gfx/models/portraits/lo/Doctor.png" }
+                Shop_saler = {textureFile = "gfx/models/portraits/lo/shop_saler.png" }
 #########################Q版头像####################
                 Q_Ajax_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Ajax_N.png"}
                 Q_Alexandra_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Alexandra_N.png"}
