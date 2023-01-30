@@ -151,8 +151,8 @@ tech_Bioroids_analyze_1 = {#Bioroids解析1
 	}
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
-	modifier = {#解锁建筑Bioroids制造厂
-
+	modifier = {#
+	    pop_growth_speed = 0.1
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -202,8 +202,8 @@ tech_Bioroids_analyze_2 = {#Bioroids解析2
 	}
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
-	modifier = {#升级建筑Bioroids制造厂
-
+	modifier = {
+		pop_housing_usage_mult = -0.1
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -254,7 +254,7 @@ tech_rank_up_1 = {#晋升1
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
 	modifier = {#解锁领袖特质S
-
+	    empire_size_pops_mult = -0.1
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -306,7 +306,7 @@ tech_rank_up_2 = {#晋升2
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
 	modifier = {#解锁领袖特质SS
-
+	    empire_size_pops_mult = -0.1
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -359,7 +359,7 @@ tech_emotion_system_1 = {#生化人情感系统1
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
 	modifier = {#修正幸福度
-	    LO_pop_happiness = 0.1
+	    lo_pop_happiness = 0.1
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -411,7 +411,8 @@ tech_emotion_system_2 = {#生化人情感系统2
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
 	modifier = {#修正幸福度,解锁生物型AI（见equip）
-	    LO_pop_happiness = 0.1
+	    lo_pop_happiness = 0.1
+        pop_amenities_usage_mult = -0.1
 	}
 	potential = {
 		has_authority = auth_lo_1

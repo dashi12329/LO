@@ -31,4 +31,28 @@ spriteTypes = {
 		name = "GFX_lo_shippart_Peregrinus_transform"
 		textureFile = "gfx/interface/icons/ship_parts/lo_Peregrinus_transform.png"
 	}
+	spriteType = {
+		name = "GFX_lo_shippart_reactor_T1"
+		textureFile = "gfx/interface/icons/ship_parts/lo_reactor_T1.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_reactor_T2"
+		textureFile = "gfx/interface/icons/ship_parts/lo_reactor_T2.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_line"
+		textureFile = "gfx/interface/icons/ship_parts/lo_line.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_artillery"
+		textureFile = "gfx/interface/icons/ship_parts/lo_artillery.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_particle_accelerator"
+		textureFile = "gfx/interface/icons/ship_parts/lo_particle_accelerator.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_Mr_Alfred"
+		textureFile = "gfx/interface/icons/ship_parts/lo_Mr_Alfred.png"
+	}
 }

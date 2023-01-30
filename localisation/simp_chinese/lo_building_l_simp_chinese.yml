@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
  lo_building_31EX:0 "3-1EX"
  lo_building_31EX_desc:0 "炼金圣地3-1EX，经久不衰，能生产可观的资源"
- lo_building_sanctum_of_alteration:0 "万变圣域"
- lo_building_sanctum_of_alteration_desc:0 "REPLACE_ME"
+ building_lo_sanctum_of_alteration:0 "万变圣域"
+ building_lo_sanctum_of_alteration_desc:0 "REPLACE_ME"
  lo_building_origin_dust_factory:0 "起源尘合成厂"
  lo_building_origin_dust_factory_desc:0 "合成起源尘的工厂"
  lo_building_special_module_factory:0 "特殊模块生产厂"

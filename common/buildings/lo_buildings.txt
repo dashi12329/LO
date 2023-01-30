@@ -51,10 +51,10 @@ lo_building_31EX = {
 ################
 #万变圣域
 ################
-lo_building_sanctum_of_alteration = {
+building_lo_sanctum_of_alteration = {
 	base_buildtime = @lo_time_t2
-	#icon = 
-	base_cap_amount = 1
+	icon = building_palace
+	#base_cap_amount = 1
 	category = resource
 	potential = {
 		OR = {
@@ -89,55 +89,57 @@ lo_building_sanctum_of_alteration = {
 	ai_weight = {
 		weight = 0
 	}
-	upgrades = {
-		"lo_building_sanctum_of_alteration_up"
-	}
+	#upgrades = {
+	#	"building_lo_sanctum_of_alteration_up"
+	#}
 }
 
 ################
 #万变圣域升级
 ################
-# lo_building_sanctum_of_alteration_up = {
-# 	base_buildtime = @lo_time_t3
-# 	can_build = no
-# 	#icon = 
-# 	base_cap_amount = 1
-# 	category = resource
-# 	#potential = {
-# 	#	OR = {
-# 	#		has_modifier = planet_lo_Iron_Parasites_1_modifier
-# 	#		has_modifier = planet_lo_Iron_Parasites_2_modifier
-# 	#		has_modifier = planet_lo_Iron_Parasites_3_modifier
-# 	#	}
-# 	#} 
-# 	#prerequisites = {
-#     #"tech_sanctum_of_alteration_zone_2"
-# 	}
-# 	#allow = {
-# 	#	OR = {
-# 	#		has_modifier = planet_lo_Iron_Parasites_1_modifier
-# 	#		has_modifier = planet_lo_Iron_Parasites_2_modifier
-# 	#		has_modifier = planet_lo_Iron_Parasites_3_modifier
-# 	#	}
-# 	#}
-# 	resources = {
-# 		category = planet_buildings
-# 		upkeep = {
-# 			energy = 3
-# 			minerals = 3
-# 		}
-# 		#produces = {
-# 		#	
-# 		#}
-# 	}
-# 	planet_modifier = {
-# 		job_aiyou_add = 1
-# 		job_team_1_add = 5
-# 	}
-# 	ai_weight = {
-# 		weight = 0
-# 	}
-# }
+#   building_lo_sanctum_of_alteration_up = {
+#   	base_buildtime = @lo_time_t3
+#   	can_build = no
+#   	icon = building_palace
+#   	#base_cap_amount = 1
+#   	category = resource
+#   	potential = {
+# 		always = yes
+#   	#	OR = {
+#   	#		has_modifier = planet_lo_Iron_Parasites_1_modifier
+#   	#		has_modifier = planet_lo_Iron_Parasites_2_modifier
+#   	#		has_modifier = planet_lo_Iron_Parasites_3_modifier
+#   	#	}
+#   	} 
+#   	prerequisites = {
+#       #"tech_sanctum_of_alteration_zone_2"
+#   	}
+#   	allow = {
+#  		always = yes
+#   	#	OR = {
+#   	#		has_modifier = planet_lo_Iron_Parasites_1_modifier
+#   	#		has_modifier = planet_lo_Iron_Parasites_2_modifier
+#   	#		has_modifier = planet_lo_Iron_Parasites_3_modifier
+#   	#	}
+#   	}
+#   	resources = {
+#   		category = planet_buildings
+#   		upkeep = {
+#   			energy = 3
+#   			minerals = 3
+#   		}
+#   		#produces = {
+#   		#	
+#   		#}
+#   	}
+#   	planet_modifier = {
+#   		job_aiyou_add = 1
+#   		job_team_1_add = 5
+#   	}
+#   	ai_weight = {
+#   		weight = 0
+#   	}
+#   }
 
 ################
 #起源尘合成厂
@@ -192,7 +194,7 @@ lo_building_special_module_factory = {
 	#upgrades = {
 	#}
 	prerequisites = {
-		"tech_special_module_manufacture"
+		"tech_basic_module_manufacture"
 	}
 	allow = {
 		always = yes

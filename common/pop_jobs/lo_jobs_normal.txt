@@ -204,7 +204,7 @@ alternium_researcher = {
 		produces = {
 			special_module = 5
 			physics_research = 10
-			energy_research = 10
+			engineering_research = 10
 			society_research = 10
 		}
 		upkeep = {

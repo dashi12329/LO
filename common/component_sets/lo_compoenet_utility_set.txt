@@ -28,3 +28,63 @@ component_set = {
 	icon = GFX_lo_shippart_armor_T0
 	icon_frame = 1
 }
+component_set = {
+	key = "LO_DESTROYER_REACTOR_T1"
+	icon = GFX_lo_shippart_reactor_T1
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_CRUISER_REACTOR_T1"
+	icon = GFX_lo_shippart_reactor_T1
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_BATTLESHIP_REACTOR_T1"
+	icon = GFX_lo_shippart_reactor_T1
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_TITAN_REACTOR_T1"
+	icon = GFX_lo_shippart_reactor_T1
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_DESTROYER_REACTOR_T2"
+	icon = GFX_lo_shippart_reactor_T2
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_CRUISER_REACTOR_T2"
+	icon = GFX_lo_shippart_reactor_T2
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_BATTLESHIP_REACTOR_T2"
+	icon = GFX_lo_shippart_reactor_T2
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_TITAN_REACTOR_T2"
+	icon = GFX_lo_shippart_reactor_T2
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_COMBAT_COMPUTER_LINE"
+	icon = GFX_lo_shippart_line
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_COMBAT_COMPUTER_ARTILLERY"
+	icon = GFX_lo_shippart_artillery
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_PARTICLE_ACCELERATOR"
+	icon = GFX_lo_shippart_particle_accelerator
+	icon_frame = 1
+}
+component_set = {
+	key = "LO_MR_ALFRED"
+	icon = GFX_lo_shippart_Mr_Alfred
+	icon_frame = 1
+}
