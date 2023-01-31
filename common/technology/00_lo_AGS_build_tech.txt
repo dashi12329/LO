@@ -40,7 +40,7 @@ tech_Albatross = {#信天翁
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 125
 		}
 		modifier = {
 			factor = 1.25
@@ -93,7 +93,7 @@ tech_Aeda = {#艾达
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 125
 		}
 		modifier = {
 			factor = 1.25
@@ -153,7 +153,7 @@ tech_Roc = {#闪电鸡
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 125
 		}
 		modifier = {
 			factor = 1.25
@@ -206,7 +206,7 @@ tech_Tyrant = {#暴君
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 125
 		}
 		modifier = {
 			factor = 1.25
@@ -234,7 +234,7 @@ tech_Tyrant = {#暴君
 
 tech_Mr_Alfred = {#阿福
 	cost = @tier4cost2
-	area = physics
+	area = engineering
 	tier = 4
 	#is_dangerous = yes
 	category = {
@@ -259,26 +259,26 @@ tech_Mr_Alfred = {#阿福
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 150
 		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
+				area = engineering
                 has_trait = "leader_trait_lo_expertise_AGS"
 			}
 		}
 		modifier = {
 			factor = 1.1
 			research_leader = {
-				area = physics
+				area = engineering
 				has_trait = "leader_trait_lo_S_scientist"
 			}
 		}
 		modifier = {
 			factor = 1.2
 			research_leader = {
-				area = physics
+				area = engineering
 				has_trait = "leader_trait_lo_SS_scientist"
 			}
 		}
@@ -313,7 +313,7 @@ tech_Stronghold = {#要塞
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 125
 		}
 		modifier = {
 			factor = 1.25
@@ -367,7 +367,7 @@ tech_Glacias = {#冰龙
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 165
 		}
 		modifier = {
 			factor = 1.25
@@ -419,7 +419,7 @@ tech_Glacias_skin = {#冰龙升级
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 250
+			years_passed > 175
 		}
 		modifier = {
 			factor = 1.25
@@ -447,7 +447,7 @@ tech_Glacias_skin = {#冰龙升级
 
 tech_Triton = {#特里同
 	cost = @tier4cost2
-	area = physics
+	area = engineering
 	tier = 4
 	#is_dangerous = yes
 	category = {
@@ -474,26 +474,26 @@ tech_Triton = {#特里同
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 165
 		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
+				area = engineering
                 has_trait = "leader_trait_lo_expertise_AGS"
 			}
 		}
 		modifier = {
 			factor = 1.1
 			research_leader = {
-				area = physics
+				area = engineering
 				has_trait = "leader_trait_lo_S_scientist"
 			}
 		}
 		modifier = {
 			factor = 1.2
 			research_leader = {
-				area = physics
+				area = engineering
 				has_trait = "leader_trait_lo_SS_scientist"
 			}
 		}
@@ -528,7 +528,7 @@ tech_Peregrinus = {#游隼
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 165
 		}
 		modifier = {
 			factor = 1.25
@@ -579,13 +579,169 @@ tech_Peregrinus_transform = {#游隼升级
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 250
+			years_passed > 175
 		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
 				area = engineering
 				has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Glacias_titan = {#泰坦用冰龙
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_precious_weight1
+	prerequisites = {
+		"tech_Glacias"
+		"tech_titans"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		has_authority = auth_lo_1
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 180
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Peregrinus_titan = {#泰坦用游隼
+	cost = @tier5cost3
+	area = physics
+	tier = 5
+	is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_precious_weight1
+	prerequisites = {
+		"tech_Peregrinus"
+		"tech_titans"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		has_authority = auth_lo_1
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 180
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+                has_trait = "leader_trait_lo_expertise_AGS"
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_S_scientist"
+			}
+		}
+		modifier = {
+			factor = 1.2
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_lo_SS_scientist"
+			}
+		}
+	}
+}
+
+tech_Triton_titan = {#泰坦用特里同
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	is_dangerous = yes
+	category = {
+		AGS
+	}
+	weight = @lo_precious_weight1
+	prerequisites = {
+		"tech_Triton"
+		"tech_titans"
+	}
+	ai_weight = {
+		factor = 0
+	}
+	is_reverse_engineerable = no
+	#gateway = AGS_build #AGS之道
+	modifier = {	    
+	}
+	potential = {
+		has_authority = auth_lo_1
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			years_passed > 180
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+                has_trait = "leader_trait_lo_expertise_AGS"
 			}
 		}
 		modifier = {

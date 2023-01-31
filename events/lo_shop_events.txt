@@ -14,16 +14,166 @@ country_event = {
 	immediate = {
 		set_country_flag = lo_shop_country
 	}
-	option = {
+	option = {#抽卡
 		name = lo_shop.0.aa
 		country_event = {
 			id = lo_shop.1
 		}
 	}
-	option = {
-		name = lo_shop.0.bb
+	option = {#退出
+		name = lo_shop.0.zz
+		hidden_effect = {
+			remove_country_flag = lo_shop_country
+		}
+	}
+}
+
+country_event = {
+	id = lo_shop.1
+	is_triggered_only = yes
+	title = lo_shop.0.name
+	desc = lo_shop.0.desc
+	diplomatic_title = LO_SHOP
+	diplomatic = yes
+	picture_event_data = {
+		portrait = Shop_saler
+		#room = 
+	}
+	option = {#卡池1
+		name = lo_shop.1.aa
+		custom_tooltip = lo_shop.1.aa.tooltip
+		allow = {
+			has_resource = {
+				type = tuna_can
+				amount >= 5
+			}
+		}
+		trigger = {
+			has_civic = civic_lo_horizon
+		}
+		hidden_effect = {
+			add_resource = {
+				tuna_can = -5
+			}
+			random_list = {
+				10 = {
+					create_leader = {
+						name = "Constantia_S2"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Constantia_skin_1
+							trait = leader_trait_lo_SS_scientist
+							trait = leader_trait_lo_expertise_Bioroids
+						}
+					}
+				}
+				30 = {
+					create_leader = {
+						name = "Alice"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Alice_skin_1
+							trait = leader_trait_lo_SS_scientist
+							trait = leader_trait_lo_expertise_Bioroids
+						}
+					}
+				}
+			}
+			country_event = {
+				id = lo_shop.1
+			}
+		}
+	}
+	option = {#卡池2
+		name = lo_shop.1.bb
+		custom_tooltip = lo_shop.1.bb.tooltip
+		allow = {
+			has_resource = {
+				type = tuna_can
+				amount >= 5
+			}
+		}
+		#trigger = {
+		#	has_civic = civic_lo_horizon
+		#}
+		hidden_effect = {
+			add_resource = {
+				tuna_can = -5
+			}
+			random_list = {
+				10 = {
+					create_leader = {
+						name = "Constantia_S2"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Constantia_skin_1
+							trait = leader_trait_lo_SS_scientist
+							trait = leader_trait_lo_expertise_Bioroids
+						}
+					}
+				}
+				30 = {
+					create_leader = {
+						name = "Constantia_S2"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Constantia_skin_2
+							trait = leader_trait_lo_SS_scientist
+							trait = leader_trait_lo_expertise_Bioroids
+						}
+					}
+				}
+				30 = {
+					create_leader = {
+						name = "Labiata"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Labiata_skin_1
+							trait = leader_trait_lo_SS_scientist
+							trait = leader_trait_lo_expertise_Bioroids
+						}
+					}
+				}
+				30 = {
+					create_leader = {
+						name = "Labiata"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Labiata_skin_2
+							trait = leader_trait_lo_SS_scientist
+							trait = leader_trait_lo_expertise_Bioroids
+						}
+					}
+				}
+			}
+			country_event = {
+				id = lo_shop.1
+			}
+		}
+	}
+	option = {#返回
+        name = lo_shop.1.zz
 		hidden_effect = {
 			country_event = {
+				id = lo_shop.0
 			}
 		}
 	}
@@ -56,7 +206,7 @@ country_event = {#开局创建商店国家
 		}
 		last_created_country = {
 			establish_communications_no_message = root
-			save_global_events_target_as = lo_shop_country
+			save_global_event_target_as = lo_shop_country
 		}
 	}
 }

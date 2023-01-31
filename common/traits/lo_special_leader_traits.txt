@@ -1,1 +1,77 @@
-#事件获得的特殊属性leader
+#特殊leader特质
+########test
+leader_trait_Labiata_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no #测试专用，暂时不启用
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_Labiata_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no #测试专用，暂时不启用
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_Constantia_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no #测试专用，暂时不启用
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_Constantia_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no #测试专用，暂时不启用
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_Alice_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no #测试专用，暂时不启用
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}

@@ -24,7 +24,7 @@ utility_component_template = {
 		cost = {		
 			special_module = 5
 			alloys = 10
-			energy = 15
+			#energy = 15
 		}	
 		upkeep = {							
 			energy = 0.15
@@ -57,7 +57,7 @@ utility_component_template = {
 		cost = {		
 			special_module = 10
 			alloys = 20
-			energy = 30
+			#energy = 30
 		}	
 		upkeep = {							
 			energy = 0.3
@@ -65,7 +65,7 @@ utility_component_template = {
 		}
 	}
 	prerequisites = {"tech_Albatross"}
-	component_set = "LO_SHIPPART_M_SHIELD_T0"
+	component_set = "LO_SHIPPART_S_SHIELD_T0"
 }
 
 utility_component_template = {
@@ -90,7 +90,7 @@ utility_component_template = {
 		cost = {		
 			special_module = 20
 			alloys = 40
-			energy = 60
+			#energy = 60
 		}	
 		upkeep = {							
 			energy = 0.6
@@ -98,7 +98,7 @@ utility_component_template = {
 		}
 	}
 	prerequisites = {"tech_Albatross"}
-	component_set = "LO_SHIPPART_L_SHIELD_T0"
+	component_set = "LO_SHIPPART_S_SHIELD_T0"
 }
 
 #####要塞（装甲）
@@ -124,7 +124,7 @@ utility_component_template = {
 		cost = {		
 			special_module = 5
 			alloys = 25
-			energy = 5
+			#energy = 5
 		}	
 		upkeep = {							
 			energy = 0.05
@@ -157,7 +157,7 @@ utility_component_template = {
 		cost = {		
 			special_module = 10
 			alloys = 50
-			energy = 10
+			#energy = 10
 		}	
 		upkeep = {							
 			energy = 0.1
@@ -165,7 +165,7 @@ utility_component_template = {
 		}
 	}
 	prerequisites = {"tech_Stronghold"}
-	component_set = "LO_SHIPPART_M_ARMOR_T0"
+	component_set = "LO_SHIPPART_S_ARMOR_T0"
 }
 
 utility_component_template = {
@@ -190,7 +190,7 @@ utility_component_template = {
 		cost = {		
 			special_module = 20
 			alloys = 100
-			energy = 20
+			#energy = 20
 		}	
 		upkeep = {							
 			energy = 0.2
@@ -198,7 +198,7 @@ utility_component_template = {
 		}
 	}
 	prerequisites = {"tech_Stronghold"}
-	component_set = "LO_SHIPPART_L_ARMOR_T0"
+	component_set = "LO_SHIPPART_S_ARMOR_T0"
 }
 
 ##########
@@ -309,7 +309,7 @@ utility_component_template = {
 		cost = {
 			alloys = 80
             special_module = 5
-			alterium = 1
+			alterium = 2
 		}
 		upkeep = {
 			energy = 0.4
@@ -332,7 +332,7 @@ utility_component_template = {
 		cost = {
 			alloys = 160
             special_module = 10
-			alterium = 1.5
+			alterium = 4
 		}
 		upkeep = {
 			energy = 0.8
@@ -355,7 +355,7 @@ utility_component_template = {
 		cost = {
 			alloys = 320
             special_module = 20
-			alterium = 3
+			alterium = 8
 		}
 		upkeep = {
 			energy = 1.6
@@ -378,7 +378,7 @@ utility_component_template = {
 		cost = {
 			alloys = 640
             special_module = 40
-			alterium = 6
+			alterium = 16
 		}
 		upkeep = {
 			energy = 3.2
@@ -406,7 +406,7 @@ utility_component_template = {
 		cost = {
 			alloys = 25
 			special_module = 5
-			alterium = 1
+			alterium = 2
 		}
 	}
 	class_restriction = {shipclass_military}
@@ -431,7 +431,7 @@ utility_component_template = {
 		cost = {
 			alloys = 25
 			special_module = 5
-			alterium = 1
+			alterium = 2
 		}
 	}
 	class_restriction = {shipclass_military}
@@ -446,56 +446,102 @@ utility_component_template = {
 	}
 }
 utility_component_template = {
-	key = "LO_PARTICLE_ACCELERATOR"
+	key = "LO_AEDA"
 	size = medium
-	icon = "GFX_lo_shippart_particle_accelerator"
-	icon_frame = 1
-	power = -30
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 10
-			special_module = 5
-			alterium = 1
-		}
-	}
-	sensor_range = 5
-	hyperlane_range = 6
-
-	ship_modifier = {
-		ship_tracking_add = 20
-	}
-
-	prerequisites = { "tech_particle_accelerator" }
-	component_set = "sensor_components"
-}
-
-##########
-##A部位配件
-##########
-utility_component_template = {
-	key = "LO_ENERGY_CONVERTER"
-	size = aux
-	icon = 
+	icon = "GFX_lo_shippart_Aeda"
 	icon_frame = 1
 	power = -50
 	resources = {
 		category = ship_components
 		cost = {
 			alloys = 40
-			special_module = 10
-            alterium = 1
+			special_module = 20
+			alterium = 2
+		}
+		upkeep = {
+			special_module = 0.04
+		}
+	}
+	sensor_range = 5
+	hyperlane_range = 6
+	ship_modifier = {
+		#ship_tracking_add = 20
+	}
+	friendly_aura = {
+		name = "aura_Aeda"
+		radius = 80
+		apply_on = ships
+		stack_info = {
+			id = friendly_Aeda
+			priority = 999
+		}
+		modifier = {
+			ship_fire_rate_mult = 0.1
+			ship_tracking_add = 20
+		}
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+	size_restriction = { battleship titan }
+	prerequisites = { "tech_Aeda" }
+	component_set = "sensor_components"
+}
+
+##########
+##A部位配件
+##########
+utility_component_template = {#能量转换器A型
+	key = "LO_ENERGY_CONVERTER_A"
+	size = aux
+	icon = GFX_lo_shippart_energy_converter_A
+	icon_frame = 1
+	power = -100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+			special_module = 20
+            alterium = 2
 		}
 	}
 	ship_modifier = {
-		ship_base_speed_mult = 1.1
-		ship_speed_mult = 0.15
-		ship_shield_hardening_add = 0.2
+		ship_speed_mult = 0.1
+		ship_shield_mult = 0.1
+		ship_shield_hardening_add = 0.1
 	}
-	component_set = "LO_ENERGY_CONVERTER"
+	component_set = "LO_ENERGY_CONVERTER_A"
 	prerequisites = { "tech_energy_converter" }
 }
-utility_component_template = {
+utility_component_template = {#能量转换器B型
+	key = "LO_ENERGY_CONVERTER_B"
+	size = aux
+	icon = GFX_lo_shippart_energy_converter_B
+	icon_frame = 1
+	power = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+			special_module = 20
+            alterium = 2
+		}
+	}
+	ship_modifier = {
+		ship_shield_mult = -0.1
+		ship_fire_rate_mult = 0.2
+	}
+	component_set = "LO_ENERGY_CONVERTER_B"
+	prerequisites = { "tech_energy_converter" }
+}
+utility_component_template = {#阿福（自动修理）
 	key = "LO_MR_ALFRED"
 	size = aux
 	icon = "GFX_lo_shippart_Mr_Alfred"
@@ -506,7 +552,10 @@ utility_component_template = {
 		cost = {
 			alloys = 40
 			special_module = 20
-            alterium = 1
+            alterium = 2
+		}
+		upkeep = {
+			special_module = 0.04
 		}
 	}
 	ship_modifier = {
@@ -515,4 +564,44 @@ utility_component_template = {
 	}
 	prerequisites = { "tech_Mr_Alfred" }
 	component_set = "LO_MR_ALFRED"
+}
+utility_component_template = {#引擎超载系统
+	key = "LO_OVER_POWER"
+	size = aux
+	icon = "GFX_lo_shippart_over_power"
+	icon_frame = 1
+	power = 200
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+			special_module = 20
+            alterium = 2
+		}
+	}
+	ship_modifier = {
+	}
+	prerequisites = { "tech_over_technology_powerpack" }
+	component_set = "LO_OVER_POWER"
+}
+utility_component_template = {#粒子加速护盾充能器
+	key = "LO_SHIELD_BOOSTER"
+	size = aux
+	icon = "GFX_lo_shippart_shield_booster"
+	icon_frame = 1
+	power = -200
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+			special_module = 20
+            alterium = 2
+		}
+	}
+	ship_modifier = {
+		ship_shield_mult = 0.2
+		ship_shield_hardening_add = 0.2
+	}
+	prerequisites = { "tech_particle_accelerator" }
+	component_set = "LO_SHIELD_BOOSTER"
 }

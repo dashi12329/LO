@@ -103,8 +103,8 @@
  tech_multi_tier_rapid_cooler:0 "多层急速冷却炉"
  tech_multi_tier_rapid_cooler_desc:0 "战舰用能量转换器给了我们的工程师一些启示，让能量之间的转换不再拘泥于特定的能量形式，这些大功率急速冷却炉既可以应用在工业生产上，也可以进一步提高我们的武器技术"
  tech_multi_weapon_control_system:0 "最优化火控系统"
- tech_multi_weapon_control_system_desc:0 "应用了Bioroids思考系统和攻击专用OS后，我们的火控技术提升到了极致——甚至每一个粒子的攻击都是最优的"
+ tech_multi_weapon_control_system_desc:0 "应用了生物型AI和攻击专用OS后，我们的火控技术提升到了极致——甚至每一个粒子的攻击都是最优的"
  tech_alternium_fusion_thruster:0 "未知聚变引擎"
- tech_alternium_fusion_thruster_desc:0 "某位顶尖科学家的偶然发现让我们成功设计了使用特殊矿物作为材料的聚变引擎，然而有太多的东西我们无法解释了"
+ tech_alternium_fusion_thruster_desc:0 "某位顶尖科学家的偶然发现让我们成功设计了使用特殊矿物作为材料的聚变引擎"
 
  

@@ -1,6 +1,6 @@
 #####闪电鸡（相位裂解炮）
 weapon_component_template = {#闪电鸡（相位裂解炮）
-	key = "lo_shippart_S_ROC_T0"
+	key = "LO_SHIPPART_S_ROC_T0"
 	size = small
 	icon = GFX_lo_shippart_Roc_T0
 	icon_frame = 1
@@ -36,7 +36,7 @@ weapon_component_template = {#闪电鸡（相位裂解炮）
 	component_set = "LO_SHIPPART_S_ROC_T0"
 }
 weapon_component_template = {#闪电鸡（相位裂解炮）
-	key = "lo_shippart_M_ROC_T0"
+	key = "LO_SHIPPART_M_ROC_T0"
 	size = medium
 	icon = GFX_lo_shippart_Roc_T0
 	icon_frame = 1
@@ -69,10 +69,10 @@ weapon_component_template = {#闪电鸡（相位裂解炮）
 	accuracy = 1.0
 	tags = {weapon_type_energy}
 	prerequisites = {"tech_Roc"}
-	component_set = "LO_SHIPPART_M_ROC_T0"
+	component_set = "LO_SHIPPART_S_ROC_T0"
 }
 weapon_component_template = {#闪电鸡（相位裂解炮）
-	key = "lo_shippart_L_ROC_T0"
+	key = "LO_SHIPPART_L_ROC_T0"
 	size = large
 	icon = GFX_lo_shippart_Roc_T0
 	icon_frame = 1
@@ -105,12 +105,12 @@ weapon_component_template = {#闪电鸡（相位裂解炮）
 	accuracy = 1.0
 	tags = {weapon_type_energy}
 	prerequisites = {"tech_Roc"}
-	component_set = "LO_SHIPPART_L_ROC_T0"
+	component_set = "LO_SHIPPART_S_ROC_T0"
 }
 
 #####暴君（激光）
 weapon_component_template = {
-	key = "lo_shippart_S_Tyrant_T0"
+	key = "LO_SHIPPART_S_TYRANT_T0"
 	size = small
 	icon = GFX_lo_shippart_Tyrant_T0
 	icon_frame = 1
@@ -145,7 +145,7 @@ weapon_component_template = {
 	component_set = "LO_SHIPPART_S_TYRANT_T0"
 }
 weapon_component_template = {
-	key = "lo_shippart_M_Tyrant_T0"
+	key = "LO_SHIPPART_M_TYRANT_T0"
 	size = medium
 	icon = GFX_lo_shippart_Tyrant_T0
 	icon_frame = 1
@@ -177,10 +177,10 @@ weapon_component_template = {
 	accuracy = 0.9
 	tags = {weapon_type_energy}
 	prerequisites = {"tech_Tyrant"}
-	component_set = "LO_SHIPPART_M_TYRANT_T0"
+	component_set = "LO_SHIPPART_S_TYRANT_T0"
 }
 weapon_component_template = {
-	key = "lo_shippart_L_Tyrant_T0"
+	key = "LO_SHIPPART_L_TYRANT_T0"
 	size = large
 	icon = GFX_lo_shippart_Tyrant_T0
 	icon_frame = 1
@@ -212,12 +212,12 @@ weapon_component_template = {
 	accuracy = 0.9
 	tags = {weapon_type_energy}
 	prerequisites = {"tech_Tyrant"}
-	component_set = "LO_SHIPPART_L_TYRANT_T0"
+	component_set = "LO_SHIPPART_S_TYRANT_T0"
 }
 
 #####冰龙（光矛）
 weapon_component_template = {
-	key = "lo_shippart_X_Glacias_T0"
+	key = "LO_SHIPPART_X_GLACIAS_T0"
 	size = extra_large
 	#entity = "turret_xl_entity"
 	icon = GFX_lo_shippart_Glacias_T0
@@ -229,7 +229,7 @@ weapon_component_template = {
 			special_module = 200
 			rare_crystals = 4
 			alloys = 250
-			#alterinum = 
+			alterium = 4
 		}	
 		upkeep = {							
 			energy = 0.3
@@ -255,12 +255,12 @@ weapon_component_template = {
 	tags = {weapon_type_energy}
 	prerequisites = {"tech_Glacias"}
 	component_set = "LO_SHIPPART_X_GLACIAS_T0"
-	upgrades_to = lo_shippart_X_Glacias_skin
+	upgrades_to = "LO_SHIPPART_X_GLACIAS_SKIN"
 }
 weapon_component_template = {
-	key = "lo_shippart_X_Glacias_skin"
+	key = "LO_SHIPPART_X_GLACIAS_SKIN"
 	size = extra_large
-	entity = "turret_xl_entity"
+	#entity = "turret_xl_entity"
 	icon = GFX_lo_shippart_Glacias_skin
 	icon_frame = 1
 	type = instant
@@ -270,7 +270,7 @@ weapon_component_template = {
 			special_module = 250
 			rare_crystals = 5
 			alloys = 300
-			#alterinum = 
+			alterium = 6
 		}	
 		upkeep = {							
 			energy = 0.35
@@ -297,10 +297,50 @@ weapon_component_template = {
 	prerequisites = {"tech_Glacias_skin"}
 	component_set = "LO_SHIPPART_X_GLACIAS_SKIN"
 }
+weapon_component_template = {
+	key = "LO_SHIPPART_T_GLACIAS_T0"
+	size = titanic
+	#entity = "turret_xl_entity"
+	icon = GFX_lo_shippart_Glacias_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 400
+			rare_crystals = 8
+			alloys = 500
+			alterium = 8
+		}	
+		upkeep = {							
+			energy = 0.6
+			special_module = 1
+		}
+	}
+	firing_arc = 10    
+	min_range = 0       
+	static_rotation = no  
+	use_ship_kill_target = no
+	power = -600					
+	damage = { min = 6000 max = 12000 }		
+	windup = { min = 2 max = 42 }	
+	total_fire_time = 200				
+	hull_damage = 1.5                   
+	shield_damage = 0.75              
+	armor_damage = 1.75            
+	shield_penetration = 0         
+	armor_penetration = 0                                 
+	tracking = 0                   
+	range = 250                     
+	accuracy = 0.85
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Glacias_titan"}
+	component_set = "LO_SHIPPART_T_GLACIAS_T0"
+}
 
 #####游隼（电弧）
 weapon_component_template = {
-	key = "lo_shippart_X_Peregrinus_T0"
+	key = "LO_SHIPPART_X_PEREGRINUS_T0"
 	size = extra_large
 	#entity = "turret_xl_entity"
 	icon = GFX_lo_shippart_Peregrinus_T0
@@ -313,7 +353,7 @@ weapon_component_template = {
 			exotic_gases = 2
 			rare_crystals = 2
 			alloys = 250
-			#alterinum = 
+			alterium = 4
 		}	
 		upkeep = {							
 			energy = 0.3
@@ -339,10 +379,10 @@ weapon_component_template = {
 	tags = {weapon_type_energy}
 	prerequisites = {"tech_Peregrinus"}
 	component_set = "LO_SHIPPART_X_PEREGRINUS_T0"
-	upgrades_to = lo_shippart_X_Peregrinus_transform
+	upgrades_to = "LO_SHIPPART_X_PEREGRINUS_TRANSFORM"
 }
 weapon_component_template = {
-	key = "lo_shippart_X_Peregrinus_transform"
+	key = "LO_SHIPPART_X_PEREGRINUS_TRANSFORM"
 	size = extra_large
 	#entity = "turret_xl_entity"
 	icon = GFX_lo_shippart_Peregrinus_transform
@@ -355,7 +395,7 @@ weapon_component_template = {
 			exotic_gases = 2.5
 			rare_crystals = 2.5
 			alloys = 300
-			#alterinum = 
+			alterium = 6
 		}	
 		upkeep = {							
 			energy = 0.35
@@ -381,6 +421,47 @@ weapon_component_template = {
 	tags = {weapon_type_energy}
 	prerequisites = {"tech_Peregrinus_transform"}
 	component_set = "LO_SHIPPART_X_PEREGRINUS_TRANSFORM"
+}
+weapon_component_template = {
+	key = "LO_SHIPPART_T_PEREGRINUS_T0"
+	size = titanic
+	#entity = "turret_xl_entity"
+	icon = GFX_lo_shippart_Peregrinus_T0
+	icon_frame = 1
+	type = instant
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 400
+			exotic_gases = 4
+			rare_crystals = 4
+			alloys = 500
+			alterium = 8
+		}	
+		upkeep = {							
+			energy = 0.6
+			special_module = 1
+		}
+	}
+	firing_arc = 15     
+	min_range = 0       
+	static_rotation = no  
+	use_ship_kill_target = no
+	power = -600					
+	damage = { min = 900 max = 8000 }		
+	windup = { min = 1 max = 30 }	
+	total_fire_time = 200					
+	hull_damage = 1                  
+	shield_damage = 1             
+	armor_damage = 1         
+	shield_penetration = 1       
+	armor_penetration = 1                              
+	tracking = 0                   
+	range = 230                      
+	accuracy = 0.9
+	tags = {weapon_type_energy}
+	prerequisites = {"tech_Peregrinus_titan"}
+	component_set = "LO_SHIPPART_T_PEREGRINUS_T0"
 }
 
 #####特里同（导弹）

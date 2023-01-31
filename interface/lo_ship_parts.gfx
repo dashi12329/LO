@@ -48,11 +48,27 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/ship_parts/lo_artillery.png"
 	}
 	spriteType = {
-		name = "GFX_lo_shippart_particle_accelerator"
-		textureFile = "gfx/interface/icons/ship_parts/lo_particle_accelerator.png"
+		name = "GFX_lo_shippart_Aeda"
+		textureFile = "gfx/interface/icons/ship_parts/lo_Aeda.png"
 	}
 	spriteType = {
 		name = "GFX_lo_shippart_Mr_Alfred"
 		textureFile = "gfx/interface/icons/ship_parts/lo_Mr_Alfred.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_energy_converter_A"
+		textureFile = "gfx/interface/icons/ship_parts/lo_energy_converter_A.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_energy_converter_B"
+		textureFile = "gfx/interface/icons/ship_parts/lo_energy_converter_B.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_over_power"
+		textureFile = "gfx/interface/icons/ship_parts/lo_over_power.png"
+	}
+	spriteType = {
+		name = "GFX_lo_shippart_shield_booster"
+		textureFile = "gfx/interface/icons/ship_parts/lo_shield_booster.png"
 	}
 }

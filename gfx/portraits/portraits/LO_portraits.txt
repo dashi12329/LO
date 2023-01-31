@@ -1,15 +1,22 @@
 portraits = {
-                Labiata = {textureFile = "gfx/models/portraits/lo/Labiata.png" }
-                Constantia_S2 = {textureFile = "gfx/models/portraits/lo/Constantia_S2.png" }
-                CS_Perrault = {textureFile = "gfx/models/portraits/lo/CS_Perrault.png" }
-                Black_Lilith = {textureFile = "gfx/models/portraits/lo/Black_Lilith.png" }
-                Cardinal_Armand = {textureFile = "gfx/models/portraits/lo/Cardinal_Armand.png" }
-                Charlotte = {textureFile = "gfx/models/portraits/lo/Charlotte.png" }
-                Deconstructor_Azaz = {textureFile = "gfx/models/portraits/lo/Deconstructor_Azaz.png" }
-                #test   Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/Invincible_Dragon.png" }
-                Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/02.png" }
-                Doctor = {textureFile = "gfx/models/portraits/lo/Doctor.png" }
-                Shop_saler = {textureFile = "gfx/models/portraits/lo/shop_saler.png" }
+#########################常规立绘####################
+    Labiata = {textureFile = "gfx/models/portraits/lo/Labiata.png" }
+    Constantia_S2 = {textureFile = "gfx/models/portraits/lo/Constantia_S2.png" }
+    CS_Perrault = {textureFile = "gfx/models/portraits/lo/CS_Perrault.png" }
+    Black_Lilith = {textureFile = "gfx/models/portraits/lo/Black_Lilith.png" }
+    Cardinal_Armand = {textureFile = "gfx/models/portraits/lo/Cardinal_Armand.png" }
+    Charlotte = {textureFile = "gfx/models/portraits/lo/Charlotte.png" }
+    Deconstructor_Azaz = {textureFile = "gfx/models/portraits/lo/Deconstructor_Azaz.png" }
+    #test   Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/Invincible_Dragon.png" }
+    Invincible_Dragon = {textureFile = "gfx/models/portraits/lo/02.png" }
+    Doctor = {textureFile = "gfx/models/portraits/lo/Doctor.png" }
+    Shop_saler = {textureFile = "gfx/models/portraits/lo/shop_saler.png" }
+#########################皮肤立绘####################
+    Labiata_skin_1 = {textureFile = "gfx/models/portraits/skin/Labiata_skin_1.png"}
+    Labiata_skin_2 = {textureFile = "gfx/models/portraits/skin/Labiata_skin_2.png"}
+    Constantia_skin_1 = {textureFile = "gfx/models/portraits/skin/Constantia_skin_1.png"}
+    Constantia_skin_2 = {textureFile = "gfx/models/portraits/skin/Constantia_skin_2.png"}
+    Alice_skin_1 = {textureFile = "gfx/models/portraits/skin/Alice_skin_1.png"}
 #########################Q版头像####################
                 Q_Ajax_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Ajax_N.png"}
                 Q_Alexandra_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Alexandra_N.png"}
@@ -434,23 +441,59 @@ portrait_groups = {
         add = {
             trigger = {
                 leader_class = scientist
-                #NOT = {
-                #    has_trait = leader_trait_lo_02
-                #}
+                NOR = {
+                   has_trait = leader_trait_Labiata_skin_1
+                   has_trait = leader_trait_Labiata_skin_2
+                   has_trait = leader_trait_Constantia_skin_1
+                   has_trait = leader_trait_Constantia_skin_2
+                   has_trait = leader_trait_Alice_skin_1
+                }
                       }
             portraits = {
                 Deconstructor_Azaz
                 Doctor
                         }
               }
-        #add = {   #测试根据特定特质锁定特定立绘
-        #    trigger = {
-        #        has_trait = leader_trait_lo_02
-        #    }
-        #    portraits = {
-        #        Labiata
-        #    }
-        #}
+        add = {   #根据特定特质锁定特定立绘
+            trigger = {
+                has_trait = leader_trait_Labiata_skin_1
+            }
+            portraits = {
+                Labiata_skin_1
+            }
+        }
+        add = {   #根据特定特质锁定特定立绘
+            trigger = {
+                has_trait = leader_trait_Labiata_skin_2
+            }
+            portraits = {
+                Labiata_skin_2
+            }
+        }
+        add = {   #根据特定特质锁定特定立绘
+            trigger = {
+                has_trait = leader_trait_Constantia_skin_1
+            }
+            portraits = {
+                Constantia_skin_1
+            }
+        }
+        add = {   #根据特定特质锁定特定立绘
+            trigger = {
+                has_trait = leader_trait_Constantia_skin_2
+            }
+            portraits = {
+                Constantia_skin_2
+            }
+        }
+        add = {   #根据特定特质锁定特定立绘
+            trigger = {
+                has_trait = leader_trait_Alice_skin_1
+            }
+            portraits = {
+                Alice_skin_1
+            }
+        }
         add = {
             trigger = {
                 leader_class = general

@@ -1,3 +1,8 @@
 ﻿l_simp_chinese:
  lo_shop.0.aa:0 "测试1"
  lo_shop.0.bb:0 "测试2"
+ lo_shop.0.zz:0 "离开"
+ lo_shop.1.aa:0 "测试up卡池"
+ lo_shop.1.bb:0 "测试普通卡池"
+ lo_shop.1.zz:0 "返回"
+ lo_shop.1.aa.tooltip:0 "测试用，内含皮肤"

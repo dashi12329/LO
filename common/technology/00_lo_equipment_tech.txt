@@ -45,7 +45,7 @@ tech_defense_optimization_OS = {#防御OS
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 125
+			years_passed > 80
 		}
 		modifier = {
 			factor = 1.25
@@ -105,7 +105,7 @@ tech_attack_optimization_OS = {#攻击OS
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 150
+			years_passed > 100
 		}
 		modifier = {
 			factor = 1.25
@@ -171,7 +171,7 @@ tech_support_optimization_OS = {#辅助OS
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 175
+			years_passed > 120
 		}
 		modifier = {
 			factor = 1.25
@@ -242,7 +242,7 @@ tech_AGS_command_system = {#AGS指挥系统
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 160
+			years_passed > 120
 		}
 		modifier = {
 			factor = 1.25
@@ -304,7 +304,7 @@ tech_large_capacity_generator = {#大型能量产生器
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 160
+			years_passed > 120
 		}
 		modifier = {
 			factor = 1.25
@@ -364,7 +364,7 @@ tech_heavy_armor_framework = {#复合型装甲
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 160
+			years_passed > 120
 		}
 		modifier = {
 			factor = 1.25
@@ -424,7 +424,7 @@ tech_high_power_booster = {#高出力推进器
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 160
+			years_passed > 120
 		}
 		modifier = {
 			factor = 1.25
@@ -476,8 +476,7 @@ tech_particle_accelerator = {#粒子加速器
 	}
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
-	modifier = {#舰船修正，复合型能量产生器、引擎超载系统、AGS艾达游隼的前置科技
-	    #weapon_type_energy_weapon_speed_mult = 0.1
+	modifier = {#解锁舰船部件，复合型能量产生器、引擎超载系统、AGS艾达游隼的前置科技
 	    #weapon_type_energy_weapon_damage_mult = 0.1
 	    #weapon_type_energy_weapon_fire_rate_mult = 0.1
 	}
@@ -487,7 +486,7 @@ tech_particle_accelerator = {#粒子加速器
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 175
+			years_passed > 140
 		}
 		modifier = {
 			factor = 1.25
@@ -548,7 +547,7 @@ tech_energy_converter = {#能量转换器
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 160
+			years_passed > 140
 		}
 		modifier = {
 			factor = 1.25
@@ -611,7 +610,7 @@ tech_hybrid_strucuture_generator = {#复合型能量产生器
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 175
+			years_passed > 150
 		}
 		modifier = {
 			factor = 1.25
@@ -674,7 +673,7 @@ tech_gene_aplication_design_ai = {#生物型AI
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 160
+			years_passed > 140
 		}
 		modifier = {
 			factor = 1.25
@@ -741,11 +740,11 @@ tech_over_technology_powerpack = {#引擎超载系统
 	is_reverse_engineerable = no
 	gateway = AGS_build #AGS之道
 	modifier = {#舰船修正，AGS特里同要塞冰龙的前置科技
-	    ship_shield_mult = 0.1
-	    ship_speed_mult = 0.1
-		ship_evasion_mult = 0.1
-		ship_winddown_mult = -0.1
-		ship_windup_mult = -0.1
+	    #ship_shield_mult = 0.1
+	    #ship_speed_mult = 0.1
+		#ship_evasion_mult = 0.1
+		#ship_winddown_mult = -0.1
+		#ship_windup_mult = -0.1
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -753,7 +752,7 @@ tech_over_technology_powerpack = {#引擎超载系统
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 160
 		}
 		modifier = {
 			factor = 1.25
@@ -818,7 +817,7 @@ tech_multi_tier_rapid_cooler = {#多层急速冷却炉
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 160
 		}
 		modifier = {
 			factor = 1.25
@@ -883,7 +882,7 @@ tech_multi_weapon_control_system = {#最优化火控系统
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 200
+			years_passed > 160
 		}
 		modifier = {
 			factor = 1.25
@@ -936,7 +935,10 @@ tech_alternium_fusion_thruster = {#未知聚变引擎
 	is_reverse_engineerable = no
 	gateway = alternium_apply #矿应用之道
 	modifier = {#舰船修正，AGS游隼的前置科技
-	    
+	    ship_speed_mult = 0.1
+		ship_evasion_mult = 0.1
+		ship_winddown_mult = -0.1
+		ship_windup_mult = -0.1
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -944,7 +946,7 @@ tech_alternium_fusion_thruster = {#未知聚变引擎
 	weight_modifier = {
 		modifier = {
 			factor = 1.5
-			years_passed > 225
+			years_passed > 175
 		}
 		modifier = {
 			factor = 1.25
