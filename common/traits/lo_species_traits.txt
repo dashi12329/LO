@@ -146,3 +146,117 @@ trait_supporter = {
 }
 
 #额外特性
+trait_parts = {
+	cost = 1
+	icon = ""
+	potential_crossbreeding_chance = 0
+	randomized = no
+	allowed_archetypes = {
+		LO
+	}
+	initial = no
+	advanced_trait = no
+	modifier = {
+		planet_jobs_minerals_produces_mult = 0.15
+		planet_jobs_engineering_research_produces_mult = 0.10
+	}
+}
+
+trait_nutrient = {
+	cost = 1
+	icon = ""
+	potential_crossbreeding_chance = 0
+	randomized = no
+	allowed_archetypes = {
+		LO
+	}
+	initial = no
+	advanced_trait = no
+	modifier = {
+		planet_jobs_food_produces_mult = 0.05
+		planet_jobs_consumer_goods_upkeep_mult = -0.1
+		planet_jobs_society_research_produces_mult = 0.10
+	}
+}
+
+trait_power = {
+	cost = 1
+	icon = ""
+	potential_crossbreeding_chance = 0
+	randomized = no
+	allowed_archetypes = {
+		LO
+	}
+	initial = no
+	advanced_trait = no
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.15
+		planet_jobs_physics_research_produces_mult = 0.10
+	}
+}
+
+trait_research = {
+	cost = 1
+	icon = ""
+	potential_crossbreeding_chance = 0
+	randomized = no
+	allowed_archetypes = {
+		LO
+	}
+	initial = no
+	advanced_trait = no
+	modifier = {
+		planet_jobs_physics_research_produces_mult = 0.1
+		planet_jobs_society_research_produces_mult = 0.1
+		planet_jobs_engineering_research_produces_mult = 0.1
+	}
+}
+
+trait_grow = {
+	cost = 1
+	icon = ""
+	potential_crossbreeding_chance = 0
+	randomized = no
+	allowed_archetypes = {
+		LO
+	}
+	initial = no
+	advanced_trait = no
+	modifier = {
+		pop_growth_speed = 0.1
+		pop_happiness = 0.1
+	}
+}
+
+trait_make_1 = {
+	cost = 1
+	icon = ""
+	potential_crossbreeding_chance = 0
+	randomized = no
+	allowed_archetypes = {
+		LO
+	}
+	initial = no
+	advanced_trait = no
+	modifier = {
+		planet_jobs_alloys_produces_mult = 0.1
+		planet_jobs_consumer_goods_produces_mult = 0.1
+	}
+}
+
+trait_make_2 = {
+	cost = 1
+	icon = ""
+	potential_crossbreeding_chance = 0
+	randomized = no
+	allowed_archetypes = {
+		LO
+	}
+	initial = no
+	advanced_trait = no
+	modifier = {
+		planet_jobs_origin_dust_produces_mult = 0.2
+		planet_jobs_special_module_produces_mult = 0.2
+		planet_jobs_alterium_produces_mult = 0.2
+	}
+}

@@ -465,3 +465,46 @@ weapon_component_template = {
 }
 
 #####特里同（导弹）
+weapon_component_template = {
+	key = "LO_SHIPPART_X_TRITON_T0"
+	size = extra_large
+	#entity = "turret_xl_entity"
+	icon = GFX_lo_shippart_Triton_T0
+	icon_frame = 1
+	type = missile
+	resources = {
+		category = ship_components
+		cost = {		
+			special_module = 200
+			exotic_gases = 1
+			volatile_motes = 3
+			alloys = 250
+			alterium = 4
+		}	
+		upkeep = {							
+			energy = 0.3
+			special_module = 0.4
+		}
+	}  
+	min_range = 0       
+	power = -450				
+	damage = { min = 500 max = 2500 }
+	windup = { min = 1 max = 10 }	
+	total_fire_time = 40			
+	hull_damage = 1.25           
+	shield_damage = 1             
+	armor_damage = 1.5 
+	shield_penetration = 1       
+	armor_penetration = 0                            
+	tracking = 0.3              
+	range = 175                    
+	accuracy = 1
+	missile_speed = 23
+	missile_evasion = 0
+	missile_armor = 40
+	missile_health = 75
+	missile_retarget_range = 120
+	tags = {weapon_type_explosive}
+	prerequisites = {"tech_Triton"}
+	component_set = "LO_SHIPPART_X_TRITON_T0"
+}

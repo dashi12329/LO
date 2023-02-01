@@ -805,11 +805,12 @@ tech_multi_tier_rapid_cooler = {#多层急速冷却炉
 	gateway = AGS_build #AGS之道
 	modifier = {#工业修正，AGS冰龙游隼的前置科技
 	    ship_fire_rate_mult = 0.05
-	    station_gatherers_energy_produces_mult = 0.05
-	    station_gatherers_minerals_produces_mult = 0.05
-		station_gatherers_exotic_gases_produces_mult = 0.05
-		station_gatherers_rare_crystals_produces_mult = 0.05
-		station_gatherers_violatile_produces_mult = 0.05
+		station_gatherers_produces_mult = 0.1
+	    #station_gatherers_energy_produces_mult = 0.05
+	    #station_gatherers_minerals_produces_mult = 0.05
+		#station_gatherers_exotic_gases_produces_mult = 0.05
+		#station_gatherers_rare_crystals_produces_mult = 0.05
+		#station_gatherers_violatile_produces_mult = 0.05
 	}
 	potential = {
 		has_authority = auth_lo_1

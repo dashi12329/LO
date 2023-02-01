@@ -38,3 +38,8 @@ component_set = {
 	icon = GFX_lo_shippart_Peregrinus_T0
 	icon_frame = 1
 }
+component_set = {
+	key = "LO_SHIPPART_X_TRITON_T0"
+	icon = GFX_lo_shippart_Triton_T0
+	icon_frame = 1
+}

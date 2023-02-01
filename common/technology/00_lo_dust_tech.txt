@@ -152,7 +152,16 @@ tech_Bioroids_analyze_1 = {#Bioroids解析1
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
 	modifier = {#
+	    description = tech_gene_tailoring_modifier_desc
+	    description_parameters = {
+		    POINTS = @tech_gene_tailoring_POINTS
+	    }
 	    pop_growth_speed = 0.1
+		LO_species_trait_points_add = 1
+	}
+	feature_flags = {
+		modify_traits
+		pop_self_modification
 	}
 	potential = {
 		has_authority = auth_lo_1
@@ -203,7 +212,7 @@ tech_Bioroids_analyze_2 = {#Bioroids解析2
 	is_reverse_engineerable = no
 	gateway = Bioroids #Bioroids之道
 	modifier = {
-		pop_housing_usage_mult = -0.1
+		LO_species_trait_points_add = 2
 	}
 	potential = {
 		has_authority = auth_lo_1

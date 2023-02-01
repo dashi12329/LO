@@ -7,7 +7,7 @@ leader_trait_Labiata_skin_1 = {
 	allowed_archetypes = { LO }
 	modifier = {
 	}
-    randomized = no #测试专用，暂时不启用
+    randomized = no 
 	requires_traits = {
 		trait_lo
 	}
@@ -22,7 +22,7 @@ leader_trait_Labiata_skin_2 = {
 	allowed_archetypes = { LO }
 	modifier = {
 	}
-    randomized = no #测试专用，暂时不启用
+    randomized = no 
 	requires_traits = {
 		trait_lo
 	}
@@ -37,7 +37,7 @@ leader_trait_Constantia_skin_1 = {
 	allowed_archetypes = { LO }
 	modifier = {
 	}
-    randomized = no #测试专用，暂时不启用
+    randomized = no 
 	requires_traits = {
 		trait_lo
 	}
@@ -52,7 +52,7 @@ leader_trait_Constantia_skin_2 = {
 	allowed_archetypes = { LO }
 	modifier = {
 	}
-    randomized = no #测试专用，暂时不启用
+    randomized = no 
 	requires_traits = {
 		trait_lo
 	}
@@ -67,7 +67,7 @@ leader_trait_Alice_skin_1 = {
 	allowed_archetypes = { LO }
 	modifier = {
 	}
-    randomized = no #测试专用，暂时不启用
+    randomized = no 
 	requires_traits = {
 		trait_lo
 	}

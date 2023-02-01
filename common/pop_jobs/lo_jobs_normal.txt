@@ -80,9 +80,9 @@ maid = {
 alchemist = {
 	category = worker
 	#condition_string = WORKER_JOB_TRIGGER
-    possible = {
-		has_trait = trait_lo
-	}
+    #possible = {
+	#	has_trait = trait_lo
+	#}
 	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_lojobs
@@ -110,9 +110,9 @@ alchemist = {
 ################
 dust_worker = {
 	category = worker
-	possible = {
-		has_trait = trait_lo
-	}
+	#possible = {
+	#	has_trait = trait_lo
+	#}
 	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_lojobs
@@ -121,8 +121,8 @@ dust_worker = {
 			society_research = 3
 		}
 		upkeep = {
-			food = 4
-			energy = 3
+			food = 1
+			energy = 2
 			minerals = 2
 		}
 	}
@@ -139,14 +139,14 @@ dust_worker = {
 ################
 ee = {
 	category = specialist
-	possible = {
-		has_trait = trait_lo
-	}
+	#possible = {
+	#	has_trait = trait_lo
+	#}
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_lojobs
 		produces = {
-			special_module = 4
+			special_module = 6
 			physics_research = 5
 		}
 		upkeep = {
@@ -168,9 +168,9 @@ ee = {
 ################
 factory_girl = {
 	category = worker
-	possible = {
-		has_trait = trait_lo
-	}
+	#possible = {
+	#	has_trait = trait_lo
+	#}
 	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_lojobs
@@ -195,9 +195,9 @@ factory_girl = {
 ################
 alternium_researcher = {
 	category = specialist
-	possible = {
-		has_trait = trait_lo
-	}
+	#possible = {
+	#	has_trait = trait_lo
+	#}
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_lojobs
@@ -226,9 +226,9 @@ alternium_researcher = {
 ################
 alternium_tester = {
 	category = worker
-	possible = {
-		has_trait = trait_lo
-	}
+	#possible = {
+	#	has_trait = trait_lo
+	#}
 	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_lojobs
@@ -259,9 +259,9 @@ alternium_tester = {
 ################
 team_1 = {
 	category = worker
-	possible = {
-		has_trait = trait_lo
-	}
+	#possible = {
+	#	has_trait = trait_lo
+	#}
 	possible_precalc = can_fill_worker_job
 	resources = {
 		category = planet_lojobs
@@ -289,9 +289,9 @@ team_1 = {
 ################
 aiyou = {
 	category = specialist
-	possible = {
-		has_trait = trait_lo
-	}
+	#possible = {
+	#	has_trait = trait_lo
+	#}
 	possible_precalc = can_fill_specialist_job
 	resources = {
 		category = planet_lojobs

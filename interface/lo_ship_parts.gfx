@@ -32,6 +32,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/ship_parts/lo_Peregrinus_transform.png"
 	}
 	spriteType = {
+		name = "GFX_lo_shippart_Triton_T0"
+		textureFile = "gfx/interface/icons/ship_parts/lo_Triton.png"
+	}
+	spriteType = {
 		name = "GFX_lo_shippart_reactor_T1"
 		textureFile = "gfx/interface/icons/ship_parts/lo_reactor_T1.png"
 	}
