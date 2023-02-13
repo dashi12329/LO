@@ -48,6 +48,34 @@ portraits = {
     X_00_Tiamat = {textureFile = "gfx/models/portraits/lo/X_00_Tiamat.png"}
     X_05_Emily = {textureFile = "gfx/models/portraits/lo/X_05_Emily.png"}
 #########################皮肤立绘####################
+#########################地平线卡池##################
+    AG_1_Nereid_skin_1 = {textureFile = "gfx/models/portraits/skin/AG_1_Nereid_skin_1.png"}
+    AG_1_Nereid_skin_2 = {textureFile = "gfx/models/portraits/skin/AG_1_Nereid_skin_2.png"}
+    AG_2C_Sirene_skin_1 = {textureFile = "gfx/models/portraits/skin/AG_2C_Sirene_skin_1.png"}
+    AG_2C_Sirene_skin_2 = {textureFile = "gfx/models/portraits/skin/AG_2C_Sirene_skin_2.png"}
+    Invincible_Dragon_skin_1 = {textureFile = "gfx/models/portraits/skin/Invincible_Dragon_skin_1.png"}
+    Invincible_Dragon_skin_2 = {textureFile = "gfx/models/portraits/skin/Invincible_Dragon_skin_2.png"}
+    MH_4_Thetis_skin_1 = {textureFile = "gfx/models/portraits/skin/MH_4_Thetis_skin_1.png"}
+    MH_4_Thetis_skin_2 = {textureFile = "gfx/models/portraits/skin/MH_4_Thetis_skin_2.png"}
+    MH_4_Thetis_skin_2_b = {textureFile = "gfx/models/portraits/skin/MH_4_Thetis_skin_2_b.png"}
+    P_3M_Undine_skin_1 = {textureFile = "gfx/models/portraits/skin/P_3M_Undine_skin_1.png"}
+    P_3M_Undine_skin_2 = {textureFile = "gfx/models/portraits/skin/P_3M_Undine_skin_2.png"}
+    P_3M_Undine_skin_2_b = {textureFile = "gfx/models/portraits/skin/P_3M_Undine_skin_2_b.png"}
+#########################天空骑士卡池##################
+    P_22_Harpyia_skin_1 = {textureFile = "gfx/models/portraits/skin/P_22_Harpyia_skin_1.png"}
+    P_22_Harpyia_skin_2 = {textureFile = "gfx/models/portraits/skin/P_22_Harpyia_skin_2.png"}
+    P_29_Lindwurm_skin_1 = {textureFile = "gfx/models/portraits/skin/P_29_Lindwurm_skin_1.png"}
+    P_29_Lindwurm_skin_2 = {textureFile = "gfx/models/portraits/skin/P_29_Lindwurm_skin_2.png"}
+    P_49_Sleipnir_skin_1 = {textureFile = "gfx/models/portraits/skin/P_49_Sleipnir_skin_1.png"}
+    P_49_Sleipnir_skin_2 = {textureFile = "gfx/models/portraits/skin/P_49_Sleipnir_skin_2.png"}
+    P_49_Sleipnir_skin_3 = {textureFile = "gfx/models/portraits/skin/P_49_Sleipnir_skin_3.png"}
+    P_A_00_Griffon_skin_1 = {textureFile = "gfx/models/portraits/skin/P_A_00_Griffon_skin_1.png"}
+    P_A_00_Griffon_skin_1_b = {textureFile = "gfx/models/portraits/skin/P_A_00_Griffon_skin_1_b.png"}
+    P_A_00_Griffon_skin_2 = {textureFile = "gfx/models/portraits/skin/P_A_00_Griffon_skin_2.png"}
+    P_A_8_Blackhound_skin_1 = {textureFile = "gfx/models/portraits/skin/P_A_8_Blackhound_skin_1.png"}
+    P_A_8_Blackhound_skin_2 = {textureFile = "gfx/models/portraits/skin/P_A_8_Blackhound_skin_2.png"}
+    EB_48G_Hraesvelgr_skin_1 = {textureFile = "gfx/models/portraits/skin/EB_48G_Hraesvelgr_skin_1.png"}
+#########################战斗女仆卡池##################
     Labiata_skin_1 = {textureFile = "gfx/models/portraits/skin/Labiata_skin_1.png"}
     Labiata_skin_2 = {textureFile = "gfx/models/portraits/skin/Labiata_skin_2.png"}
     Constantia_skin_1 = {textureFile = "gfx/models/portraits/skin/Constantia_skin_1.png"}
@@ -477,12 +505,39 @@ portrait_groups = {
         add = {
             trigger = {
                 leader_class = scientist
-                NOR = {
-                   has_trait = leader_trait_Labiata_skin_1
-                   has_trait = leader_trait_Labiata_skin_2
-                   has_trait = leader_trait_Constantia_skin_1
-                   has_trait = leader_trait_Constantia_skin_2
-                   has_trait = leader_trait_Alice_skin_1
+                NOR = {####排除抽卡特殊特质
+                    has_trait = leader_trait_Labiata_skin_1
+                    has_trait = leader_trait_Labiata_skin_2
+                    has_trait = leader_trait_Constantia_skin_1
+                    has_trait = leader_trait_Constantia_skin_2
+                    has_trait = leader_trait_Alice_skin_1
+                    ######################################
+                    has_trait = leader_trait_AG_1_Nereid_skin_1
+                    has_trait = leader_trait_AG_1_Nereid_skin_2
+                    has_trait = leader_trait_AG_2C_Sirene_skin_1
+                    has_trait = leader_trait_AG_2C_Sirene_skin_2
+                    has_trait = leader_trait_Invincible_Dragon_skin_1
+                    has_trait = leader_trait_Invincible_Dragon_skin_2
+                    has_trait = leader_trait_MH_4_Thetis_skin_1
+                    has_trait = leader_trait_MH_4_Thetis_skin_2
+                    has_trait = leader_trait_MH_4_Thetis_skin_2_b
+                    has_trait = leader_trait_P_3M_Undine_skin_1
+                    has_trait = leader_trait_P_3M_Undine_skin_2
+                    has_trait = leader_trait_P_3M_Undine_skin_2_b
+                    #######################################
+                    has_trait = leader_trait_P_22_Harpyia_skin_1
+                    has_trait = leader_trait_P_22_Harpyia_skin_2
+                    has_trait = leader_trait_P_29_Lindwurm_skin_1
+                    has_trait = leader_trait_P_29_Lindwurm_skin_2
+                    has_trait = leader_trait_P_49_Sleipnir_skin_1
+                    has_trait = leader_trait_P_49_Sleipnir_skin_2
+                    has_trait = leader_trait_P_49_Sleipnir_skin_3
+                    has_trait = leader_trait_P_A_00_Griffon_skin_1
+                    has_trait = leader_trait_P_A_00_Griffon_skin_1_b
+                    has_trait = leader_trait_P_A_00_Griffon_skin_2
+                    has_trait = leader_trait_P_A_8_Blackhound_skin_1
+                    has_trait = leader_trait_P_A_8_Blackhound_skin_2
+                    has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
                 }
                       }
             portraits = {
@@ -500,49 +555,273 @@ portrait_groups = {
                 CheonA
                         }
               }
-        add = {   #根据特定特质锁定特定立绘
+###########地平线卡池######################
+        add = {
             trigger = {
-                has_trait = leader_trait_Labiata_skin_1
+                has_trait = leader_trait_AG_1_Nereid_skin_1
             }
             portraits = {
-                Labiata_skin_1
-            }
+                AG_1_Nereid_skin_1    }
         }
-        add = {   #根据特定特质锁定特定立绘
+        add = {
             trigger = {
-                has_trait = leader_trait_Labiata_skin_2
+                has_trait = leader_trait_AG_1_Nereid_skin_2
             }
             portraits = {
-                Labiata_skin_2
-            }
+                AG_1_Nereid_skin_2    }
         }
-        add = {   #根据特定特质锁定特定立绘
+        add = {
             trigger = {
-                has_trait = leader_trait_Constantia_skin_1
+                has_trait = leader_trait_AG_2C_Sirene_skin_1
             }
             portraits = {
-                Constantia_skin_1
-            }
+                AG_2C_Sirene_skin_1    }
         }
-        add = {   #根据特定特质锁定特定立绘
+        add = {
             trigger = {
-                has_trait = leader_trait_Constantia_skin_2
+                has_trait = leader_trait_AG_2C_Sirene_skin_2
             }
             portraits = {
-                Constantia_skin_2
-            }
+                AG_2C_Sirene_skin_2    }
         }
-        add = {   #根据特定特质锁定特定立绘
+        add = {
             trigger = {
-                has_trait = leader_trait_Alice_skin_1
+                has_trait = leader_trait_Invincible_Dragon_skin_1
             }
             portraits = {
-                Alice_skin_1
+                Invincible_Dragon_skin_1    }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Invincible_Dragon_skin_2
+            }
+            portraits = {
+                Invincible_Dragon_skin_2    }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_MH_4_Thetis_skin_1
+            }
+            portraits = {
+                MH_4_Thetis_skin_1    }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_MH_4_Thetis_skin_2
+            }
+            portraits = {
+                MH_4_Thetis_skin_2    }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_MH_4_Thetis_skin_2_b
+            }
+            portraits = {
+                MH_4_Thetis_skin_2_b    }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_3M_Undine_skin_1
+            }
+            portraits = {
+                P_3M_Undine_skin_1    }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_3M_Undine_skin_2
+            }
+            portraits = {
+                P_3M_Undine_skin_2    }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_3M_Undine_skin_2_b
+            }
+            portraits = {
+                P_3M_Undine_skin_2_b    }
+        }
+##############天空骑士卡池###############
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_22_Harpyia_skin_1
+            }
+            portraits = {
+                P_22_Harpyia_skin_1
             }
         }
         add = {
             trigger = {
+                has_trait = leader_trait_P_22_Harpyia_skin_2
+            }
+            portraits = {
+                P_22_Harpyia_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_29_Lindwurm_skin_1
+            }
+            portraits = {
+                P_29_Lindwurm_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_29_Lindwurm_skin_2
+            }
+            portraits = {
+                P_29_Lindwurm_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_49_Sleipnir_skin_1
+            }
+            portraits = {
+                P_49_Sleipnir_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_49_Sleipnir_skin_2
+            }
+            portraits = {
+                P_49_Sleipnir_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_49_Sleipnir_skin_3
+            }
+            portraits = {
+                P_49_Sleipnir_skin_3
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_A_00_Griffon_skin_1
+            }
+            portraits = {
+                P_A_00_Griffon_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_A_00_Griffon_skin_1_b
+            }
+            portraits = {
+                P_A_00_Griffon_skin_1_b
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_A_00_Griffon_skin_2
+            }
+            portraits = {
+                P_A_00_Griffon_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_A_8_Blackhound_skin_1
+            }
+            portraits = {
+                P_A_8_Blackhound_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_P_A_8_Blackhound_skin_2
+            }
+            portraits = {
+                P_A_8_Blackhound_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+            }
+            portraits = {
+                EB_48G_Hraesvelgr_skin_1
+            }
+        }        
+        # add = {   #根据特定特质锁定特定立绘
+        #     trigger = {
+        #         has_trait = leader_trait_Labiata_skin_1
+        #     }
+        #     portraits = {
+        #         Labiata_skin_1
+        #     }
+        # }
+        # add = {   #根据特定特质锁定特定立绘
+        #     trigger = {
+        #         has_trait = leader_trait_Labiata_skin_2
+        #     }
+        #     portraits = {
+        #         Labiata_skin_2
+        #     }
+        # }
+        # add = {   #根据特定特质锁定特定立绘
+        #     trigger = {
+        #         has_trait = leader_trait_Constantia_skin_1
+        #     }
+        #     portraits = {
+        #         Constantia_skin_1
+        #     }
+        # }
+        # add = {   #根据特定特质锁定特定立绘
+        #     trigger = {
+        #         has_trait = leader_trait_Constantia_skin_2
+        #     }
+        #     portraits = {
+        #         Constantia_skin_2
+        #     }
+        # }
+        # add = {   #根据特定特质锁定特定立绘
+        #     trigger = {
+        #         has_trait = leader_trait_Alice_skin_1
+        #     }
+        #     portraits = {
+        #         Alice_skin_1
+        #     }
+        # }
+        add = {
+            trigger = {
                 leader_class = general
+                NOR = {####排除抽卡特殊特质
+                has_trait = leader_trait_Labiata_skin_1
+                has_trait = leader_trait_Labiata_skin_2
+                has_trait = leader_trait_Constantia_skin_1
+                has_trait = leader_trait_Constantia_skin_2
+                has_trait = leader_trait_Alice_skin_1
+                ######################################
+                has_trait = leader_trait_AG_1_Nereid_skin_1
+                has_trait = leader_trait_AG_1_Nereid_skin_2
+                has_trait = leader_trait_AG_2C_Sirene_skin_1
+                has_trait = leader_trait_AG_2C_Sirene_skin_2
+                has_trait = leader_trait_Invincible_Dragon_skin_1
+                has_trait = leader_trait_Invincible_Dragon_skin_2
+                has_trait = leader_trait_MH_4_Thetis_skin_1
+                has_trait = leader_trait_MH_4_Thetis_skin_2
+                has_trait = leader_trait_MH_4_Thetis_skin_2_b
+                has_trait = leader_trait_P_3M_Undine_skin_1
+                has_trait = leader_trait_P_3M_Undine_skin_2
+                has_trait = leader_trait_P_3M_Undine_skin_2_b
+                #######################################
+                has_trait = leader_trait_P_22_Harpyia_skin_1
+                has_trait = leader_trait_P_22_Harpyia_skin_2
+                has_trait = leader_trait_P_29_Lindwurm_skin_1
+                has_trait = leader_trait_P_29_Lindwurm_skin_2
+                has_trait = leader_trait_P_49_Sleipnir_skin_1
+                has_trait = leader_trait_P_49_Sleipnir_skin_2
+                has_trait = leader_trait_P_49_Sleipnir_skin_3
+                has_trait = leader_trait_P_A_00_Griffon_skin_1
+                has_trait = leader_trait_P_A_00_Griffon_skin_1_b
+                has_trait = leader_trait_P_A_00_Griffon_skin_2
+                has_trait = leader_trait_P_A_8_Blackhound_skin_1
+                has_trait = leader_trait_P_A_8_Blackhound_skin_2
+                has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+            }
                       }
             portraits = {
                 Charlotte
@@ -560,6 +839,40 @@ portrait_groups = {
         add = {
             trigger = {
                 leader_class = admiral
+                NOR = {####排除抽卡特殊特质
+                has_trait = leader_trait_Labiata_skin_1
+                has_trait = leader_trait_Labiata_skin_2
+                has_trait = leader_trait_Constantia_skin_1
+                has_trait = leader_trait_Constantia_skin_2
+                has_trait = leader_trait_Alice_skin_1
+                ######################################
+                has_trait = leader_trait_AG_1_Nereid_skin_1
+                has_trait = leader_trait_AG_1_Nereid_skin_2
+                has_trait = leader_trait_AG_2C_Sirene_skin_1
+                has_trait = leader_trait_AG_2C_Sirene_skin_2
+                has_trait = leader_trait_Invincible_Dragon_skin_1
+                has_trait = leader_trait_Invincible_Dragon_skin_2
+                has_trait = leader_trait_MH_4_Thetis_skin_1
+                has_trait = leader_trait_MH_4_Thetis_skin_2
+                has_trait = leader_trait_MH_4_Thetis_skin_2_b
+                has_trait = leader_trait_P_3M_Undine_skin_1
+                has_trait = leader_trait_P_3M_Undine_skin_2
+                has_trait = leader_trait_P_3M_Undine_skin_2_b
+                #######################################
+                has_trait = leader_trait_P_22_Harpyia_skin_1
+                has_trait = leader_trait_P_22_Harpyia_skin_2
+                has_trait = leader_trait_P_29_Lindwurm_skin_1
+                has_trait = leader_trait_P_29_Lindwurm_skin_2
+                has_trait = leader_trait_P_49_Sleipnir_skin_1
+                has_trait = leader_trait_P_49_Sleipnir_skin_2
+                has_trait = leader_trait_P_49_Sleipnir_skin_3
+                has_trait = leader_trait_P_A_00_Griffon_skin_1
+                has_trait = leader_trait_P_A_00_Griffon_skin_1_b
+                has_trait = leader_trait_P_A_00_Griffon_skin_2
+                has_trait = leader_trait_P_A_8_Blackhound_skin_1
+                has_trait = leader_trait_P_A_8_Blackhound_skin_2
+                has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+            }
                       }
             portraits = {
                 Invincible_Dragon
@@ -575,6 +888,40 @@ portrait_groups = {
         add = {
             trigger = {
                 leader_class = governor
+                NOR = {####排除抽卡特殊特质
+                has_trait = leader_trait_Labiata_skin_1
+                has_trait = leader_trait_Labiata_skin_2
+                has_trait = leader_trait_Constantia_skin_1
+                has_trait = leader_trait_Constantia_skin_2
+                has_trait = leader_trait_Alice_skin_1
+                ######################################
+                has_trait = leader_trait_AG_1_Nereid_skin_1
+                has_trait = leader_trait_AG_1_Nereid_skin_2
+                has_trait = leader_trait_AG_2C_Sirene_skin_1
+                has_trait = leader_trait_AG_2C_Sirene_skin_2
+                has_trait = leader_trait_Invincible_Dragon_skin_1
+                has_trait = leader_trait_Invincible_Dragon_skin_2
+                has_trait = leader_trait_MH_4_Thetis_skin_1
+                has_trait = leader_trait_MH_4_Thetis_skin_2
+                has_trait = leader_trait_MH_4_Thetis_skin_2_b
+                has_trait = leader_trait_P_3M_Undine_skin_1
+                has_trait = leader_trait_P_3M_Undine_skin_2
+                has_trait = leader_trait_P_3M_Undine_skin_2_b
+                #######################################
+                has_trait = leader_trait_P_22_Harpyia_skin_1
+                has_trait = leader_trait_P_22_Harpyia_skin_2
+                has_trait = leader_trait_P_29_Lindwurm_skin_1
+                has_trait = leader_trait_P_29_Lindwurm_skin_2
+                has_trait = leader_trait_P_49_Sleipnir_skin_1
+                has_trait = leader_trait_P_49_Sleipnir_skin_2
+                has_trait = leader_trait_P_49_Sleipnir_skin_3
+                has_trait = leader_trait_P_A_00_Griffon_skin_1
+                has_trait = leader_trait_P_A_00_Griffon_skin_1_b
+                has_trait = leader_trait_P_A_00_Griffon_skin_2
+                has_trait = leader_trait_P_A_8_Blackhound_skin_1
+                has_trait = leader_trait_P_A_8_Blackhound_skin_2
+                has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+            }
                       }
             portraits = {
                 Cardinal_Armand

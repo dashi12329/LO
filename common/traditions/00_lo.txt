@@ -1,49 +1,49 @@
-tr_lo_adopt = {
-	modifier = {
-	}
-}
+# tr_lo_adopt = {
+# 	modifier = {
+# 	}
+# }
 
-tr_lo_finish = {
-	modifier = {
-		ascension_perks_add = 1
-	}
-}
+# tr_lo_finish = {
+# 	modifier = {
+# 		ascension_perks_add = 1
+# 	}
+# }
 
-tr_lo_more_people = {
-	modifier = {
-		pop_growth_speed = 0.2
-	}
-}
+# tr_lo_more_people = {
+# 	modifier = {
+# 		pop_growth_speed = 0.2
+# 	}
+# }
 
-tr_lo_more_resources = {
-	modifier = {
-		planet_jobs_food_produces_mult = 0.1
-		planet_jobs_energy_produces_mult = 0.1
-		planet_jobs_minerals_produces_mult = 0.1
-	}
-}
+# tr_lo_more_resources = {
+# 	modifier = {
+# 		planet_jobs_food_produces_mult = 0.1
+# 		planet_jobs_energy_produces_mult = 0.1
+# 		planet_jobs_minerals_produces_mult = 0.1
+# 	}
+# }
 
-tr_lo_more_ships = {
-	modifier = {
-		ships_upkeep_mult = -0.3
-		country_naval_cap_mult = 0.3
-	}
-}
+# tr_lo_more_ships = {
+# 	modifier = {
+# 		ships_upkeep_mult = -0.3
+# 		country_naval_cap_mult = 0.3
+# 	}
+# }
 
-tr_diplomacy_the_federation = {
-	custom_tooltip = tr_diplomacy_the_federation_desc
-	#unlocks federation mechanic
-	modifier = {
-		envoys_add = 1
-	}
-}
+# tr_diplomacy_the_federation = {
+# 	custom_tooltip = tr_diplomacy_the_federation_desc
+# 	#unlocks federation mechanic
+# 	modifier = {
+# 		envoys_add = 1
+# 	}
+# }
 
-tr_lo_more_special_resources = {
-	modifier = {
-		planet_jobs_alloys_produces_mult = 0.2
-		planet_jobs_consumer_goods_produces_mult = 0.2
-		planet_jobs_origin_dust_produces_mult = 0.2
-		planet_jobs_special_module_produces_mult = 0.2
-		planet_jobs_alterium_produces_mult = 0.2
-	}
-}
+# tr_lo_more_special_resources = {
+# 	modifier = {
+# 		planet_jobs_alloys_produces_mult = 0.2
+# 		planet_jobs_consumer_goods_produces_mult = 0.2
+# 		planet_jobs_origin_dust_produces_mult = 0.2
+# 		planet_jobs_special_module_produces_mult = 0.2
+# 		planet_jobs_alterium_produces_mult = 0.2
+# 	}
+# }

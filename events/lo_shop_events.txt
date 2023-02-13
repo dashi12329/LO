@@ -39,13 +39,13 @@ country_event = {
 		portrait = Shop_saler
 		#room = 
 	}
-	option = {#卡池1
+	option = {#地平线卡池
 		name = lo_shop.1.aa
 		custom_tooltip = lo_shop.1.aa.tooltip
 		allow = {
 			has_resource = {
 				type = tuna_can
-				amount >= 5
+				amount >= 100
 			}
 		}
 		trigger = {
@@ -53,35 +53,168 @@ country_event = {
 		}
 		hidden_effect = {
 			add_resource = {
-				tuna_can = -5
+				tuna_can = -100
 			}
 			random_list = {
 				10 = {
 					create_leader = {
-						name = "Constantia_S2"
+						name = "Invincible Dragon"
 						species = LO_char
-						class = scientist
+						class = admiral
 						skill = 6
 						set_age = 18
 						traits = {
-							trait = leader_trait_Constantia_skin_1
-							trait = leader_trait_lo_SS_scientist
-							trait = leader_trait_lo_expertise_Bioroids
+							trait = leader_trait_Invincible_Dragon_skin_1
+							trait = leader_trait_lo_SS_admiral
 						}
 					}
 				}
-				30 = {
+				10 = {
 					create_leader = {
-						name = "Alice"
+						name = "Invincible Dragon"
+						species = LO_char
+						class = admiral
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Invincible_Dragon_skin_2
+							trait = leader_trait_lo_SS_admiral
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "AG_1_Nereid"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_AG_1_Nereid_skin_1
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "AG_1_Nereid"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_AG_1_Nereid_skin_2
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "AG_2C_Sirene"
 						species = LO_char
 						class = scientist
 						skill = 6
 						set_age = 18
 						traits = {
-							trait = leader_trait_Alice_skin_1
+							trait = leader_trait_AG_2C_Sirene_skin_1
 							trait = leader_trait_lo_SS_scientist
-							trait = leader_trait_lo_expertise_Bioroids
 						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "AG_2C_Sirene"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_AG_2C_Sirene_skin_2
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "MH_4_Thetis"
+						species = LO_char
+						class = governor
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_MH_4_Thetis_skin_1
+							trait = leader_trait_lo_SS_governor
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "MH_4_Thetis"
+						species = LO_char
+						class = governor
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_MH_4_Thetis_skin_2
+							trait = leader_trait_lo_SS_governor
+						}
+					}
+				}
+				5 = {
+					create_leader = {
+						name = "MH_4_Thetis"
+						species = LO_char
+						class = governor
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_MH_4_Thetis_skin_2_b
+							trait = leader_trait_lo_SS_governor
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_3M_Undine"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_3M_Undine_skin_1
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_3M_Undine"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_3M_Undine_skin_2
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				5 = {
+					create_leader = {
+						name = "P_3M_Undine"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_3M_Undine_skin_2_b
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				55 = {
+					create_leader = {
+						species = LO_char
 					}
 				}
 			}
@@ -90,21 +223,218 @@ country_event = {
 			}
 		}
 	}
-	option = {#卡池2
+	option = {#天空骑士卡池
 		name = lo_shop.1.bb
 		custom_tooltip = lo_shop.1.bb.tooltip
 		allow = {
 			has_resource = {
 				type = tuna_can
-				amount >= 5
+				amount >= 100
 			}
 		}
-		#trigger = {
-		#	has_civic = civic_lo_horizon
-		#}
+		trigger = {
+			has_civic = civic_lo_sky_knights
+		}
 		hidden_effect = {
 			add_resource = {
-				tuna_can = -5
+				tuna_can = -100
+			}
+			random_list = {
+				10 = {
+					create_leader = {
+						name = "P_22_Harpyia"
+						species = LO_char
+						class = admiral
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_22_Harpyia_skin_1
+							trait = leader_trait_lo_SS_admiral
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_22_Harpyia"
+						species = LO_char
+						class = admiral
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_22_Harpyia_skin_2
+							trait = leader_trait_lo_SS_admiral
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_29_Lindwurm"
+						species = LO_char
+						class = admiral
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_29_Lindwurm_skin_1
+							trait = leader_trait_lo_SS_admiral
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_29_Lindwurm"
+						species = LO_char
+						class = admiral
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_29_Lindwurm_skin_2
+							trait = leader_trait_lo_SS_admiral
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_49_Sleipnir"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_49_Sleipnir_skin_1
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_49_Sleipnir"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_49_Sleipnir_skin_2
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_49_Sleipnir"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_49_Sleipnir_skin_3
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_A_00_Griffon"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_A_00_Griffon_skin_1
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				5 = {
+					create_leader = {
+						name = "P_A_00_Griffon"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_A_00_Griffon_skin_1_b
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_A_00_Griffon"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_A_00_Griffon_skin_2
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_A_8_Blackhound"
+						species = LO_char
+						class = governor
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_A_8_Blackhound_skin_1
+							trait = leader_trait_lo_SS_governor
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "P_A_8_Blackhound"
+						species = LO_char
+						class = governor
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_P_A_8_Blackhound_skin_2
+							trait = leader_trait_lo_SS_governor
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "EB_48G_Hraesvelgr"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				60 = {
+					create_leader = {
+						species = LO_char
+					}
+				}
+			}
+			country_event = {
+				id = lo_shop.1
+			}
+		}
+	}
+	option = {#战斗女仆卡池
+		name = lo_shop.1.cc
+		custom_tooltip = lo_shop.1.cc.tooltip
+		allow = {
+			has_resource = {
+				type = tuna_can
+				amount >= 100
+			}
+		}
+		trigger = {
+			has_civic = civic_lo_project_battle_maid
+		}
+		hidden_effect = {
+			add_resource = {
+				tuna_can = -100
 			}
 			random_list = {
 				10 = {
@@ -120,49 +450,7 @@ country_event = {
 							trait = leader_trait_lo_expertise_Bioroids
 						}
 					}
-				}
-				30 = {
-					create_leader = {
-						name = "Constantia_S2"
-						species = LO_char
-						class = scientist
-						skill = 6
-						set_age = 18
-						traits = {
-							trait = leader_trait_Constantia_skin_2
-							trait = leader_trait_lo_SS_scientist
-							trait = leader_trait_lo_expertise_Bioroids
-						}
-					}
-				}
-				30 = {
-					create_leader = {
-						name = "Labiata"
-						species = LO_char
-						class = scientist
-						skill = 6
-						set_age = 18
-						traits = {
-							trait = leader_trait_Labiata_skin_1
-							trait = leader_trait_lo_SS_scientist
-							trait = leader_trait_lo_expertise_Bioroids
-						}
-					}
-				}
-				30 = {
-					create_leader = {
-						name = "Labiata"
-						species = LO_char
-						class = scientist
-						skill = 6
-						set_age = 18
-						traits = {
-							trait = leader_trait_Labiata_skin_2
-							trait = leader_trait_lo_SS_scientist
-							trait = leader_trait_lo_expertise_Bioroids
-						}
-					}
-				}
+				}	
 			}
 			country_event = {
 				id = lo_shop.1

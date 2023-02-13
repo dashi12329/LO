@@ -1,5 +1,187 @@
 #特殊leader特质
-########test
+########地平线卡池
+leader_trait_Invincible_Dragon_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_Invincible_Dragon_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_AG_1_Nereid_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_AG_1_Nereid_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_AG_2C_Sirene_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_AG_2C_Sirene_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_MH_4_Thetis_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_MH_4_Thetis_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_MH_4_Thetis_skin_2_b = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_P_3M_Undine_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_P_3M_Undine_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_P_3M_Undine_skin_2_b = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+
+########皮肤
 leader_trait_Labiata_skin_1 = {
 	cost = 0
 	modification= no
@@ -61,6 +243,202 @@ leader_trait_Constantia_skin_2 = {
 	leader_class = { scientist }
 }
 leader_trait_Alice_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+########天空骑士卡池
+leader_trait_P_22_Harpyia_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_P_22_Harpyia_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_P_29_Lindwurm_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_P_29_Lindwurm_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_P_49_Sleipnir_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_P_49_Sleipnir_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_P_49_Sleipnir_skin_3 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_P_A_00_Griffon_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_P_A_00_Griffon_skin_1_b = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_P_A_00_Griffon_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_P_A_8_Blackhound_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_P_A_8_Blackhound_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_EB_48G_Hraesvelgr_skin_1 = {
 	cost = 0
 	modification= no
 	#icon = ""
