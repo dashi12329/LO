@@ -76,11 +76,22 @@ portraits = {
     P_A_8_Blackhound_skin_2 = {textureFile = "gfx/models/portraits/skin/P_A_8_Blackhound_skin_2.png"}
     EB_48G_Hraesvelgr_skin_1 = {textureFile = "gfx/models/portraits/skin/EB_48G_Hraesvelgr_skin_1.png"}
 #########################战斗女仆卡池##################
-    Labiata_skin_1 = {textureFile = "gfx/models/portraits/skin/Labiata_skin_1.png"}
-    Labiata_skin_2 = {textureFile = "gfx/models/portraits/skin/Labiata_skin_2.png"}
-    Constantia_skin_1 = {textureFile = "gfx/models/portraits/skin/Constantia_skin_1.png"}
-    Constantia_skin_2 = {textureFile = "gfx/models/portraits/skin/Constantia_skin_2.png"}
-    Alice_skin_1 = {textureFile = "gfx/models/portraits/skin/Alice_skin_1.png"}
+    BlackWyrm_S9_skin_1 = {textureFile = "gfx/models/portraits/skin/BlackWyrm_S9_skin_1.png"}
+    BlackWyrm_S9_skin_1_b = {textureFile = "gfx/models/portraits/skin/BlackWyrm_S9_skin_1_b.png"}
+    BlackWyrm_S9_skin_2 = {textureFile = "gfx/models/portraits/skin/BlackWyrm_S9_skin_2.png"}
+    BlackWyrm_S9_skin_2_b = {textureFile = "gfx/models/portraits/skin/BlackWyrm_S9_skin_2_b.png"}
+    Constantia_S2_skin_1 = {textureFile = "gfx/models/portraits/skin/Constantia_S2_skin_1.png"}
+    Constantia_S2_skin_2 = {textureFile = "gfx/models/portraits/skin/Constantia_S2_skin_2.png"}
+    Hirume_of_Heavenly_incense_skin_1 = {textureFile = "gfx/models/portraits/skin/Hirume_of_Heavenly_incense_skin_1.png"}
+    KeumRan_S7_skin_1 = {textureFile = "gfx/models/portraits/skin/KeumRan_S7_skin_1.png"}
+    Prototype_Labiata_skin_1 = {textureFile = "gfx/models/portraits/skin/Prototype_Labiata_skin_1.png"}
+    Prototype_Labiata_skin_2 = {textureFile = "gfx/models/portraits/skin/Prototype_Labiata_skin_2.png"}
+    Prototype_Labiata_skin_2_b = {textureFile = "gfx/models/portraits/skin/Prototype_Labiata_skin_2_b.png"}
+    Serapias_Alice_skin_1 = {textureFile = "gfx/models/portraits/skin/Serapias_Alice_skin_1.png"}
+    Serapias_Alice_skin_1_b = {textureFile = "gfx/models/portraits/skin/Serapias_Alice_skin_1_b.png"}
+    Serapias_Alice_skin_2 = {textureFile = "gfx/models/portraits/skin/Serapias_Alice_skin_2.png"}
+    Vanilla_A1_skin_1 = {textureFile = "gfx/models/portraits/skin/Vanilla_A1_skin_1.png"}
+    Vanilla_A1_skin_1_b = {textureFile = "gfx/models/portraits/skin/Vanilla_A1_skin_1_b.png"}
 #########################Q版头像####################
     Q_Ajax_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Ajax_N.png"}
     Q_Alexandra_N = {textureFile = "gfx/models/portraits/Q/TbarIcon_3P_Alexandra_N.png"}
@@ -538,6 +549,23 @@ portrait_groups = {
                     has_trait = leader_trait_P_A_8_Blackhound_skin_1
                     has_trait = leader_trait_P_A_8_Blackhound_skin_2
                     has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+                    ########################################
+                    has_trait = leader_trait_BlackWyrm_S9_skin_1
+                    has_trait = leader_trait_BlackWyrm_S9_skin_1_b
+                    has_trait = leader_trait_BlackWyrm_S9_skin_2
+                    has_trait = leader_trait_BlackWyrm_S9_skin_2_b
+                    has_trait = leader_trait_Constantia_S2_skin_1
+                    has_trait = leader_trait_Constantia_S2_skin_2
+                    has_trait = leader_trait_Hirume_of_Heavenly_incense_skin_1
+                    has_trait = leader_trait_KeumRan_S7_skin_1
+                    has_trait = leader_trait_Prototype_Labiata_skin_1
+                    has_trait = leader_trait_Prototype_Labiata_skin_2
+                    has_trait = leader_trait_Prototype_Labiata_skin_2_b
+                    has_trait = leader_trait_Serapias_Alice_skin_1
+                    has_trait = leader_trait_Serapias_Alice_skin_1_b
+                    has_trait = leader_trait_Serapias_Alice_skin_2
+                    has_trait = leader_trait_Vanilla_A1_skin_1
+                    has_trait = leader_trait_Vanilla_A1_skin_1_b
                 }
                       }
             portraits = {
@@ -745,46 +773,136 @@ portrait_groups = {
                 EB_48G_Hraesvelgr_skin_1
             }
         }        
-        # add = {   #根据特定特质锁定特定立绘
-        #     trigger = {
-        #         has_trait = leader_trait_Labiata_skin_1
-        #     }
-        #     portraits = {
-        #         Labiata_skin_1
-        #     }
-        # }
-        # add = {   #根据特定特质锁定特定立绘
-        #     trigger = {
-        #         has_trait = leader_trait_Labiata_skin_2
-        #     }
-        #     portraits = {
-        #         Labiata_skin_2
-        #     }
-        # }
-        # add = {   #根据特定特质锁定特定立绘
-        #     trigger = {
-        #         has_trait = leader_trait_Constantia_skin_1
-        #     }
-        #     portraits = {
-        #         Constantia_skin_1
-        #     }
-        # }
-        # add = {   #根据特定特质锁定特定立绘
-        #     trigger = {
-        #         has_trait = leader_trait_Constantia_skin_2
-        #     }
-        #     portraits = {
-        #         Constantia_skin_2
-        #     }
-        # }
-        # add = {   #根据特定特质锁定特定立绘
-        #     trigger = {
-        #         has_trait = leader_trait_Alice_skin_1
-        #     }
-        #     portraits = {
-        #         Alice_skin_1
-        #     }
-        # }
+###########战斗女仆卡池######################
+        add = {
+            trigger = {
+                has_trait = leader_trait_BlackWyrm_S9_skin_1
+            }
+            portraits = {
+                BlackWyrm_S9_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_BlackWyrm_S9_skin_1_b
+            }
+            portraits = {
+                BlackWyrm_S9_skin_1_b
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_BlackWyrm_S9_skin_2
+            }
+            portraits = {
+                BlackWyrm_S9_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_BlackWyrm_S9_skin_2_b
+            }
+            portraits = {
+                BlackWyrm_S9_skin_2_b
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Constantia_S2_skin_1
+            }
+            portraits = {
+                Constantia_S2_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Constantia_S2_skin_2
+            }
+            portraits = {
+                Constantia_S2_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Hirume_of_Heavenly_incense_skin_1
+            }
+            portraits = {
+                Hirume_of_Heavenly_incense_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_KeumRan_S7_skin_1
+            }
+            portraits = {
+                KeumRan_S7_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Prototype_Labiata_skin_1
+            }
+            portraits = {
+                Prototype_Labiata_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Prototype_Labiata_skin_2
+            }
+            portraits = {
+                Prototype_Labiata_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Prototype_Labiata_skin_2_b
+            }
+            portraits = {
+                Prototype_Labiata_skin_2_b
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Serapias_Alice_skin_1
+            }
+            portraits = {
+                Serapias_Alice_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Serapias_Alice_skin_1_b
+            }
+            portraits = {
+                Serapias_Alice_skin_1_b
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Serapias_Alice_skin_2
+            }
+            portraits = {
+                Serapias_Alice_skin_2
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Vanilla_A1_skin_1
+            }
+            portraits = {
+                Vanilla_A1_skin_1
+            }
+        }
+        add = {
+            trigger = {
+                has_trait = leader_trait_Vanilla_A1_skin_1_b
+            }
+            portraits = {
+                Vanilla_A1_skin_1_b
+            }
+        }
+#######################################################
         add = {
             trigger = {
                 leader_class = general
@@ -821,6 +939,23 @@ portrait_groups = {
                 has_trait = leader_trait_P_A_8_Blackhound_skin_1
                 has_trait = leader_trait_P_A_8_Blackhound_skin_2
                 has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+                ########################################
+                has_trait = leader_trait_BlackWyrm_S9_skin_1
+                has_trait = leader_trait_BlackWyrm_S9_skin_1_b
+                has_trait = leader_trait_BlackWyrm_S9_skin_2
+                has_trait = leader_trait_BlackWyrm_S9_skin_2_b
+                has_trait = leader_trait_Constantia_S2_skin_1
+                has_trait = leader_trait_Constantia_S2_skin_2
+                has_trait = leader_trait_Hirume_of_Heavenly_incense_skin_1
+                has_trait = leader_trait_KeumRan_S7_skin_1
+                has_trait = leader_trait_Prototype_Labiata_skin_1
+                has_trait = leader_trait_Prototype_Labiata_skin_2
+                has_trait = leader_trait_Prototype_Labiata_skin_2_b
+                has_trait = leader_trait_Serapias_Alice_skin_1
+                has_trait = leader_trait_Serapias_Alice_skin_1_b
+                has_trait = leader_trait_Serapias_Alice_skin_2
+                has_trait = leader_trait_Vanilla_A1_skin_1
+                has_trait = leader_trait_Vanilla_A1_skin_1_b
             }
                       }
             portraits = {
@@ -872,6 +1007,23 @@ portrait_groups = {
                 has_trait = leader_trait_P_A_8_Blackhound_skin_1
                 has_trait = leader_trait_P_A_8_Blackhound_skin_2
                 has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+                ########################################
+                has_trait = leader_trait_BlackWyrm_S9_skin_1
+                has_trait = leader_trait_BlackWyrm_S9_skin_1_b
+                has_trait = leader_trait_BlackWyrm_S9_skin_2
+                has_trait = leader_trait_BlackWyrm_S9_skin_2_b
+                has_trait = leader_trait_Constantia_S2_skin_1
+                has_trait = leader_trait_Constantia_S2_skin_2
+                has_trait = leader_trait_Hirume_of_Heavenly_incense_skin_1
+                has_trait = leader_trait_KeumRan_S7_skin_1
+                has_trait = leader_trait_Prototype_Labiata_skin_1
+                has_trait = leader_trait_Prototype_Labiata_skin_2
+                has_trait = leader_trait_Prototype_Labiata_skin_2_b
+                has_trait = leader_trait_Serapias_Alice_skin_1
+                has_trait = leader_trait_Serapias_Alice_skin_1_b
+                has_trait = leader_trait_Serapias_Alice_skin_2
+                has_trait = leader_trait_Vanilla_A1_skin_1
+                has_trait = leader_trait_Vanilla_A1_skin_1_b
             }
                       }
             portraits = {
@@ -921,6 +1073,23 @@ portrait_groups = {
                 has_trait = leader_trait_P_A_8_Blackhound_skin_1
                 has_trait = leader_trait_P_A_8_Blackhound_skin_2
                 has_trait = leader_trait_EB_48G_Hraesvelgr_skin_1
+                ########################################
+                has_trait = leader_trait_BlackWyrm_S9_skin_1
+                has_trait = leader_trait_BlackWyrm_S9_skin_1_b
+                has_trait = leader_trait_BlackWyrm_S9_skin_2
+                has_trait = leader_trait_BlackWyrm_S9_skin_2_b
+                has_trait = leader_trait_Constantia_S2_skin_1
+                has_trait = leader_trait_Constantia_S2_skin_2
+                has_trait = leader_trait_Hirume_of_Heavenly_incense_skin_1
+                has_trait = leader_trait_KeumRan_S7_skin_1
+                has_trait = leader_trait_Prototype_Labiata_skin_1
+                has_trait = leader_trait_Prototype_Labiata_skin_2
+                has_trait = leader_trait_Prototype_Labiata_skin_2_b
+                has_trait = leader_trait_Serapias_Alice_skin_1
+                has_trait = leader_trait_Serapias_Alice_skin_1_b
+                has_trait = leader_trait_Serapias_Alice_skin_2
+                has_trait = leader_trait_Vanilla_A1_skin_1
+                has_trait = leader_trait_Vanilla_A1_skin_1_b
             }
                       }
             portraits = {

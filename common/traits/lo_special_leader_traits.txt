@@ -453,3 +453,229 @@ leader_trait_EB_48G_Hraesvelgr_skin_1 = {
 	leader_trait = { scientist }
 	leader_class = { scientist }
 }
+##########战斗女仆卡池
+leader_trait_BlackWyrm_S9_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_BlackWyrm_S9_skin_1_b = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_BlackWyrm_S9_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_Constantia_S2_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_Constantia_S2_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_Hirume_of_Heavenly_incense_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_KeumRan_S7_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_Prototype_Labiata_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_Prototype_Labiata_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_Prototype_Labiata_skin_2_b = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { scientist }
+	leader_class = { scientist }
+}
+leader_trait_Serapias_Alice_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_Serapias_Alice_skin_1_b = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_Serapias_Alice_skin_2 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_Vanilla_A1_skin_1 = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_Vanilla_A1_skin_1_b = {
+	cost = 0
+	modification= no
+	#icon = ""
+	allowed_archetypes = { LO }
+	modifier = {
+	}
+    randomized = no 
+	requires_traits = {
+		trait_lo
+	}
+	#opposites = 
+	leader_trait = { general }
+	leader_class = { general }
+}

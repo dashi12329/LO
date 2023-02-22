@@ -439,18 +439,217 @@ country_event = {
 			random_list = {
 				10 = {
 					create_leader = {
+						name = "BlackWyrm_S9"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_BlackWyrm_S9_skin_1
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				5 = {
+					create_leader = {
+						name = "BlackWyrm_S9"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_BlackWyrm_S9_skin_1_b
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "BlackWyrm_S9"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_BlackWyrm_S9_skin_2
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				5 = {
+					create_leader = {
+						name = "BlackWyrm_S9"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_BlackWyrm_S9_skin_2_b
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				10 = {
+					create_leader = {
 						name = "Constantia_S2"
+						species = LO_char
+						class = governor
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Constantia_S2_skin_1
+							trait = leader_trait_lo_SS_governor
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "Constantia_S2"
+						species = LO_char
+						class = governor
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Constantia_S2_skin_2
+							trait = leader_trait_lo_SS_governor
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "Hirume_of_Heavenly_incense"
 						species = LO_char
 						class = scientist
 						skill = 6
 						set_age = 18
 						traits = {
-							trait = leader_trait_Constantia_skin_1
+							trait = leader_trait_Hirume_of_Heavenly_incense_skin_1
 							trait = leader_trait_lo_SS_scientist
-							trait = leader_trait_lo_expertise_Bioroids
 						}
 					}
-				}	
+				}
+				10 = {
+					create_leader = {
+						name = "KeumRan_S7"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_KeumRan_S7_skin_1
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "Prototype_Labiata"
+						species = LO_char
+						class = governor
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Prototype_Labiata_skin_1
+							trait = leader_trait_lo_SS_governor
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "Prototype_Labiata"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Prototype_Labiata_skin_2
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				5 = {
+					create_leader = {
+						name = "Prototype_Labiata"
+						species = LO_char
+						class = scientist
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Prototype_Labiata_skin_2_b
+							trait = leader_trait_lo_SS_scientist
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "Serapias_Alice"
+						species = LO_char
+						class = admiral
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Serapias_Alice_skin_1
+							trait = leader_trait_lo_SS_admiral
+						}
+					}
+				}
+				5 = {
+					create_leader = {
+						name = "Serapias_Alice"
+						species = LO_char
+						class = admiral
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Serapias_Alice_skin_1_b
+							trait = leader_trait_lo_SS_admiral
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "Serapias_Alice"
+						species = LO_char
+						class = admiral
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Serapias_Alice_skin_2
+							trait = leader_trait_lo_SS_admiral
+						}
+					}
+				}
+				10 = {
+					create_leader = {
+						name = "Vanilla_A1"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Vanilla_A1_skin_1
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				5 = {
+					create_leader = {
+						name = "Vanilla_A1"
+						species = LO_char
+						class = general
+						skill = 6
+						set_age = 18
+						traits = {
+							trait = leader_trait_Vanilla_A1_skin_1_b
+							trait = leader_trait_lo_SS_general
+						}
+					}
+				}
+				65 = {
+					create_leader = {
+						species = LO_char
+					}
+				}
 			}
 			country_event = {
 				id = lo_shop.1
